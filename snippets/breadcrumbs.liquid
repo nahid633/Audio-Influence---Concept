@@ -1,0 +1,584 @@
+{%- assign vendorHandle = product.vendor | handle -%}
+{%- unless template == 'index' or template == 'cart' or template == 'list-collections' -%}
+  <nav
+    class="breadcrumb"
+    role="navigation"
+    aria-label="breadcrumbs">
+
+
+    {%- assign current_path_headphones = request.path -%}
+    {%- assign headphone_urls = "/collections/wired-headphones,/collections/wireless-headphones,/collections/noise-cancelling-headphones,/collections/on-over-ear,/collections/in-ear-headphones,/collections/headphone-stands" | split: "," -%}
+    <a href="/" title="Audio Influence Home">
+      <span style="color:#969696">
+        Home</span>
+    </a>
+    {%- if headphone_urls contains current_path_headphones -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/headphones" title="Headphones">
+        <span style="color:#969696">
+          Headphones</span>
+      </a>
+    {%- endif -%}
+    {%- assign current_path_speakers = request.path -%}
+    {%- assign speaker_urls = "/collections/soundbars,/collections/floorstanding-speakers,/collections/bookshelf-speakers,/collections/standmount-speakers,/collections/subwoofers,/collections/wireless-speakers,/collections/portable-speaker,/collections/active-speakers,/collections/surround-speakers,/collections/in-ceiling-speakers,/collections/in-wall-speakers,/collections/rear-speakers,/collections/centre-speakers,/collections/multi-room-speakers,/collections/outdoor-speakers,/collections/voice-controlled-speakers,/collections/speaker-stands,/collections/mounts-brackets" | split: "," -%}
+    {%- if speaker_urls contains current_path_speakers -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/speakers" title="Speakers">
+        <span style="color:#969696">
+          Speakers</span>
+      </a>
+    {%- endif -%}
+
+    {%- assign current_path_turntables = request.path -%}
+    {%- assign turntable_urls = "/collections/vinyl-turntable-packs,/collections/cartridges,/collections/stylus-needles,/collections/tonearms-1,/collections/turntable-accessories,/collections/cleaning" | split: "," -%}
+    {%- if turntable_urls contains current_path_turntables -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/turntables" title="Turntables">
+        <span style="color:#969696">
+          Turntables</span>
+      </a>
+    {%- endif -%}
+
+    {%- assign current_path_amplifiers = request.path -%}
+    {%- assign amplifier_urls = "/collections/integrated-amplifiers,/collections/power-amplifiers,/collections/headphone-amplifiers,/collections/preamplifiers,/collections/phono-pre-amplifiers-1" | split: "," -%}
+    {%- if amplifier_urls contains current_path_amplifiers -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/shop-all-amplifiers" title="Amplifiers">
+        <span style="color:#969696">
+          Amplifiers</span>
+      </a>
+    {%- endif -%}
+
+    {%- assign current_path_network = request.path -%}
+    {%- assign network_urls = "/collections/network-audio" | split: "," -%}
+    {%- if network_urls contains current_path_network -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/network-audio" title="Network Audio">
+        <span style="color:#969696">
+          Network Audio</span>
+      </a>
+    {%- endif -%}
+
+    {%- assign current_path_power = request.path -%}
+    {%- assign power_urls = "/collections/power-conditioners,/collections/power-connectors" | split: "," -%}
+    {%- if power_urls contains current_path_power -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/power" title="Power">
+        <span style="color:#969696">
+          Power</span>
+      </a>
+    {%- endif -%}
+
+    {%- assign current_path_cables = request.path -%}
+    {%- assign cable_urls = "/collections/speaker-cable,/collections/speaker-cable-reels,/collections/turntable-cable,/collections/headphone-cable,/collections/subwoofer-cable,/collections/digital-cables,/collections/hdmi-cable,/collections/hdmi-distribution,/collections/rca-cables,/collections/ethernet-cables,/collections/din-cable,/collections/usb-cable,/collections/3-5mm-audio-cable,/collections/interconnect-cables,/collections/cable-accessories,/collections/power-cable" | split: "," -%}
+    {%- if cable_urls contains current_path_cables -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/cables" title="Cables">
+        <span style="color:#969696">
+          Cables</span>
+      </a>
+    {%- endif -%}
+
+    {%- if template contains 'product' -%}
+      <!-- HEADPHONES -->
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+
+      {%- if product.type == 'Headphones' -%}
+        <a href="/collections/headphones" title="Headphones">
+          <span style="color:#969696">
+            Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'WIRELESS HEADPHONES' -%}
+        <a href="/collections/wireless-headphones" title="Wireless Headphones">
+          <span style="color:#969696">
+            Wireless Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Wired Headphones' -%}
+        <a href="/collections/wired-headphones" title="Wired Headphones">
+          <span style="color:#969696">
+            Wired Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Noise Cancelling Headphones' -%}
+        <a href="/collections/noise-cancelling-headphones" title="Noise Cancelling Headphones">
+          <span style="color:#969696">
+            Noise Cancelling Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'On & Over Ear Headphones' -%}
+        <a href="/collections/on-over-ear" title="On & Over Ear Headphones">
+          <span style="color:#969696">
+            On & Over Ear Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'In-Ear Headphones' or product.type == 'WIRELESS IN EAR HEADPHONES' -%}
+        <a href="/collections/in-ear-headphones" title="In-Ear Headphones">
+          <span style="color:#969696">
+            In-Ear Headphones</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Headphone Amplifier' or product.type == 'Headphone Amplifiers' -%}
+        <a href="/collections/headphone-amplifiers" title="Headphone Amplifiers">
+          <span style="color:#969696">
+            Headphone Amplifiers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Headphone Cables' -%}
+        <a href="/collections/headphone-cable" title="Headphone Cables">
+          <span style="color:#969696">
+            Headphone Cables</span>
+        </a>
+      {%- endif -%}
+      {%- for collection in product.collections -%}
+        {%- if collection.title == 'Wireless Headphones' - %}
+          <a href="/collections/wireless-headphones" title="Wireless Headphones">
+            <span style="color:#969696">
+              Wireless Headphones</span>
+          </a>
+        {%- endif -%}
+      {%- endfor -%}
+
+
+      <!-- VINYL -->
+      {% if product.type == 'Vinyl records' or product.type == 'Records & LPs' %}
+        <a href="/collections/vinyls" title="Vinyl">
+          <span style="color:#969696">
+            Vinyl</span>
+        </a>
+      {%- endif -%}
+      <!-- SPEAKERS -->
+
+      {%- if product.type == 'Bookshelf Speakers' - %}
+        <a href="/collections/bookshelf-speakers" title="Bookshelf Speakers">
+          <span style="color:#969696">
+            Bookshelf Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Floorstanding Speakers' -%}
+        <a href="/collections/floorstanding-speakers" title="Floorstanding Speakers">
+          <span style="color:#969696">
+            Floorstanding Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Subwoofers' or product.type == 'wireless subwoofer kit' -%}
+        <a href="/collections/subwoofers" title="Subwoofers">
+          <span style="color:#969696">
+            Subwoofers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Centre Channel Speakers' -%}
+        <a href="/collections/centre-speakers" title="Centre Channel Speakers">
+          <span style="color:#969696">
+            Centre Channel Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Soundbars' -%}
+        <a href="/collections/soundbars" title="Soundbars">
+          <span style="color:#969696">
+            Soundbars</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'On-Wall Speakers' or product.type == 'In-Wall Speakers' or product.type == 'IN-WALL SPEAKER' -%}
+        <a href="/collections/in-wall-speakers" title="In-Wall/On-Wall Speakers">
+          <span style="color:#969696">
+            In-Wall/On-Wall Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'In-Ceiling Speakers' -%}
+        <a href="/collections/in-ceiling-speakers" title="In-Ceiling Speakers">
+          <span style="color:#969696">
+            In-Ceiling Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Active Speakers' or product.type == 'Active Wifi Speaker' or product.type == 'Active Bluetooth Speaker' -%}
+        <a href="/collections/active-speakers" title="Active Speakers">
+          <span style="color:#969696">
+            Active Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Wireless Speakers' or product.type == 'Bluetooth Speakers' -%}
+        <a href="/collections/wireless-speakers" title="Wireless/Bluetooth Speakers">
+          <span style="color:#969696">
+            Wireless/Bluetooth Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Speaker Mounts' or product.type == 'Speaker Stands' -%}
+        <a href="/collections/speaker-stands" title="Speaker Stands & Mounts">
+          <span style="color:#969696">
+            Speaker Stands & Mounts</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Portable Speakers' -%}
+        <a href="/collections/portable-speaker" title="Portable Speakers">
+          <span style="color:#969696">
+            Portable Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'All weather speakers' or product.type == 'Outdoor Speakers' -%}
+        <a href="/collections/outdoor-speakers" title="Outdoor Speakers">
+          <span style="color:#969696">
+            Outdoor Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Surround Speakers' -%}
+        <a href="/collections/surround-speakers" title="Surround Speakers">
+          <span style="color:#969696">
+            Surround Speakers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Speaker cable' or product.type == 'Speaker cable (reel)' or product.type == 'Speaker cable (per meter)' -%}
+        <a href="/collections/speaker-cable" title="Speaker Cable">
+          <span style="color:#969696">
+            Speaker Cable</span>
+        </a>
+      {%- endif -%}
+      <!-- TURNTABLES -->
+      {%- if product.type == 'Turntables' -%}
+        <a href="/collections/turntables" title="Turntables">
+          <span style="color:#969696">
+            Turntables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Turntable cables' -%}
+        <a href="/collections/turntable-cable" title="Turntable Cables">
+          <span style="color:#969696">
+            Turntable Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Turntable Accessories' -%}
+        <a href="/collections/turntable-accessories" title="Turntable Accessories">
+          <span style="color:#969696">
+            Turntable Accessories</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Turntable Packs' -%}
+        <a href="/collections/vinyl-turntable-packs" title="Turntable Packs">
+          <span style="color:#969696">
+            Turntable Packs</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Stylus' -%}
+        <a href="/collections/stylus-needles" title="Stylus">
+          <span style="color:#969696">
+            Stylus</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Cartridges' -%}
+        <a href="/collections/cartridges" title="Cartridges">
+          <span style="color:#969696">
+            Cartridges</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Tonearms' -%}
+        <a href="/collections/tonearms-1" title="Tonearms">
+          <span style="color:#969696">
+            Tonearms</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Headshells' -%}
+        <a href="/collections/headshells" title="Headshells">
+          <span style="color:#969696">
+            Headshells</span>
+        </a>
+      {%- endif -%}
+      <!-- AMPLIFIERS -->
+      {%- if product.type == 'Phono Preamplifier' or product.type == 'Preamplifier' or product.type == 'Pre-Amplifiers' or product.type == 'Phono Pre-Amplifiers' -%}
+        <a href="/collections/preamplifiers" title="Preamplifiers">
+          <span style="color:#969696">
+            Preamplifiers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Power Amplifier' or product.type == 'Stereo Power Amplifier' or product.type == 'Power Amplifiers' -%}
+        <a href="/collections/power-amplifiers" title="Power Amplifiers">
+          <span style="color:#969696">
+            Power Amplifiers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Integrated Amplifier' or product.type == 'Integrated Amplifiers' -%}
+        <a href="/collections/integrated-amplifiers" title="Integrated Amplifiers">
+          <span style="color:#969696">
+            Integrated Amplifiers</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Dedicated amplifier' or product.type == 'MULTIROOM AMPLIFIERS' or product.type == 'Amplifiers' -%}
+        <a href="/collections/shop-all-amplifiers" title="Amplifiers">
+          <span style="color:#969696">
+            Amplifiers</span>
+        </a>
+      {%- endif -%}
+      <!-- ACCESSORIES -->
+      {%- if product.type == 'Accessories' -%}
+        <a href="/collections/accessory" title="Accessories">
+          <span style="color:#969696">
+            Accessories</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Furniture Accessories' -%}
+        <a href="/collections/accessory" title="Furniture Accessories">
+          <span style="color:#969696">
+            Furniture Accessories</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Cable Accessories' -%}
+        <a href="/collections/cable-accessories" title="Cable Accessories">
+          <span style="color:#969696">
+            Cable Accessories</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Sonos Mounts' -%}
+        <a href="/collections/speaker-stands" title="Speaker Stands & Mounts">
+          <span style="color:#969696">
+            Speaker Stands & Mounts</span>
+        </a>
+      {%- endif -%}
+      <!-- CD PLAYERS & RADIOS -->
+      {%- if product.type == 'CD Player' or product.type == 'CD Players' or product.type == 'CD/SACD Player' -%}
+        <a href="/collections/cd-players" title="CD Players">
+          <span style="color:#969696">
+            CD Players</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Radios' or product.type == 'Tuners' - %}
+        <a href="/collections/radios" title="Radios">
+          <span style="color:#969696">
+            Radios</span>
+        </a>
+      {%- endif -%}
+      <!-- RECEIVERS -->
+      {%- if product.type == 'AV Receivers' or product.type == 'Receivers' -%}
+        <a href="/collections/receivers" title="Receivers">
+          <span style="color:#969696">
+            Receivers</span>
+        </a>
+      {%- endif -%}
+      <!-- RACKS -->
+      {%- if product.type == 'Hi Fi Racks' -%}
+        <a href="/collections/av-furniture" title="AV Furniture">
+          <span style="color:#969696">
+            AV Furniture</span>
+        </a>
+      {%- endif -%}
+      <!-- ISOLATION -->
+      {%- if product.type == 'Isolation Device' or product.type == 'Butcher Block' -%}
+        <a href="/collections/acoustic-treatmet" title="Isolation">
+          <span style="color:#969696">
+            Isolation</span>
+        </a>
+      {%- endif -%}
+      <!-- POWER -->
+      {%- if product.type == 'Power Supply' or product.type == 'Power Cable' or product.type == 'Powerboard' -%}
+        <a href="/collections/power" title="Power">
+          <span style="color:#969696">
+            Power</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Power Conditioner' -%}
+        <a href="/collections/power-conditioners" title="Power Conditioners">
+          <span style="color:#969696">
+            Power Conditioners</span>
+        </a>
+      {%- endif -%}
+      <!-- HOME THEATRE PACKS -->
+      {%- if product.type == 'Home Theatre Packs' -%}
+        <a href="/collections/home-theatre-packages" title="Home Theatre Packs">
+          <span style="color:#969696">
+            Home Theatre Packs</span>
+        </a>
+      {%- endif -%}
+      <!-- NETWORK & STREAMING -->
+      {%- if product.type == 'Network Players' or product.type == 'Wireless Streaming Transporter' -%}
+        <a href="/collections/network-players" title="Network Players">
+          <span style="color:#969696">
+            Network Players</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Modular DAC Card' or product.type == 'DAC' or product.type == 'Streaming DAC' or product.type == 'DAC/Streamer' or product.type == 'DACs' -%}
+        <a href="/collections/dacs" title="DAC">
+          <span style="color:#969696">
+            DAC</span>
+        </a>
+      {%- endif -%}
+      <!-- CABLES -->
+      {%- if product.type == 'Subwoofer cables' -%}
+        <a href="/collections/subwoofer-cable" title="Subwoofer Cables">
+          <span style="color:#969696">
+            Subwoofer Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Digital Cables' -%}
+        <a href="/collections/digital-cables" title="Digital Cables">
+          <span style="color:#969696">
+            Digital Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'AUX Cables' -%}
+        <a href="/collections/cables" title="Cables">
+          <span style="color:#969696">
+            Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == '3.5mm Cable' -%}
+        <a href="/collections/3-5mm-audio-cable" title="3.5mm Cables">
+          <span style="color:#969696">
+            3.5mm Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'DIN Cables' -%}
+        <a href="/collections/din-cable" title="DIN Cables">
+          <span style="color:#969696">
+            DIN Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Ethernet Cables' -%}
+        <a href="/collections/ethernet-cables" title="Ethernet Cables">
+          <span style="color:#969696">
+            Ethernet Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'HDMI cables' -%}
+        <a href="/collections/hdmi-cable" title="HDMI cables">
+          <span style="color:#969696">
+            HDMI cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'RCA Cables' -%}
+        <a href="/collections/rca-cables" title="RCA Cables">
+          <span style="color:#969696">
+            RCA Cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'USB cables' -%}
+        <a href="/collections/usb-cable" title="USB cables">
+          <span style="color:#969696">
+            USB cables</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'XLR Cables' -%}
+        <a href="/collections/xlr-interconnect" title="XLR Cables">
+          <span style="color:#969696">
+            XLR Cables</span>
+        </a>
+      {%- endif -%}
+      <!-- OTHER -->
+      {%- if product.type == 'Module' -%}
+        <a href="/collections/modules" title="Modules & Cards">
+          <span style="color:#969696">
+            Modules & Cards</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'All-In-One Systems' -%}
+        <a href="/collections/all-in-one" title="All-In-One Systems">
+          <span style="color:#969696">
+            All-In-One Systems</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Stereo System' -%}
+        <a href="/collections/stereo-systems" title="Stereo Systems">
+          <span style="color:#969696">
+            Stereo Systems</span>
+        </a>
+      {%- endif -%}
+      {%- if product.type == 'Projectors' -%}
+        <a href="/collections/projectors" title="Projectors">
+          <span style="color:#969696">
+            Projectors</span>
+        </a>
+      {%- endif -%}
+    {%- endif -%}
+
+
+    {%- if collections[vendorHandle].products.size > 0 -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <a href="/collections/{{ product.vendor | handleize }}" title="Shop All {{ product.vendor }}">
+        <span style="color:#969696">
+          {{ product.vendor }}</span>
+      </a>
+    {%- endif -%}
+
+
+    {%- if template contains 'collection' and collection.handle -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      {%- if current_tags -%}
+        {%- capture url -%}/collections/{{ collection.handle }}{%- endcapture -%}
+        {{ collection.title | link_to: url }}
+        <span aria-hidden="true">
+          <span style="color:#969696">
+            &rsaquo;</span>
+        </span>
+        <span>
+          {{ current_tags | join: " + " }}</span>
+      {%- else -%}
+        <span>
+          {{ collection.title }}</span>
+      {%- endif -%}
+    {%- elsif template == 'blog' -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      {%- if current_tags -%}
+        {{ blog.title | link_to: blog.url }}
+        <span aria-hidden="true">
+          <span style="color:#969696">
+            &rsaquo;</span>
+        </span>
+        <span>
+          {{ current_tags | join: " + " }}</span>
+      {%- else -%}
+        <span>
+          {{ blog.title }}</span>
+      {%- endif -%}
+    {%- elsif template == 'article' -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      {{ blog.title | link_to: blog.url }}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <span>
+        {{ article.title }}</span>
+    {%- else -%}
+      <span aria-hidden="true">
+        <span style="color:#969696">
+          &rsaquo;</span>
+      </span>
+      <span>
+        {{ product.title }}</span>
+    {%- endif -%}
+  </nav>
+{%- endunless -%}
