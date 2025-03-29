@@ -1,1 +1,288 @@
-{"type":"footer","name":"t:sections.footer-group.name","sections":{"multicolumn-with-icons":{"type":"multicolumn-with-icons","blocks":{"column-1":{"type":"column","settings":{"icon":"support","custom_icon":"","heading":"Customer service","text":"<p>We’re ready to answer all your questions!<\/p>","highlighted_text":"none","highlighted_scribble":"circle"}},"column-2":{"type":"column","settings":{"icon":"box","custom_icon":"","heading":"Fast Free Shipping","text":"<p>Get free shipping on orders of $150 or more<\/p>","highlighted_text":"none","highlighted_scribble":"circle"}},"column-3":{"type":"column","settings":{"icon":"sale","custom_icon":"","heading":"Sign up and Save","text":"<p>Take $20 off your first order when you sign up to our newsletter<\/p>","highlighted_text":"none","highlighted_scribble":"circle"}},"column-4":{"type":"column","settings":{"icon":"shield","custom_icon":"","heading":"Secure payment","text":"<p>Your payment information is processed securely<\/p>","highlighted_text":"none","highlighted_scribble":"circle"}}},"block_order":["column-1","column-2","column-3","column-4"],"settings":{"columns":4,"text_alignment":"left","heading":"","heading_size":"title-md","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"","description":"","button_label":"","button_link":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"","color_background":"","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":60,"padding_bottom":60,"divider":true,"full_width":false,"rounded":false}},"newsletter_rTHaC7":{"type":"newsletter","blocks":{"heading_gX87nG":{"type":"heading","settings":{"heading":"Sign up and save","heading_size":"title-lg tracking-heading","heading_tag":"h2","highlighted_text":"none","highlighted_scribble":"circle"}},"text_itJc6h":{"type":"text","settings":{"text":"<p>Subscribe to receive special offers, exclusive giveaways & once in a lifetime deals<\/p>","text_size":"subtext-sm","text_max_size":32,"text_font":"body","secondary_color":false,"highlighted_text":"none","highlighted_scribble":"circle"}},"form_aMKymn":{"type":"form","settings":{}}},"block_order":["heading_gX87nG","text_itJc6h","form_aMKymn"],"settings":{"content_width":"large","text_alignment":"center","text_alignment_mobile":"center","color_text":"#ffffff","color_background":"#840000","gradient_background":"linear-gradient(180deg, rgba(132, 0, 0, 1), rgba(23, 23, 23, 1) 100%)","color_highlight":"","gradient_highlight":"","color_button_text":"#ffffff","color_button_background":"#ffffff","color_button_gradient":"","padding_top":0,"padding_bottom":0,"divider":false,"narrow":true,"rounded":true}},"footer":{"type":"footer","blocks":{"link_list-1":{"type":"link_list","settings":{"heading":"Info","menu":"footer","container_width":33}},"link_list-2":{"type":"link_list","settings":{"heading":"Shop","menu":"main-menu","container_width":33}},"brand_information":{"type":"brand_information","disabled":true,"settings":{"heading":"","button_label_1":"(03) 7068 7678","button_link_1":"tel:(03) 7068 7678","button_label_2":"sales@audioinfluence.com.au","button_link_2":"mailto:sales@audioinfluence.com.au","button_label_3":"","button_link_3":"","button_label_4":"","button_link_4":"","container_width":50}},"text_i7BqMP":{"type":"text","settings":{"heading":"Showroom","text":"<p>774-776 Nicholson St, Fitzroy North VIC 3068<\/p><p><a href=\"\/pages\/qr\" title=\"QR\"><strong>Book an appointment<\/strong><\/a> <\/p><p><\/p><p>Phone: (03) 7068 7678<br\/>Email: <a href=\"mailto:sales@audioinfluence.com.au\" title=\"Email: sales@audioinfluence.com.au\">sales@audioinfluence.com.au<\/a><\/p>","container_width":33}},"logo_social_HWaLkp":{"type":"logo_social","settings":{"logo":"shopify:\/\/shop_images\/AudioInfluence-logo-500x300.png","logo_height":91,"show_social":true,"enable_follow_on_shop":true}}},"block_order":["link_list-1","link_list-2","brand_information","text_i7BqMP","logo_social_HWaLkp"],"settings":{"enable_newsletter":false,"newsletter_heading":"Sign Up & Save","newsletter_text":"<p>Subscribe to receive special offers, exclusive giveaways & once in a lifetime deals<\/p>","show_social":true,"enable_follow_on_shop":true,"color_text":"#ffffff","color_background":"#1f1f1f","gradient_background":"","color_button_text":"#ffffff","color_button_background":"#ffffff","color_button_gradient":"","padding_top":72,"padding_bottom":72,"divider":false,"full_width":false,"rounded":true,"enable_parallax":false}},"rich_text_JTVKce":{"type":"rich-text","settings":{"text_alignment":"center","text_alignment_mobile":"center","heading":"","heading_size":"title-sm","heading_alignment":"text-center md:items-center","heading_tag":"h2","subheading":"Acknowledgment","description":"<p><em>We acknowledge the Traditional Custodians of the unceded lands where we work and live, the Wurundjeri People of the Kulin Nation. We celebrate the diversity of Aboriginal peoples and their ongoing cultures and connections to the lands and waters of Australia.<\/em><\/p>","button_label":"","button_link":"","highlighted_text":"none","highlighted_scribble":"circle","color_text":"#8a8a8a","color_background":"#171717","gradient_background":"","color_highlight":"","gradient_highlight":"","color_button_text":"","color_button_background":"","color_button_gradient":"","padding_top":64,"padding_bottom":0,"divider":false,"narrow":true,"rounded":false}},"footer-copyright":{"type":"footer-copyright","settings":{"enable_language_selector":true,"enable_country_selector":false,"show_policy":false,"show_payment_icons":true,"monochrome_payment_icons":true,"show_copyright":true,"copyright_text":"| G.K. Enterprises APAC Pty Ltd t\/as Audio Influence. ABN 41672760057","color_text":"#ffffff","color_background":"#171717","gradient_background":"","divider":false,"full_width":true,"rounded":true,"enable_parallax":true}}},"order":["multicolumn-with-icons","newsletter_rTHaC7","footer","rich_text_JTVKce","footer-copyright"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "multicolumn-with-icons": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "Customer service",
+            "text": "<p>We’re ready to answer all your questions!</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "icon": "box",
+            "custom_icon": "",
+            "heading": "Fast Free Shipping",
+            "text": "<p>Get free shipping on orders of $150 or more</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column-3": {
+          "type": "column",
+          "settings": {
+            "icon": "sale",
+            "custom_icon": "",
+            "heading": "Sign up and Save",
+            "text": "<p>Take $20 off your first order when you sign up to our newsletter</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column-4": {
+          "type": "column",
+          "settings": {
+            "icon": "shield",
+            "custom_icon": "",
+            "heading": "Secure payment",
+            "text": "<p>Your payment information is processed securely</p>",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column-1",
+        "column-2",
+        "column-3",
+        "column-4"
+      ],
+      "settings": {
+        "columns": 4,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "divider": true,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "newsletter_rTHaC7": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_gX87nG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign up and save",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "text_itJc6h": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to receive special offers, exclusive giveaways & once in a lifetime deals</p>",
+            "text_size": "subtext-sm",
+            "text_max_size": 32,
+            "text_font": "body",
+            "secondary_color": false,
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "form_aMKymn": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_gX87nG",
+        "text_itJc6h",
+        "form_aMKymn"
+      ],
+      "settings": {
+        "content_width": "large",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list-1": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Info",
+            "menu": "footer",
+            "container_width": 33
+          }
+        },
+        "link_list-2": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "main-menu",
+            "container_width": 33
+          }
+        },
+        "brand_information": {
+          "type": "brand_information",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "button_label_1": "(03) 7068 7678",
+            "button_link_1": "tel:(03) 7068 7678",
+            "button_label_2": "sales@audioinfluence.com.au",
+            "button_link_2": "mailto:sales@audioinfluence.com.au",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_label_4": "",
+            "button_link_4": "",
+            "container_width": 50
+          }
+        },
+        "text_i7BqMP": {
+          "type": "text",
+          "settings": {
+            "heading": "Showroom",
+            "text": "<p>774-776 Nicholson St, Fitzroy North VIC 3068</p><p><a href=\"/pages/qr\" title=\"QR\"><strong>Book an appointment</strong></a> </p><p></p><p>Phone: (03) 7068 7678<br/>Email: <a href=\"mailto:sales@audioinfluence.com.au\" title=\"Email: sales@audioinfluence.com.au\">sales@audioinfluence.com.au</a></p>",
+            "container_width": 33
+          }
+        },
+        "logo_social_HWaLkp": {
+          "type": "logo_social",
+          "disabled": true,
+          "settings": {
+            "logo_height": 91,
+            "show_social": true,
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "link_list-1",
+        "link_list-2",
+        "brand_information",
+        "text_i7BqMP",
+        "logo_social_HWaLkp"
+      ],
+      "settings": {
+        "enable_newsletter": false,
+        "newsletter_heading": "Sign Up & Save",
+        "newsletter_text": "<p>Subscribe to receive special offers, exclusive giveaways & once in a lifetime deals</p>",
+        "show_social": true,
+        "enable_follow_on_shop": true,
+        "color_text": "#ffffff",
+        "color_background": "#1f1f1f",
+        "gradient_background": "",
+        "color_button_text": "#ffffff",
+        "color_button_background": "#ffffff",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": true,
+        "enable_parallax": false
+      }
+    },
+    "rich_text_JTVKce": {
+      "type": "rich-text",
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "heading": "",
+        "heading_size": "title-sm",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "Acknowledgment",
+        "description": "<p><em>We acknowledge the Traditional Custodians of the unceded lands where we work and live, the Wurundjeri People of the Kulin Nation. We celebrate the diversity of Aboriginal peoples and their ongoing cultures and connections to the lands and waters of Australia.</em></p>",
+        "button_label": "",
+        "button_link": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "#8a8a8a",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 64,
+        "padding_bottom": 0,
+        "divider": false,
+        "narrow": true,
+        "rounded": false
+      }
+    },
+    "footer-copyright": {
+      "type": "footer-copyright",
+      "settings": {
+        "enable_language_selector": true,
+        "enable_country_selector": true,
+        "show_policy": true,
+        "show_payment_icons": true,
+        "monochrome_payment_icons": true,
+        "show_copyright": false,
+        "copyright_text": "| G.K. Enterprises APAC Pty Ltd t/as Audio Influence. ABN 41672760057",
+        "color_text": "#ffffff",
+        "color_background": "#171717",
+        "gradient_background": "",
+        "divider": false,
+        "full_width": true,
+        "rounded": true,
+        "enable_parallax": true
+      }
+    }
+  },
+  "order": [
+    "multicolumn-with-icons",
+    "newsletter_rTHaC7",
+    "footer",
+    "rich_text_JTVKce",
+    "footer-copyright"
+  ]
+}
