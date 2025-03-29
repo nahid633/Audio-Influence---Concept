@@ -294,6 +294,7 @@
         },
         "link_AxPJhA": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "custom_icon": "",
             "title": "Brands",
