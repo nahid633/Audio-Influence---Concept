@@ -15,6 +15,7 @@
         "image_dPDGzJ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/BryanEAA.jpg",
             "heading": "Image slide",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
@@ -26,6 +27,7 @@
         "image_ELfafy": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/DSC_0655-Edit-4__1.webp",
             "heading": "Image slide",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
