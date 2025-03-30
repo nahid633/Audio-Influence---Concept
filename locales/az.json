@@ -620,24 +620,7 @@
           "header": {
             "one": "%{count} element üçün çatdırılma yoxdur",
             "other": "%{count} element üçün çatdırılma yoxdur"
-          },
-          "message": {
-            "one": "Ünvanınız üçün çatdırılma üsulları olmadığı üçün bu element səbətinizdən silinəcək.",
-            "other": "Ünvanınız üçün çatdırılma üsulları olmadığı üçün bu əşyalar səbətinizdən silinəcək."
-          },
-          "status_column_header": "Çatdırılma yoxdur"
-        },
-        "price_update": {
-          "title": "Qiymət yeniləməsi",
-          "description": "Bu əşyaların qiymətləri dəyişib və səbətinizdə yenilənib."
-        },
-        "price_and_quantity_update": {
-          "title": "Qiymət və kəmiyyət yeniləməsi",
-          "description": "Bu məhsullar üçün qiymətlər və mövcud miqdarlar dəyişib və səbətinizdə yenilənib."
-        },
-        "out_of_stock": {
-          "description": "Bu elementlər artıq mövcud deyil və səbətinizdən silinib.",
-          "items_unavailable": "Bəzi elementlər artıq mövcud deyil və səbətinizdən silinib."
+          }
         }
       },
       "wallets": {
@@ -653,7 +636,9 @@
             "billing_phone": "Etibarlı faktura ünvanı telefon nömrəsini daxil edin",
             "reduction_code": "Etibarlı endirim kodu və ya hədiyyə kartı daxil edin",
             "billing_must_match_shipping": "Göndərmə ünvanı uyğun olmalıdır",
-            "billing_zip": "Etibarlı faktura ünvanı ZIP / poçt kodu daxil edin"
+            "billing_zip": "Etibarlı faktura ünvanı ZIP / poçt kodu daxil edin",
+            "shipping_address": "Etibarlı göndərmə ünvanı daxil edin",
+            "billing_address": "Etibarlı faktura ünvanı daxil edin"
           },
           "missing": {
             "first_name": "Ad daxil edin",
@@ -678,13 +663,49 @@
             "first_name_too_long": "Adda çoxlu hərf var",
             "last_name_too_long": "Soyadda çoxlu hərf var"
           },
-          "select_different_shipping_address_to_resolve_errors": "Göndərmə ünvanınız yanlışdır. Fərqli ünvan seçin və ya yenisini istifadə edin."
+          "select_different_shipping_address_to_resolve_errors": "Göndərmə ünvanınız yanlışdır. Fərqli ünvan seçin və ya yenisini istifadə edin.",
+          "unavailable": {
+            "title": "{{walletName}} mövcud deyil",
+            "description": "{{walletName}} mövcud deyildi. Fərqli ödəniş metodundan istifadə edin və ya daha sonra yenidən cəhd edin.",
+            "instructions": "{{walletName}} ilə problem var idi. Yenidən cəhd etmək və ya başqa yolu yoxlamaq üçün mağazaya qayıdın.",
+            "unavailable_for_country": "{{walletName}} {{countryName}} daxilində mövcud deyil. Satınalmanı tamamlamaq üçün fərqli ödəniş üsulu seçin"
+          },
+          "unavailable_terminal": {
+            "instructions": "{{walletName}} hazırda sifarişiniz üçün əlçatan deyil. Satınalmaya davam etmək üçün başqa ödəmə üsulu seçin."
+          },
+          "generic": "{{walletName}} ilə problem var idi. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin.",
+          "discount_code": "Bu endirim kodunu tətbiq etmək mümkün deyil. Kodunuzu nəzərdən keçirin və yenidən cəhd edin.",
+          "terminal": "{{walletName}} ilə problem var idi. Lütfən, fərqli ödəniş üsulundan istifadə edin.",
+          "detour": {
+            "stock_problems": "Bəzi elementlər artıq mövcud deyil. {{walletName}} bağlayın və yenidən cəhd edin.",
+            "price_change": "Bəzi məhsulların qiymətləri dəyişdi. Sifarişinizi nəzərdən keçirmək üçün {{walletName}} bağlayın və yenidən cəhd edin.",
+            "queue": "Siz ödəniş etmək üçün növbəyə qoyulmusunuz. Davam etmək üçün {{walletName}} kodunu bağlayın.",
+            "currency_change": "Siz {{walletName}} ilə fərqli ünvandan istifadə edə bilməzsiniz. Orijinal ünvandan istifadə edin və ya başqa ödəniş üsulunu sınayın."
+          },
+          "unsupported": {
+            "address": "Satıcı bu ünvana çatdıra bilməz",
+            "wallet_is_unavailable": "{{walletName}} bu ünvanla istifadə edilə bilməz. Fərqli ünvan seçin və ya alışınızı başa çatdırmaq üçün {{walletName}} bağlayın",
+            "postal_code": "Bu məkan dəstəklənmir"
+          },
+          "outdated": {
+            "shipping_method": "Sifarişiniz üçün göndərmə seçimləri dəyişdi. Seçiminizi nəzərdən keçirin.",
+            "payment_terms": "Ödəniş şərtləri dəyişdi. Sifarişinizi nəzərdən keçirin"
+          }
         },
         "scrim": {
           "continue_purchase_in_window": "{{walletName}} pəncərəsində alışınıza davam edin",
           "and_return_to_checkout": "və Checkout-a qayıdın",
           "cancel": "Ləğv et"
-        }
+        },
+        "return_to_store": "Mağazaya qayıdın",
+        "return_to_checkout": "Kassaya qayıdın",
+        "redirect_hint": "Sizdən {{walletName}} ilə daxil olmaq tələb olunacaq.",
+        "logged_in": "{{email}} hesabına qoşulub",
+        "shipping_line_label": "Çatdırılma",
+        "payment_in_progress_title": "Ödəniş davam edir",
+        "payment_in_progress_body": "Ödənişiniz emal olunur. Sifarişiniz tezliklə tamamlanacaq.",
+        "call_to_action": "{{walletName}} ilə ödəyin",
+        "redirection_notice": "\" {{buttonLabel}} \" üzərinə kliklədikdən sonra alışınızı təhlükəsiz şəkildə başa çatdırmaq üçün {{walletName}} ünvanına yönləndiriləcəksiniz."
       },
       "note": {
         "length_exceeds_maximum": "Qeydin ölçüsünü 5000 və ya daha az simvola qədər azaldın."
@@ -698,135 +719,133 @@
           }
         }
       },
-      "contextual_availability": {
-        "title": {
-          "one": "Əlçatmaz məhsul",
-          "other": "Əlçatmaz məhsullar"
+      "pickup_point": {
+        "paginator": {
+          "selected_page": {
+            "one": "%{count} nöqtədən %{first} - %{last}",
+            "other": "%{count} baldan %{first} - %{last}"
+          }
         },
-        "products_not_available": {
-          "one": "Ölkənizdə/regionunuzda mövcud olmadığı üçün bu məhsul səbətinizdən silinəcək.",
-          "other": "Ölkənizdə/regionunuzda mövcud olmadığı üçün bu məhsullar səbətinizdən silinəcək."
+        "number_of_pickup_points_near_location": {
+          "one": "Məkanınızın yaxınlığında %{count} götürmə nöqtəsi",
+          "other": "Məkanınızın yaxınlığında %{count} götürmə nöqtəsi"
         },
-        "all_products_in_cart_unavailable": {
-          "one": "Bu məhsul ölkənizdə/regionunuzda mövcud deyil.",
-          "other": "Bu məhsullar ölkənizdə/regionunuzda mövcud deyil."
-        },
-        "unavailable_label": "Əlçatan deyil"
-      },
-      "merchandise_unavailable_in_buyer_location": {
-        "banner_title": {
-          "some_products_one": "Bu məhsul %{location_name} ünvanına çatdırılma üçün əlçatan deyil.",
-          "some_products_other": "Bu məhsullar %{location_name} ünvanına çatdırılma üçün əlçatan deyil.",
-          "all_products_one": "Səbətinizdəki məhsul %{location_name} ünvanına çatdırılma üçün əlçatan deyil.",
-          "all_products_other": "Səbətinizdəki məhsullar %{location_name} ünvanına çatdırılma üçün əlçatan deyil."
-        },
-        "missing_country_fallback": "sənin ölkən",
-        "indeterminate_location_fallback": "yeriniz",
-        "cart_updated": "Səbətiniz yeniləndi.",
-        "change_address_only": "Davam etmək üçün çatdırılma ünvanını dəyişin.",
-        "change_address_or_remove": "Çatdırılma ünvanını və ya %{remove_action} dəyişdirin.",
-        "remove_items_action": {
-          "one": "əlçatmaz elementi silin",
-          "other": "əlçatmaz elementləri silin"
-        },
-        "empty_cart_action": "səbəti boşaldın və mağazaya qayıdın"
-      },
-      "deliverability": {
-        "not_deliverable": {
-          "title": {
-            "one": "%{count} element üçün çatdırılma yoxdur",
-            "other": "%{count} element üçün çatdırılma yoxdur"
-          },
-          "message": {
-            "one": "Ünvanınız üçün çatdırılma üsulları olmadığı üçün bu element səbətinizdən silinəcək.",
-            "other": "Ünvanınız üçün çatdırılma üsulları olmadığı üçün bu əşyalar səbətinizdən silinəcək."
-          },
-          "label": "Çatdırılma yoxdur"
+        "change": "Məkanı dəyişdirin",
+        "waiting_on_pickup_point_location_notice": "Qəbul məntəqələri axtarılır...",
+        "geolocation": {
+          "shared_location_button": "Mənim yerimdən istifadə edin",
+          "errors": {
+            "unsuported_by_browser": "Geolokasiya əldə etmək brauzeriniz tərəfindən dəstəklənmir. Yenidən cəhd edin və ya başqa brauzerdən istifadə edin.",
+            "permission_not_allowed": "Məkanınızı paylaşmağa icazə verin.",
+            "permission_denied": "Məkanınızı əldə etmək mümkün olmadı. Yenidən cəhd edin."
+          }
         }
       },
-      "order_summary": {
-        "title": "Sifariş xülasəsi",
-        "group_title_label": "\"%{group_title}\" hissəsi",
-        "number_items": {
-          "one": "%{count} element",
-          "other": "%{count} element"
+      "error_page": {
+        "terminal": {
+          "title": "Kassamızda problem var idi",
+          "message": "Bu səhifəni yeniləyin və ya bir neçə dəqiqədən sonra yenidən cəhd edin",
+          "action": {
+            "cta": "Səhifəni yeniləyin"
+          },
+          "request_id": "Sorğu ID-si: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "Səbətə qayıt",
+        "return_to_cart_to_update_quantities": "Kəmiyyətləri yeniləmək üçün %{return_to_cart_link_text}",
+        "subscription_changed": "Abunəliyinizdən biri dəyişib.",
+        "company_location_changed": "Səbətiniz yeniləndi. Sifarişinizi təqdim etməzdən əvvəl nəzərdən keçirin.",
+        "company_location_changed_product_removed": "Səbətiniz yeniləndi, çünki bəzi məhsullar bu məkanda mövcud deyil. Sifarişinizi təqdim etməzdən əvvəl nəzərdən keçirin.",
+        "violations_title": "{{violation}} yoxdur və ya etibarsızdır",
+        "individual_violations_title": {
+          "DeliveryViolations": "Çatdırılma ünvanı",
+          "PaymentViolations": "Faktura ünvanı",
+          "OtherViolations": "Sifariş məlumatı",
+          "UnhandledViolations": "Sifariş məlumatı"
         },
-        "view_all_items": {
-          "one": "%{count} elementə baxın",
-          "other": "Bütün %{count} elementə baxın"
+        "all_violations_content": "Bu məlumatı yeniləmək və sifarişinizi tamamlamaq üçün bizə zəng edin və ya {{emailLink}} :",
+        "all_violations_email_link": "e-poçt",
+        "editable_shipping_address_violations_message_title": "Sifarişinizi tamamlamaq üçün bu məlumatı əlavə edin:",
+        "editable_shipping_address_violations_message_footer": "Bu məkanın ünvanını həmişəlik yeniləmək üçün {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "bizimlə əlaqə saxlayın",
+        "shipping_address_incomplete_title": "Çatdırılma ünvanı natamamdır",
+        "calculating_shipping": "Çatdırılma hələ də hesablanır. Bir neçə saniyədən sonra yenidən cəhd edin. Sizdən ödəniş tutulmayıb.",
+        "calculating_taxes": "Vergilər hələ də hesablanır. Bir neçə saniyədən sonra yenidən cəhd edin. Sizdən ödəniş tutulmayıb.",
+        "generic_processing_error": {
+          "title": "Sifarişinizi emal edərkən problem baş verdi",
+          "body": "Sizdən ödəniş tutulmayıb. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin."
+        }
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "Baxış",
+          "link_label": "{{partnerDisplayName}} Qaydalar və Şərtlər"
+        }
+      },
+      "online_store_chat": {
+        "title": "Suallar? Bizimlə söhbət edin"
+      },
+      "local_pickup": {
+        "location_address_search_label": "Ünvan",
+        "location_information": {
+          "one": "%{address} yaxınlığında anbarı olan %{count} mağaza var",
+          "other": "%{address}-ə yaxın anbarı olan %{count} mağaza var"
         },
-        "more_items_modal": {
-          "search_item": "Axtar",
-          "clear_search": "Axtarışı təmizləyin",
-          "empty_results": "\"%{searchText}\" üçün heç bir nəticə tapılmadı. Orfoqrafiyanı yoxlayın və ya başqa söz və ya ifadə istifadə edin.",
-          "number_items_shown": "%{totalNumber} elementdən %{shownNumber}"
+        "toggle_location": "Məkanı dəyişdirin",
+        "or": "YA",
+        "cancel": "Ləğv et",
+        "your_location": "yeriniz",
+        "search_button": "Mağazalar tapın",
+        "no_stores_found": "Mağaza tapılmadı",
+        "all_stores_far_away": {
+          "title": "Ən yaxın mağazalar %{distance}-dən çox məsafədədir",
+          "description": "Bunun əvəzinə mağaza və ya %{ship_to_address_link} seçin.",
+          "ship_to_address_link": "ünvana göndərin"
         },
-        "order_name_label": "%{name} sifariş edin",
-        "shopping_cart_label": "Alış-veriş səbəti",
-        "discount_title": "Endirim",
-        "discount_title_stacking": {
-          "one": "Endirim",
-          "other": "Endirimlər"
+        "could_not_resolve_address": "Ünvanınızı tapmaq mümkün olmadı. Yenidən cəhd edin və ya başqa ünvandan istifadə edin",
+        "paginator": {
+          "accessibility_label": "Yerli götürmə səhifələməsi",
+          "previous": "Əvvəlki səhifə",
+          "next": "Növbəti səhifə",
+          "label": {
+            "one": "%{count} mağazanın %{first} - %{last}",
+            "other": "%{count} mağazadan %{first} - %{last}"
+          }
         },
-        "discount_order_stacking": {
-          "one": "Sifariş endirimi",
-          "other": "Endirimlər sifariş edin"
+        "reveal_more_label": {
+          "one": "Daha %{count} yeri göstərin",
+          "other": "Daha %{count} yeri göstərin"
+        }
+      },
+      "captcha": {
+        "title": "Davam etmək üçün CAPTCHA-nı tamamlayın",
+        "errors": {
+          "not_solved": "Davam etmək üçün CAPTCHA-nı tamamlayın"
+        }
+      },
+      "clipboard": {
+        "copied": "Kopyalandı",
+        "failed_to_copy": "Kopyalamaq alınmadı"
+      },
+      "discount_errors": {
+        "generic_error": "Endirim kodunuz artıq mövcud olmadığı üçün sifarişinizi emal etmək mümkün olmadı. Sifarişinizin cəminə nəzər salın və yenidən cəhd edin."
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Artıq B2B sifarişləri vermək icazəniz yoxdur. Əvəzinə şəxsi sifariş vermək üçün %{logout_url}.",
+        "log_out_link_text": "Çıxın",
+        "lost_permissions_subtitle": "Artıq B2B sifarişləri vermək icazəniz yoxdur, şəxsi sifariş vermək üçün sistemdən çıxın.",
+        "lost_permissions_title": "Məkan icazəsi yoxdur"
+      },
+      "shop_pay_external": {
+        "title": "Mağaza Ödənişi",
+        "errors": {
+          "problem_loading": "Shop Pay-i yükləməkdə problem var",
+          "try_again_later": "Bağlantınızı yoxlayın və ya bu pəncərəni bağlayın və bir neçə dəqiqədən sonra yenidən cəhd edin.",
+          "checkout_has_expired": "Ödənişinizin vaxtı keçib. Bu pəncərəni bağlayın və {{shopName}} ünvanından yenidən yoxlamağa cəhd edin."
         },
-        "discount_label": "Endirim kodu",
-        "discount_not_found": "Daxil edilmiş koda uyğun etibarlı endirim tapmaq mümkün olmadı",
-        "discount_placeholder": "Endirim kodu",
-        "discount_code_applied": "Endirim kodu tətbiq olundu",
-        "gift_card_applied": "Hədiyyə kartı tətbiq edildi",
-        "enter_shipping_address": "Göndərmə ünvanını daxil edin",
-        "gift_card_title": "Hədiyyə kartı",
-        "gift_card_label": "Hədiyyə kartı",
-        "gift_card_placeholder": "Hədiyyə kartı",
-        "gift_card_and_discount_title": "Endirim kodu və ya hədiyyə kartı",
-        "gift_card_and_discount_label": "Endirim kodu və ya hədiyyə kartı",
-        "gift_card_and_discount_placeholder": "Endirim kodu və ya hədiyyə kartı",
-        "remove_gift_card_label": "Hədiyyə kartını təmizləyin",
-        "remove_discount_label": "Endirimi silin",
-        "return_restocking_fee_label": "Yenidən yığılma haqqı",
-        "return_shipping_fee_label": "Geri göndərmə",
-        "free_shipping_discount_label": "Pulsuz çatdırılma",
-        "applied_free_shipping_discount_label": "Tətbiq olunub",
-        "apply_discount_button_label": "Müraciət edin",
-        "applied_discount_message": "Ümumi sifariş qiymətindən %{amount} endirim",
-        "discount_has_been_applied": "Endirim tətbiq olunub",
-        "discount_has_been_removed": "Endirim silindi",
-        "gift_card_has_been_applied": "Hədiyyə kartı tətbiq olundu",
-        "gift_card_has_been_removed": "Hədiyyə kartı silindi",
-        "gift_card_subscriptions_notice": "Hədiyyə kartları yalnız ilk ödənişinizə şamil olunacaq",
-        "discount_already_applied": "Bu sifarişə endirim tətbiq olunub. Başqa endirim əlavə edə bilməzsiniz.",
-        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu səbətinizdəki əşyalar üçün keçərli deyil",
-        "discount_requires_customer_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodunu tətbiq etmək üçün göndərmə məlumatınızı daxil edin",
-        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu hazırda sizin üçün əlçatan deyil",
-        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu uyğun müştəri tələb edir",
-        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu göndərmə ünvanınız üçün mövcud deyil",
-        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> endirim kodu artıq istifadə olunub",
-        "subtotal_label": "Ara cəmi",
-        "subtotal_label_with_quantity": {
-          "one": "Ara cəmi · %{count} element",
-          "other": "Ara cəmi · %{count} element"
-        },
-        "shipping_label": "Çatdırılma",
-        "pickup_label": "Mağazadan götürmə",
-        "no_pickup_location": "Əlçatan götürmə yerləri yoxdur.",
-        "pickup_unavailable_banner_title": {
-          "one": "Elementiniz mağazadan götürülmək üçün əlçatan deyil",
-          "other": "Elementləriniz mağazadan götürülmək üçün əlçatan deyil"
-        },
-        "pickup_unavailable_banner_body": {
-          "ship_to_address": "Ünvana göndərin",
-          "ship_to_address_instead_html": "əvəzinə %{link}"
-        },
-        "tip_label": "İpucu",
-        "calculating_shipping": "Hesablanır...",
-        "calculating": "Hesablanır...",
-        "shipping_default_value": "Növbəti mərhələdə hesablanır",
-        "shipping_discount_title": "Çatdırılma Endirimi",
-        "shipping_pending_message": "Hələ mövcud deyil",
-        "shipping_policy_link": "Göndərmə xərcləri"
+        "return_to_store": "{{shopName}} səhifəsinə qayıdın",
+        "return_to_store_simple": "Mağazaya qayıdın"
       }
     },
     "pagination": {
@@ -1181,6 +1200,137 @@
       "addresses": {
         "add_billing_address_button": "Faktura ünvanı əlavə edin"
       }
+    }
+  },
+  "customer": {
+    "order": {
+      "shipping": "Çatdırılma",
+      "tax": "vergi",
+      "product": "Məhsul",
+      "price": "Qiymət",
+      "quantity": "Kəmiyyət",
+      "total": "Cəmi",
+      "total_refunded": "Geri qaytarıldı",
+      "fulfilled_at_html": "{{ date }} yerinə yetirildi.",
+      "track_shipment": "Göndərməni izləyin",
+      "tracking_url": "İzləmə linki",
+      "tracking_company": "Daşıyıcı",
+      "tracking_number": "İzləmə nömrəsi",
+      "subtotal": "Ara cəmi",
+      "total_duties": "Vəzifələr"
+    },
+    "recover_password": {
+      "title": "Parolu sıfırlayın",
+      "email": "E-poçt",
+      "submit": "Təqdim et",
+      "cancel": "Ləğv et",
+      "subtext": "Parolunuzu sıfırlamaq üçün sizə e-poçt göndərəcəyik.",
+      "success": "Sizə parolunuzu yeniləmək üçün linki olan e-poçt göndərdik."
+    },
+    "reset_password": {
+      "title": "Parolu sıfırlayın",
+      "subtext": "Yeni parol daxil edin",
+      "password": "parol",
+      "password_confirm": "Şifrəni təsdiqləyin",
+      "submit": "Parolu sıfırlayın"
+    },
+    "register": {
+      "title": "Hesab yaradın",
+      "first_name": "Ad",
+      "last_name": "Soyadı",
+      "email": "E-poçt",
+      "password": "parol",
+      "accepts_marketing": "Bülletenimizə qeydiyyatdan keçin",
+      "submit": "Yaradın",
+      "sign_in": "Daxil olun",
+      "return": "Mağazaya qayıt"
+    }
+  },
+  "onboarding": {
+    "product_title": "Nümunə məhsul",
+    "product_description": "Bu sahə məhsulunuzun təfərrüatlarını təsvir etmək üçün istifadə olunur. Müştərilərə məhsulunuzun görünüşü, hissi və tərzi haqqında məlumat verin. Rəng, istifadə olunan materiallar, ölçülər və harada edildiyi barədə təfərrüatları əlavə edin.",
+    "collection_title": "Nümunə toplusu",
+    "no_content": "Bu bölmədə hazırda heç bir məzmun yoxdur. Yan paneldən istifadə edərək bu bölməyə məzmun əlavə edin."
+  },
+  "products": {
+    "general": {
+      "color_swatch_trigger": "Rəng",
+      "size_trigger": "Ölçü",
+      "size_chart": "Ölçü cədvəli",
+      "save_html": "{{ saved_amount }} qənaət edin",
+      "sale": "Satış",
+      "regular_price": "Adi qiymət",
+      "sale_price": "Satış qiyməti",
+      "unit_price": "Vahid qiyməti",
+      "from_text_html": "{{ price }} <small>qiymətindən</small>"
+    },
+    "product": {
+      "product_variants": "Məhsul variantları",
+      "sold_out": "Satıldı",
+      "unavailable": "Əlçatan deyil",
+      "add_to_cart": "Səbətə əlavə et",
+      "choose_options": "Seçimləri seçin",
+      "choose_product_options": "{{ product_name }} üçün seçimlər seçin",
+      "view_product": "Məhsula baxın",
+      "pre_order": "Öncədən sifariş edin",
+      "vendor": "Satıcı",
+      "include_taxes": "Vergi daxildir.",
+      "shipping_policy_html": "<a href=\"&lt;span%20class=\" notranslate>{{ link }} '&gt;Çatdırılma</a> ödəniş zamanı hesablanıb.",
+      "will_not_ship_until": "Göndərməyə hazırdır {{ date }}",
+      "will_be_in_stock_after": "Yenidən anbarda {{ date }}",
+      "waiting_for_stock": "İnventar yolda",
+      "xr_button": "Məkanınızda baxın",
+      "xr_button_label": "Məkanınızda baxın, elementi artırılmış reallıq pəncərəsində yükləyin",
+      "read_more": "Tam təfərrüatlara baxın",
+      "quick_add": "əlavə et",
+      "quick_view": "Baxın"
+    },
+    "media": {
+      "open_media": "{{ index }} medianı modalda açın",
+      "play_model": "3D Viewer oynayın",
+      "play_video": "Videonu oynat",
+      "gallery_viewer": "Qalereya Baxıcısı"
+    },
+    "quantity": {
+      "label": "Kəmiyyət",
+      "input_label": "{{ product }} üçün miqdar",
+      "increase": "{{ product }} üçün miqdarı artırın",
+      "decrease": "{{ product }} üçün miqdarı azaldın"
+    },
+    "inventory": {
+      "in_stock": "Anbardadır, göndərilməyə hazırdır",
+      "low_stock_html": {
+        "one": "Tələsin, anbarda yalnız <strong>{{ count }}</strong> məhsul qaldı!",
+        "other": "Tələsin, anbarda yalnız <strong>{{ count }}</strong> məhsul qaldı!"
+      },
+      "out_of_stock": "Stokda bitdi",
+      "out_of_stock_continue_selling": "Stokda var",
+      "will_not_ship_until": "Göndərməyə hazırdır {{ date }}",
+      "will_be_in_stock_after": "Yenidən anbarda {{ date }}",
+      "waiting_for_stock": "İnventar yolda"
+    },
+    "pickup_availability": {
+      "title": "Götürmənin mövcudluğu",
+      "view_store_info": "Mağaza məlumatlarına baxın",
+      "check_other_stores": "Digər mağazalarda mövcudluğu yoxlayın",
+      "pick_up_available": "Götürmə mövcuddur",
+      "pick_up_available_at_html": "<span class=\"color-foreground\">{{ location_name }}</span> ünvanında götürmə mümkündür",
+      "pick_up_unavailable": "Hazırda götürmə mümkün deyil",
+      "pick_up_unavailable_at_html": "Hazırda <span class=\"color-foreground\">{{ location_name }}</span> ünvanında götürmə mümkün deyil",
+      "unavailable": "Götürmə əlçatanlığını yükləmək mümkün olmadı",
+      "refresh": "Yeniləyin"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title_html": "{{ {{ shop }} {{ value }} hədiyyə kartınız budur!",
+      "subtext": "Hədiyyə kartınız budur!",
+      "disabled": "Əlil",
+      "expired": "İstifadə müddəti bitdi",
+      "active": "{{ expiry }} tarixində bitir",
+      "redeem": "Hədiyyə kartınızı ödəmək üçün ödəniş zamanı bu kodu istifadə edin.",
+      "shop_link": "Onlayn mağazaya baş çəkin",
+      "copy_code_success": "Kod uğurla kopyalandı"
     }
   }
 }
