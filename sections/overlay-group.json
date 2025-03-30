@@ -15,12 +15,12 @@
       "type": "cart-drawer",
       "settings": {
         "show_vendor": false,
-        "show_cart_note": true,
-        "show_shipping_calculator": true,
+        "show_cart_note": false,
+        "show_shipping_calculator": false,
         "show_view_cart_button": true,
-        "show_checkout_button": true,
+        "show_checkout_button": false,
         "show_free_shipping_bar": true,
-        "free_shipping_minimum_amount": "1000",
+        "free_shipping_minimum_amount": "150",
         "cart_recommendations_enabled": true,
         "cart_recommendations_heading": "You may also like",
         "cart_recommendations_limit": 5,
@@ -287,6 +287,7 @@
         },
         "mobile-dock-5": {
           "type": "account",
+          "disabled": true,
           "settings": {
             "custom_icon": "",
             "title": "Account"
