@@ -1012,6 +1012,109 @@
       },
       "artifact_errors": {
         "artifact_dissatisfaction_without_violation": "Sifarişinizi emal edərkən problem baş verdi. Bir neçə dəqiqədən sonra yenidən cəhd edin."
+      },
+      "payment": {
+        "card_issue_number_placeholder": "Buraxılış nömrəsi",
+        "card_change_label": "Dəyişmək",
+        "card_update_label": "Kartı yeniləyin",
+        "paypal_disconnect": "Bağlantını kəsin",
+        "ends_with_label": "%{last_digits} ilə bitən",
+        "masked_digits_label": "•••• %{son_rəqəm}",
+        "payment_method_saved": "Ödəniş üsulu yadda saxlanıldı",
+        "card_vaulted_company_location": "Bu məkan üçün kart yadda saxlandı",
+        "expiry_long": "(%{month}/%{year} vaxtı bitir)",
+        "expiry_short": "(Bəddi %{month}/%{year})",
+        "saved_by_payment_method": "%{payment_method} ilə yadda saxlanıldı",
+        "pay_with_payment_method": "%{payment_method} ilə ödəyin",
+        "different_credit_card_label": "Fərqli kredit kartı istifadə edin",
+        "same_billing_address_label": "Göndərmə ünvanı ilə eynidir",
+        "different_billing_address_label": "Fərqli faktura ünvanı istifadə edin",
+        "billing_address_associated_with_mandate": "Ödəniş üsulu ilə əlaqəli ünvanı istifadə edin",
+        "billing_address_associated_with_mandate_info": "Əgər faktura ünvanınızı dəyişdirmək istəyirsinizsə, kredit kartı məlumatlarınızı silin və yenidən daxil edin",
+        "free_order_notice_html": "Sifarişiniz <strong>pulsuzdur</strong> . Heç bir ödəniş tələb olunmur.",
+        "express_checkout_free_order": "Pulsuz sifariş üçün sizdən ödəniş tutulmayacaq",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Sifarişiniz hədiyyə kartınızla əhatə olunur.",
+          "other": "Sifarişiniz hədiyyə kartlarınızla əhatə olunur."
+        },
+        "offsite_gateway_redirect_hint": "“%{button_label}” üzərinə kliklədikdən sonra alışınızı təhlükəsiz şəkildə tamamlamaq üçün siz %{gateway_label} ünvanına yönləndiriləcəksiniz.",
+        "offsite_gateway_review_page_redirect_hint": "Sifarişinizi nəzərdən keçirdikdən sonra alışınızı təhlükəsiz şəkildə tamamlamaq üçün siz %{gateway_label} ünvanına yönləndiriləcəksiniz.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} cəmi %{total_shop_price}",
+        "offsite_gateway_redirect_hint_no_button_label": "Davam etdikdən sonra alışınızı təhlükəsiz şəkildə tamamlamaq üçün siz %{gateway_label} ünvanına yönləndiriləcəksiniz.",
+        "receiver_payment_experience_hint": "Sifarişinizi verdikdən sonra ödəniş təfərrüatlarını alacaqsınız. %{du_days} gün ərzində Multibanco-da və ya onlayn ödəniş edin.",
+        "billing_address_title": "Faktura ünvanı",
+        "billing_address_description": "Kartınıza və ya ödəniş metodunuza uyğun ünvanı seçin.",
+        "billing_address_description_no_shipping_address": "Kartınıza və ya ödəniş metodunuza uyğun ünvanı daxil edin.",
+        "no_js_credit_card_fields_redirect_hint": "Ödəniş məlumatlarınızı əlavə etmək üçün yönləndiriləcəksiniz.",
+        "card_fields_container_prefix": "Sahə konteyneri:",
+        "card_fields_unavailable_html": {
+          "one": "Kredit və debet kartı ödənişləri hazırda mövcud deyil.<br> <a href=\"%{current_url}\">Bu səhifəni yeniləyin</a> və ya daha sonra yenidən cəhd edin.",
+          "other": "Kredit və debet kartı ödənişləri hazırda mövcud deyil.<br> <a href=\"%{current_url}\">Bu səhifəni yeniləyin</a> və ya başqa ödəniş üsulunu sınayın."
+        },
+        "card_fields_processing_error": "Ödənişi emal edərkən problem yarandı. Bu səhifəni yeniləməyə cəhd edin və ya internet bağlantınızı yoxlayın.",
+        "technical_error": "Texniki problemə görə ödənişləri hazırda emal etmək mümkün deyil. Bir neçə dəqiqədən sonra yenidən cəhd edin.",
+        "no_method_error": "Bu mağaza hazırda ödənişləri qəbul edə bilməz.",
+        "not_configured_error": "Bu mağaza hazırda ödənişləri qəbul edə bilməz.",
+        "missing_credit_card_error": "Ödənişi tamamlamaq üçün kart məlumatlarınızı daxil edin",
+        "shop_pay_ideal_unavailable_error": "iDEAL bu sifariş üçün mövcud deyil. Başqa ödəniş üsulu seçin.",
+        "payment_method_not_available_for_shipping_address_error": "Seçilmiş göndərmə ünvanı üçün ödəniş üsulu mövcud deyil. Başqa ödəniş üsulu seçin.",
+        "billing_address_not_supported_for_payment_method_error": "Bu ödəniş üsulu faktura ünvanınız və valyutanız üçün əlçatan deyil. Fərqli ödəniş üsulunu sınayın.",
+        "generic_incorrect_card_info": "Ödəniş məlumatlarınızı doğrulamaq mümkün olmadı. Kart məlumatlarınızı yoxlayın və yenidən cəhd edin.",
+        "sofort_label": "Sofort bank köçürməsi",
+        "paypal_wallet_label": "PayPal Pulqabı",
+        "shop_pay_installments_label": "Mağazada Ödəniş Hissə",
+        "paypal_modal": {
+          "order_contains_subscriptions": "Abunəlik",
+          "order_contains_fixed_selling_plans": "Ümumi məbləğə vergilər, çatdırılma, təxirə salınmış ödənişlər və bəzi endirimlər daxil olmaya bilər. Bu gün ödənilməli olan məbləği yoxlamağa davam edin."
+        },
+        "klarna_pay_later_label": "Klarna ilə sonra ödəyin",
+        "klarna_pay_now_label": "İndi Klarna ilə ödəyin",
+        "multibanco_label": "Multibank",
+        "klarna_slice_it_label": "Klarna ilə maliyyə",
+        "ideal_label": "İDEAL",
+        "afterpay_label": "Sonradan ödəniş",
+        "kcp_creditcard_label": "KCP Kredit Kartı",
+        "purchase_options_card_update_agreement_label_html": "Ödəniş metodunuzu güncəlləməklə siz bu mağazanın <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">ləğv siyasətinə</a> uyğun olaraq təkrarlanan və ya təxirə salınmış alış üçün ödənişlərə icazə verirsiniz.",
+        "subscription_card_update_agreement_label": "Ödəniş metodunun dəyişdirilməsi abunəliyinizi və gələcək təkrarlanan ödənişləri yeniləyəcək.",
+        "subscription_agreement_label": "Səbətinizdəki bir və ya daha çox məhsul təxirə salınmış və ya abunə ilə alınmış alışdır. Ödənişinizə davam etməklə, ödəniş üsulunuz bitənə və ya siz ləğv edənə qədər avtomatik olaraq bu səhifədə qeyd olunan qiymət və tezlikdə tutulacağı ilə razılaşırsınız. Bütün ləğvlər %{cancelled} ilə bağlıdır.",
+        "subscription_agreement_cancelled": "ləğvetmə siyasəti",
+        "subscription_heading": "Abunə müqaviləsi",
+        "subscription_agreement_label_html": "Abunəliyə razı olduğumu başa düşürəm. O, bitənə və ya bitənə qədər qeyd olunan qiymət və tezlikdə yenilənəcək\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">ləğv edildi</a> .\n",
+        "purchase_options_agreement_label": "Səbətinizdəki bir və ya daha çox məhsul təxirə salınmış və ya təkrarlanan alışdır. Ödənişinizə davam etməklə, ödəniş üsulunuz bitənə və ya siz ləğv edənə qədər avtomatik olaraq bu səhifədə qeyd olunan qiymət və tezlikdə tutulacağı ilə razılaşırsınız. Bütün ləğvlər %{cancellation_policy_label} ilə bağlıdır.",
+        "purchase_options_agreement_label_html": "Səbətimdəki bir və ya bir neçə elementin təxirə salınmış və ya təkrarlanan alış olduğunu başa düşürəm. Davam etməklə mən razıyam \n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">ləğvetmə siyasəti</a>\n və mənim ödəniş üsulumdan mənim ödənişimə qədər bu səhifədə qeyd olunan qiymətlər, tezliklər və tarixlər üzrə ödəniş etməyə icazə verin\n sifariş yerinə yetirilir və ya icazə verildiyi təqdirdə ləğv edirəm.\n",
+        "purchase_options_agreement_label_wallets": "Ödənişinizə davam etməklə siz bu səhifədə sadalanan gələcək ödənişlərlə və ləğvetmə siyasəti ilə razılaşırsınız.",
+        "change_currency_section_description": "Valyuta seçimini seçin",
+        "no_real_orders_dev_store": "Bu mağaza real sifarişləri və ya real ödənişləri qəbul edə bilməz.",
+        "waiting_on_payment_methods": "Əlçatan ödəniş üsulları əldə edilir...",
+        "apple_pay_payment_error": "Ödənişiniz tamamlana bilmədi. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin.",
+        "taxes_not_included": "Vergilər daxil deyil",
+        "no_taxes_banner_content": "Bu sifarişdən vergi tutulmayacaq. Ödənişi yığdıqdan sonra vergilər əlavə edilə bilməz.",
+        "paypal": {
+          "connect": "PayPal hesabınıza qoşulmaq üçün klikləyin"
+        },
+        "apple": {
+          "connect": "Apple Pay hesabınıza qoşulmaq üçün klikləyin",
+          "not_available": "Apple Pay bu brauzerdə mövcud deyil. Apple Pay hesabınıza qoşulmaq üçün Apple cihazında Safari istifadə etməlisiniz."
+        },
+        "google": {
+          "connect": "Google Pay hesabınıza qoşulmaq üçün klikləyin",
+          "error_authorizing": "Ödəmə icazəsi verilərkən xəta baş verdi"
+        },
+        "account_connected": "Hesab qoşuldu.",
+        "mor_disclaimer_html": "Aşağıya klikləməklə və sifarişinizi tamamlamaqla siz məhsullarınızı Global-e-dən rekord ticarətçi kimi almağa razılaşırsınız\n bu əməliyyat üçün Global-e-nin <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Qayda və Şərtləri</a> əsasında\n və <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Məxfilik Siyasəti</a> . Global-e beynəlxalqdir\n %{shop_name} xidmət təminatçısı\n",
+        "pending_payment": {
+          "due_notice": "%{amount_due} ödəməniz %{due_date} tarixində ödənilməlidir.",
+          "multibanco": {
+            "buyer_action_info": "%{amount_due} ödəməniz vaxtıdır.",
+            "instruction_html": "Ödənişinizi Multibanco-da və ya aşağıdakı detallardan istifadə edərək onlayn edin. Suallarınız və ya ödəniş detallarını yeniləmək üçün %{contact_us}.",
+            "entity": "Müəssisə",
+            "reference": "İstinad",
+            "amount": "Məbləğ",
+            "find_nearest_atm": "Ən yaxın bankomatı tapın"
+          }
+        },
+        "update_payment_method": "Ödəniş üsulunu yeniləyin",
+        "order_covered_by_store_credit_notice": "Sifarişiniz mağaza kreditinizlə əhatə olunur."
       }
     },
     "pagination": {
@@ -1508,6 +1611,85 @@
           "bank_deposit": "Bank depoziti"
         }
       }
+    },
+    "ui_components": {
+      "november": "noyabr",
+      "december": "dekabr",
+      "monday": "bazar ertəsi",
+      "tuesday": "çərşənbə axşamı",
+      "wednesday": "çərşənbə",
+      "thursday": "cümə axşamı",
+      "friday": "cümə",
+      "saturday": "şənbə",
+      "sunday": "bazar günü",
+      "wednesdayAbbreviation": "Biz",
+      "showNextMonth": "Gələn ay göstər, {{month}} {{year}}",
+      "showPreviousMonth": "Əvvəlki ayı göstər, {{month}} {{year}}",
+      "rangeStart": "Aralığın başlanğıcı",
+      "inRange": "Menzilde",
+      "rangeEnd": "Aralığın sonu",
+      "autocompleteOptionsAvailable": {
+        "one": "{{count}} element mövcuddur",
+        "other": "{{count}} element mövcuddur"
+      },
+      "removeItem": "{{label}} silin",
+      "removeTag": "Etiketi çıxarın",
+      "month": {
+        "one": "ay",
+        "other": "ay"
+      },
+      "mapClusterTitle": {
+        "one": "{{number}} marker klasteri",
+        "other": "{{number}} markerlər klasteri"
+      },
+      "expandSheet": "Genişləndirin",
+      "qrCode": "QR kodu",
+      "addFile": "Fayl əlavə edin",
+      "dropzoneInvalidFileType": "Fayl növü dəstəklənmir",
+      "dropzoneDraggedOver": "Yükləmək üçün faylı buraxın"
+    },
+    "profile_preview_bar": {
+      "customize_button": "Fərdiləşdirin",
+      "hide_bar": "Gizlət paneli",
+      "navigate_to_admin": "İdarəçiyə keçin",
+      "close_preview": "Önizləməni bağlayın",
+      "previewing": "Öncədən baxırsınız:",
+      "saved_at": "Yadda saxlandı {{date}} , {{time}}",
+      "viewing": "Baxırsınız:",
+      "not_available": "Profil datası mövcud deyil",
+      "actions_button": "Fəaliyyətlər"
+    },
+    "active_inspector": {
+      "extension": {
+        "select": "{{extensionName}} adlı artırmanı seçin",
+        "unselect": "{{extensionName}} adlı artırmanın seçimini ləğv edin",
+        "move_down": "Uzatmanı növbəti mövqeyə köçürün",
+        "move_up": "Uzatmanı əvvəlki mövqeyə köçürün",
+        "remove": "Uzatma silin",
+        "move_down_tooltip": "Növbəti mövqeyə keçin",
+        "move_up_tooltip": "Əvvəlki mövqeyə keçin",
+        "remove_tooltip": "Sil"
+      }
+    },
+    "editor": {
+      "link_new_tab_confirmation": "Bu keçid redaktorun daxilində açıla bilməz. O, yeni pəncərədə açılacaq ( {{resolved_to_link}} ). Davam etmək üçün OK düyməsini klikləyin."
+    },
+    "settings": {
+      "title": "Parametrlər",
+      "loading_accessibility_message": "Parametrlər səhifəsi yüklənir",
+      "log_out_everywhere": {
+        "title": "Hər yerdə çıxın",
+        "description": "Cihazı itirmisinizsə və ya təhlükəsizliklə bağlı narahatlıqlarınız varsa, hesabınızın təhlükəsizliyini təmin etmək üçün hər yerdə sistemdən çıxın.",
+        "button": "Hər yerdə çıxın",
+        "warning_message": "Siz də bu cihazdan çıxacaqsınız."
+      }
+    },
+    "shop_ads": {
+      "title": "Mağazadan eksklüziv təkliflər",
+      "subtitle": "Sınırlı bir müddət üçün mövcuddur",
+      "button": "Mağazada araşdırın",
+      "previous_button": "Əvvəlki",
+      "next_button": "Sonrakı"
     }
   },
   "customer": {
@@ -1757,6 +1939,45 @@
       "minutes": "Dəq",
       "second": "Sek",
       "seconds": "Saniyə"
+    },
+    "accessibility": {
+      "skip_to_content": "Məzmuna keçin",
+      "close": "Bağlayın",
+      "unit_price_separator": "başına",
+      "vendor": "Satıcı:",
+      "error": "Xəta",
+      "star_reviews_count": {
+        "zero": "Rəy yoxdur",
+        "one": "{{ count }} baxış",
+        "other": "{{ count }} rəy"
+      },
+      "total_reviews": "ümumi rəylər",
+      "star_reviews_info": "{{ rating_value }} ulduzdan {{ rating_max }} ulduz",
+      "play_video": "Videonu oynat",
+      "load_video": "Videonu yükləyin: {{ description }}",
+      "refresh_page": "Seçim seçimi səhifənin tam yenilənməsi ilə nəticələnir.",
+      "link_messages": {
+        "new_window": "Yeni pəncərədə açılır.",
+        "external": "Xarici saytı açır."
+      },
+      "go_to_item": "{{ index }} elementinə keçin",
+      "drag": "Çək"
+    },
+    "404": {
+      "title": "Səhifə tapılmadı",
+      "subtext_html": "Deyəsən, axtardığınız səhifə artıq mövcud deyil.<br> Əvvəlki səhifəyə və ya aşağıdakı səhifələrə qayıtmağa çalışın.",
+      "back_to_home": "Əsas səhifəyə keçin",
+      "continue_shopping": "Alış-verişə davam edin"
+    },
+    "meta": {
+      "tags": "Tagged \" {{ tags }} \"",
+      "page": "Səhifə {{ page }}"
+    },
+    "pagination": {
+      "page": "Səhifə {{ number }}",
+      "previous": "Əvvəlki",
+      "next": "Sonrakı",
+      "show_more": "Daha çox göstər"
     }
   },
   "blogs": {
@@ -1792,6 +2013,28 @@
       "taxes_and_shipping_at_checkout": "Vergilər daxildir və çatdırılma kassada hesablanır.",
       "update": "Səbəti yeniləyin",
       "checkout": "Yoxlayın"
+    }
+  },
+  "sections": {
+    "blog_posts": {
+      "view_all": "Hamısına baxın"
+    },
+    "featured_collection": {
+      "view_all": "Hamısına baxın",
+      "view_all_label": "{{ collection_name }} kolleksiyasındakı bütün məhsullara baxın"
+    },
+    "collection_list": {
+      "view_all": "Hamısına baxın"
+    },
+    "map": {
+      "address_error": "Həmin ünvanı axtararkən xəta baş verdi",
+      "address_no_results": "Həmin ünvan üçün nəticə yoxdur",
+      "address_query_limit_html": "Google API istifadə limitini keçmisiniz. <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plana</a> yüksəltməyi düşünün.",
+      "auth_error_html": "Google Xəritə hesabınızın autentifikasiyası zamanı problem baş verdi. Tətbiqinizin <a href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\">JavaScript API</a> və <a href=\"https://developers.google.com/maps/documentation/geocoding/get-api-key\">Geocoding API</a> icazələrini yaradın və aktivləşdirin."
+    },
+    "slideshow": {
+      "play_slideshow": "Slayd şousunu oynayın",
+      "pause_slideshow": "Slayd şousunu dayandırın"
     }
   }
 }
