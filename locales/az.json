@@ -1903,7 +1903,74 @@
       "edit_payment_method": {
         "title": "Ödəniş üsulunu redaktə edin",
         "save_payment_method_button": "Saxla",
-        "cancel_edit_payment_method_button": "Ləğv et"
+        "cancel_edit_payment_method_button": "Ləğv et",
+        "payment_method_updated_toast": "Ödəniş metodu yeniləndi",
+        "billing_address": "Faktura ünvanı",
+        "billing_address_add_new": "Yeni əlavə et",
+        "billing_address_choose_from_list": "Siyahıdan seçin",
+        "future_purchases_notice": "Bu ödəniş üsulu gələcək alışlar üçün yadda saxlanılacaq.",
+        "generic_error": "Yeniləmə zamanı problem yarandı. Yenidən cəhd edin."
+      },
+      "card_fields": {
+        "card_number_label": "Kart nömrəsi",
+        "card_number_placeholder": "Kart nömrəsi",
+        "name_on_card_label": "Kartda ad",
+        "name_on_card_placeholder": "Kartda ad",
+        "card_expiry_label": "İstifadə müddəti (MM / YY)",
+        "card_expiry_placeholder": "İstifadə müddəti (MM / YY)",
+        "card_verification_value_label": "Təhlükəsizlik kodu",
+        "card_verification_value_placeholder": "Təhlükəsizlik kodu",
+        "card_start_label": "Buraxılış tarixi (MM / YY)",
+        "card_start_placeholder": "Buraxılış tarixi (MM / YY)",
+        "tooltip": {
+          "tooltip_accessibility_label": "Ətraflı məlumat",
+          "card_verification_value_explanation_amex": "Kartınızın qarşısında 4 rəqəmli təhlükəsizlik kodu",
+          "card_verification_value_explanation_other": "Kartınızın arxasındakı 3 rəqəmli təhlükəsizlik kodu",
+          "card_verification_value_explanation": "3 rəqəmli təhlükəsizlik kodu adətən kartınızın arxasında olur. American Express kartlarının ön hissəsində yerləşən 4 rəqəmli kod var.",
+          "card_security_notice": "Bütün əməliyyatlar təhlükəsiz və şifrələnmişdir."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "Adınızı kartınızda yazıldığı kimi daxil edin",
+          "credit_card_number_invalid": "Etibarlı kart nömrəsi daxil edin",
+          "credit_card_expiry_invalid": "Etibarlı kartın son istifadə tarixini daxil edin",
+          "credit_card_verification_value_blank": "Kartınızdakı CVV və ya təhlükəsizlik kodunu daxil edin"
+        }
+      },
+      "payment_delete": {
+        "title": "Ödəniş üsulunu silin",
+        "description_without_replacement": "Bu ödəniş üsulu gələcək satınalmalar üçün daha əlçatan olmayacaq.",
+        "description_with_replacement": "Bu ödəniş metodunun silinməsi əvvəlcədən icazə verilən ödənişlərə təsir edəcək. Qarşıdan gələn sifarişləri qəbul etməyə davam etmək üçün onu başqa ödəniş üsulu ilə əvəz edə bilərsiniz.",
+        "warning_message_with_replacement": {
+          "with_pending_orders_and_subscriptions": "Bu ödəniş metodunun silinməsi əvvəlcədən icazəli ödənişlərə təsir edəcək. Alternativ ödəniş metodu seçməsəniz, bu ödəniş üsulu mövcud sifarişlər üzrə ödənilməmiş qalıqlar üçün hələ də tutulacaq. Alternativ ödəniş üsulunun seçilməsi qarşıdan gələn abunə sifarişlərini fasiləsiz qəbul etməyə imkan verəcək.",
+          "with_pending_orders": "Bu ödəniş üsulunun silinməsi onu hesabınızdan siləcək və gələcək alışlar üçün daha əlçatan olmayacaq. Alternativ ödəniş metodu seçməsəniz, o, mövcud sifarişlər üzrə ödənilməmiş qalıqlar üçün hələ də tutulacaq.",
+          "with_subscriptions": "Bu ödəniş metodunun silinməsi əvvəlcədən icazəli ödənişlərə təsir edəcək. Qarşıdan gələn sifarişləri almağa davam etmək üçün onu alternativ ödəniş üsulu ilə əvəz edin."
+        },
+        "warning_message_without_replacement": {
+          "with_pending_orders_and_subscriptions": "Bu ödəniş metodunun silinməsi əvvəlcədən icazə verilən ödənişlərə təsir edəcək. Bu ödəniş üsulu hələ də mövcud sifarişlər üzrə ödənilməmiş qalıqlar üçün tutulacaq, lakin siz qarşıdan gələn abunə sifarişlərini qəbul etməyəcəksiniz. Abunəlik sifarişlərini almağa davam etmək üçün alternativ ödəniş üsulu əlavə edin.",
+          "with_pending_orders": "Bu ödəniş üsulunun silinməsi onu hesabınızdan siləcək və gələcək alışlar üçün daha əlçatan olmayacaq. Mövcud sifarişlər üzrə ödənilməmiş qalıqlar üçün hələ də tutulacaq.",
+          "with_subscriptions": "Bu ödəniş metodunun silinməsi əvvəlcədən icazə verilən ödənişlərə təsir edəcək. Qarşıdan gələn sifarişləri almağa davam etmək üçün alternativ ödəniş üsulu əlavə edin."
+        },
+        "payment_method_selector_placeholder": "Əvəzedici ödəniş üsulunu seçin (isteğe bağlı)",
+        "payment_method_selector_no_alternative_payment": "Əvəzetmə üsulu yoxdur",
+        "replace_method_with_new_method_description": "{{currentPaymentMethodName}} silinəcək və {{newPaymentMethodName}} ilə əvəz olunacaq.",
+        "error_when_deleting": "Üzr istəyirik, lakin nəsə xəta baş verdi və bu ödəniş üsulunu silə bilmədik. Lütfən, sonra yenidən cəhd edin və ya səhifəni yeniləyin.",
+        "delete_and_replace_button": "Silin və dəyişdirin",
+        "delete_and_replace_button_accessibility_label": "{{currentPaymentMethodName}} silin və {{newPaymentMethodName}} ilə əvəz edin.",
+        "deleted_successfully": "Ödəniş üsulu uğurla silindi.",
+        "loading_available_payment_methods_accessibility_label": "Mövcud ödəniş üsulları yüklənir"
+      },
+      "add_payment_method": {
+        "title": "Ödəniş metodu əlavə edin",
+        "payment_method_added_confirmation": "Ödəniş üsulu əlavə edildi",
+        "billing_address": {
+          "title": "Faktura ünvanı",
+          "add_billing_address_button": "Yeni əlavə et",
+          "add_billing_address_button_accessibility_label": "Yeni faktura ünvanı əlavə edin",
+          "choose_billing_address_from_list_button": "Siyahıdan seçin",
+          "choose_billing_address_from_list_button_accessibility_label": "Siyahıdan faktura ünvanını seçin",
+          "missing_billing_address_error_message": "Zəhmət olmasa faktura ünvanını göstərin",
+          "default_checkbox": "Defolt ödəniş üsulu kimi təyin edin"
+        }
       }
     },
     "addresses": {
@@ -2421,7 +2488,28 @@
       "qrCode": "QR kodu",
       "addFile": "Fayl əlavə edin",
       "dropzoneInvalidFileType": "Fayl növü dəstəklənmir",
-      "dropzoneDraggedOver": "Yükləmək üçün faylı buraxın"
+      "dropzoneDraggedOver": "Yükləmək üçün faylı buraxın",
+      "clipboardCopied": "Kopyalandı",
+      "clipboardFailedToCopy": "Kopyalamaq alınmadı",
+      "closeNotification": "Bağlayın",
+      "expandNotification": "Daha çox baxın",
+      "closeModal": "Bağlayın",
+      "submit": "Təqdim et",
+      "processing": "Emal edilir...",
+      "increase": "{{type}} artırın",
+      "decrease": "{{type}} azaldın",
+      "minimumReached": "Minimum {{value}} əldə edildi",
+      "maximumReached": "{{value}} maksimuma çatdı",
+      "january": "yanvar",
+      "february": "fevral",
+      "march": "mart",
+      "april": "aprel",
+      "may": "may",
+      "june": "iyun",
+      "july": "iyul",
+      "august": "avqust",
+      "september": "sentyabr",
+      "october": "oktyabr"
     },
     "profile_preview_bar": {
       "customize_button": "Fərdiləşdirin",
@@ -2516,6 +2604,25 @@
         }
       },
       "add_button": "əlavə et"
+    },
+    "payment_method_brands": {
+      "visa": "Viza",
+      "discover": "kəşf edin",
+      "visaelectron": "Visa Elektron",
+      "hipercard": "Hiperkart",
+      "laser": "Lazer",
+      "shoppay": "Mağaza Ödənişi",
+      "storecredit": "Mağaza krediti",
+      "bogus": "Saxta"
+    },
+    "shop_policies": {
+      "legal_notice": "Hüquqi bildiriş",
+      "privacy_policy": "Məxfilik siyasəti",
+      "refund_policy": "Geri qaytarma siyasəti",
+      "shipping_policy": "Göndərmə siyasəti",
+      "subscription_policy": "Ləğv etmə siyasəti",
+      "terms_of_sale": "Satış şərtləri",
+      "terms_of_service": "Xidmət şərtləri"
     }
   },
   "customer": {
