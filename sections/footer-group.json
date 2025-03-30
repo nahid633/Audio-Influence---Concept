@@ -31,7 +31,7 @@
             "icon": "box",
             "custom_icon": "",
             "heading": "Fast Free Shipping",
-            "text": "<p>Get free shipping on orders of $150 or more</p>",
+            "text": "<p>Get free shipping on orders of 150AZN or more</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -187,8 +187,8 @@
         "text_i7BqMP": {
           "type": "text",
           "settings": {
-            "heading": "Showroom",
-            "text": "<p>Baku,Azerbaijan</p>",
+            "heading": "Location",
+            "text": "<p>Baku,Azerbaijan</p><p>Made in Germany</p>",
             "container_width": 33
           }
         },
