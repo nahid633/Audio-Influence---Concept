@@ -1848,7 +1848,11 @@
           "list_view": {
             "due_on_fulfillment": "Ödəniş yerinə yetirildikdə ödənilir",
             "pay_to_confirm": "Təsdiq etmək üçün ödəyin",
-            "payment_not_due": "Ödəniş hələ vaxtı deyil"
+            "payment_not_due": "Ödəniş hələ vaxtı deyil",
+            "overdue": "Ödəniş vaxtı keçmişdir",
+            "due": "Ödəniş müddəti {{date}}",
+            "due_today": "Ödəniş bu gün ödənilir",
+            "due_without_date": "Ödəniş vaxtıdır"
           },
           "table_view": {
             "overdue": "Vaxtı keçmiş",
@@ -1902,8 +1906,79 @@
           }
         },
         "table_view": "Cədvəl görünüşünü göstərin",
-        "show_order_actions_accessibility_label": "{{name}} sifarişi üçün sifariş əməliyyatlarını göstərin"
-      }
+        "show_order_actions_accessibility_label": "{{name}} sifarişi üçün sifariş əməliyyatlarını göstərin",
+        "column_headers": {
+          "order": "Sifariş verin",
+          "items": "Əşyalar",
+          "total": "Cəmi",
+          "actions_accessibility_label": "Fəaliyyətlər",
+          "products_accessibility_label": "Məhsullar"
+        },
+        "delivered": "Çatdırılma tarixi: {{date}}",
+        "empty_state_order_source_description": "Yalnız {{email}} tərəfindən verilmiş sifarişlər burada göstəriləcək.",
+        "empty_state_subtitle": "Sifariş vermək üçün mağazaya gedin.",
+        "empty_state_title": "Hələ sifariş yoxdur",
+        "empty_state_title_for_pending_orders": "Gözləyən sifariş yoxdur",
+        "no_order_banner": "Sifariş statusu səhifəsində genişləndirmənizi yoxlamaq üçün sifariş yaradın.",
+        "estimated_shortform": "Təxmini. {{date}}",
+        "estimated_delivery": "Gözlənilən {{date}}",
+        "one_images_accessibility_label": "Sifarişə {{lineItemName1}} daxildir",
+        "two_images_accessibility_label": "Sifariş daxildir {{lineItemName1}} , {{lineItemName2}}",
+        "three_images_accessibility_label": "Sifariş daxildir {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "Sifariş daxildir {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "more_than_three_products_accessibility_label": "Sifarişə {{lineItemName1}} , {{lineItemName2}} və daha {{numberOfAdditionalProducts}} məhsul daxildir",
+        "more_than_four_products_accessibility_label": "Sifarişə {{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} və {{numberOfAdditionalProducts}} məhsul daxildir",
+        "plus_more": "+ {{numberOfAdditionalProducts}}",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} məhsul",
+        "carousel": {
+          "one_products_accessibility_label": "Sifarişə {{lineItemName1}} miqdarı {{lineItemQuantity1}} daxildir",
+          "two_products_accessibility_label": "Sifariş daxildir {{lineItemName1}} miqdarı {{lineItemQuantity1}} , {{lineItemName2}} miqdarı {{lineItemQuantity2}}",
+          "three_products_accessibility_label": "Sifarişə daxildir {{lineItemName1}} miqdarı {{lineItemQuantity1}} , {{lineItemName2}} miqdarı {{lineItemQuantity2}} , {{lineItemName3}} miqdarı {{lineItemQuantity3}}",
+          "four_products_accessibility_label": "Sifariş daxildir {{lineItemName1}} kəmiyyət {{lineItemQuantity1}} , {{lineItemName2}} miqdarı {{lineItemQuantity2}} , {{lineItemName3}} miqdarı {{lineItemQuantity3}} , {{lineItemName4}} miqdarı {{lineItemQuantity4}}",
+          "five_products_accessibility_label": "Sifarişə daxildir {{lineItemName1}} kəmiyyət {{lineItemQuantity1}} , {{lineItemName2}} kəmiyyət {{lineItemQuantity2}} , {{lineItemName3}} miqdarı {{lineItemQuantity3}} {{lineItemName4}} {{lineItemQuantity4}} miqdarı {{lineItemName5}} miqdar {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "Sifarişə daxildir {{lineItemName1}} kəmiyyət {{lineItemQuantity1}} , {{lineItemName2}} kəmiyyət {{lineItemQuantity2}} , {{lineItemName3}} miqdarı {{lineItemQuantity3}} {{lineItemName4}} {{lineItemQuantity4}} miqdarı {{lineItemName5}} kəmiyyət {{lineItemQuantity5}} , {{lineItemName6}} kəmiyyət {{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "Sifarişə daxildir {{lineItemName1}} kəmiyyət {{lineItemQuantity1}} , {{lineItemName2}} kəmiyyət {{lineItemQuantity2}} , {{lineItemName3}} miqdarı {{lineItemQuantity3}} {{lineItemName4}} {{lineItemQuantity4}} miqdarı {{lineItemName5}} kəmiyyət {{lineItemQuantity5}} , {{lineItemName6}} kəmiyyət {{lineItemQuantity6}} və s.",
+          "view_order_details": "Sifariş təfərrüatlarına baxın",
+          "previous": "Əvvəlki",
+          "next": "Sonrakı"
+        },
+        "items": {
+          "one": "{{count}} element",
+          "other": "{{count}} element"
+        },
+        "list_view": "Siyahı görünüşünü göstərin",
+        "no_filtered_results_description": "Sifarişlərinizi görmək üçün filtrləri silin və ya tənzimləyin",
+        "no_filtered_results_title": "Filtrlənmiş nəticə yoxdur",
+        "order_link": "{{name}} sifarişinə baxın",
+        "order_number": "{{name}} sifariş edin",
+        "orders_title": "Təsdiq edildi",
+        "pagination": {
+          "nav_accessibility_label": "Naviqasiya düymələrini sifariş edin",
+          "next": "Sonrakı",
+          "next_accessibility_label": "Növbəti sifarişlər",
+          "previous": "Əvvəlki",
+          "previous_accessibility_label": "Əvvəlki sifarişlər",
+          "load_more": "Daha çox yükləyin",
+          "load_more_accessibility_label": "Daha çox sifariş yükləyin"
+        },
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Ətraflı məlumat üçün sifarişə baxın",
+            "estimated_delivery": "Gözlənilən {{date}}",
+            "last_updated": "Son yenilənmə {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Təxmini. çatdırılma {{date}}"
+          }
+        }
+      },
+      "list_layout_accessibility_label": "Layout variantları",
+      "list_title": "Sifarişlər",
+      "list_title_with_pending_orders": "Sifarişlər:",
+      "list_title_confirmed_orders_accessibility_label": "Sifarişlər: təsdiq edilmişdir",
+      "list_title_pending_orders_accessibility_label": "Sifarişlər: gözləyir",
+      "switch_order_type_pending_orders_accessibility_label": "Sifariş növünü dəyişin, hazırda gözlənilən sifarişlərə baxılır",
+      "switch_order_type_confirmed_orders_accessibility_label": "Sifariş növünü dəyişin, hazırda təsdiqlənmiş sifarişlərə baxılır"
     },
     "order_details": {
       "shipment_timeline": {
@@ -2040,6 +2115,57 @@
       "button": "Mağazada araşdırın",
       "previous_button": "Əvvəlki",
       "next_button": "Sonrakı"
+    },
+    "navigation_and_structure": {
+      "action_menu_accessibility_label": "Daha çox hərəkət",
+      "close_menu_accessibility_label": "Əsas naviqasiyanı bağlayın",
+      "contact_email_subject": "{{shopName}} onlayn mağazasından əlaqə saxlayın",
+      "contact_link": "Əlaqə məlumatı",
+      "delete_confirmation": {
+        "cancel": "Ləğv et",
+        "delete": "Sil"
+      },
+      "dismiss_toast": "Rədd et",
+      "document_title": "{{sectionName}} - {{shopName}} - Hesab",
+      "go_to_store_link": "Mağazaya gedin",
+      "loading_message": "Yüklənir",
+      "log_out_link": "Çıxın",
+      "logout_overlay_label": "Hesabdan çıxırsınız...",
+      "nav_label_accessibility_label": "Əsas naviqasiya",
+      "navigation_accessibility_message": "Siz {{sectionName}} bölməsinə keçdiniz",
+      "open_menu_accessibility_label": "Əsas naviqasiyanı açın",
+      "orders_link_label": "Sifarişlər",
+      "shop_logo_accessibility_label": "{{shopName}} loqosu",
+      "subscriptions_link_label": "Abunəliklər",
+      "settings_link": "Parametrlər"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Hesab məlumatları yüklənir",
+      "loading_finished_accessibility_message": "Hesab məlumatı yükləndi",
+      "profile_card": {
+        "cancel": "Ləğv et",
+        "cancel_accessibility_label": "Profilin redaktəsini ləğv edin",
+        "edit": "Redaktə et",
+        "edit_accessibility_label": "Profili redaktə edin",
+        "email_help_text": "Giriş üçün istifadə olunan e-poçt dəyişdirilə bilməz",
+        "first_name": "Ad",
+        "last_name": "Soyadı",
+        "no_name_provided_accessibility_label": "Ad əlavə edilməyib",
+        "phone_number_help_text": "Giriş üçün istifadə edilən telefon nömrəsi dəyişdirilə bilməz",
+        "save": "Saxla",
+        "save_accessibility_label": "Profili yadda saxla",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil yeniləndi",
+      "title": "Profil",
+      "people": {
+        "pagination": {
+          "load_more": "Daha çox yükləyin",
+          "load_more_accessibility_label": "Daha çox adam yükləyin",
+          "loading_accessibility_label": "İnsanlar yüklənir"
+        }
+      },
+      "add_button": "əlavə et"
     }
   },
   "customer": {
