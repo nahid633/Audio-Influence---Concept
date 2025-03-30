@@ -1366,6 +1366,148 @@
       "addresses": {
         "add_billing_address_button": "Faktura ünvanı əlavə edin"
       }
+    },
+    "orders": {
+      "order_status": {
+        "out_for_delivery_title": "Göndərməniz çatdırılmağa hazırdır",
+        "resume_tracking": "İzləməni davam etdirin",
+        "submitted_label": "Təqdim edildi",
+        "submitted_description": "Sifariş və ödəniş detallarını nəzərdən keçirin.",
+        "there_was_a_problem_label": "Problem var idi",
+        "track_shipment": "Göndərməni izləyin",
+        "request_return": "Qaytarma tələb edin",
+        "view_order_for_details": "Ətraflı məlumat üçün sifarişə baxın",
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Amazon-da idarə edin"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Amazon ilə idarə edin",
+            "new_window_disclaimer": "(yeni pəncərə açır)"
+          }
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Çatdırılmaya zəmanət verilir",
+            "external_promise_brand_label": "tərəfindən çatdırılma",
+            "not_delivered_by_label": "{{date}} tarixindən sonra çatdırılır",
+            "delivery_guarantee_expired_label": "Çatdırılma zəmanəti başa çatıb",
+            "modal_accessibility_button_label": "Çatdırılma vəd detalları",
+            "download_shop_app_button_label": "İzləmək üçün Shop-u yükləyin",
+            "track_with_shop_button_label": "Mağaza ilə izləyin",
+            "claim_shop_cash_button_label": "Mağazada Nağd pul tələb edin"
+          },
+          "details_modal": {
+            "title": "Çatdırılma zəmanəti",
+            "active_delivery_guarantee_label": "{{date}} tarixinə qədər çatdırılma",
+            "expired_delivery_guarantee_description": "Bu sifarişin 30 günlük Shop Promise zəmanətinin müddəti başa çatıb.",
+            "expired_badge_label": "İstifadə müddəti bitdi",
+            "order_includes_guarantees_label": "Sifarişinizə {{deliveryAgreementsCount}} zəmanət daxildir",
+            "order_includes_guarantees_description": "Shop Promise sürətli, etibarlı çatdırılmaya zəmanət verir. Sifarişiniz {{date}} tarixindən sonra çatarsa, Shop Cash tələb edin.",
+            "delivered_after_label": "{{date}} tarixindən sonra çatdırılır",
+            "delivered_after_description": "Sifarişiniz gec gəldiyi üçün siz {{amount}} Shop Cash tələb edə bilərsiniz.",
+            "claimed_shop_cash_description": "Bu sifariş gec gəldiyi üçün siz {{amount}} Shop Cash tələb etdiniz.",
+            "eligible_to_claim_shop_cash_description": "Sifarişiniz gec gəldiyi üçün siz {{amount}} Shop Cash tələb edə bilərsiniz.",
+            "learn_more_button_label": "Ətraflı məlumat əldə edin",
+            "claim_shop_cash_button_label": "Mağazada Nağd pul tələb edin",
+            "view_balance_in_shop_button_label": "Mağazada balansa baxın",
+            "scan_to_claim_shop_cash_label": "{{amount}} Shop Cash tələb etmək üçün skan edin"
+          }
+        },
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "Çatdırılma dəstəklənir",
+            "mixed_brands_label": "Çatdırılmaya zəmanət verilir",
+            "not_delivered_by_label": "{{date}} tarixinə qədər çatdırılmayıb",
+            "modal_accessibility_button_label": "Çatdırılma vəd detalları"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "Mağazanızın Nağd pulunu tələb edin",
+            "no_shop_app_label": "Shop Cash tələb etmək üçün {{appDownloadLink}}",
+            "download_shop_app_label": "Mağazanı yükləyin"
+          },
+          "details_modal": {
+            "title": "Çatdırılma dəstəklənir",
+            "modal_accessiblity_label": "Çatdırılma vəd detalları",
+            "delivery_guarantee_label": "Çatdırılma zəmanəti",
+            "delivery_by_label": "{{date}} tarixinə qədər çatdırılma",
+            "delivery_guaranteed_by_label": "Çatdırılmaya zəmanət {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise sürətli, etibarlı çatdırılmaya zəmanət verir. Sifarişiniz gec çatarsa, Shop Cash tələb edin.",
+              "may_be_eligible_not_authorized_label": "Bu sifariş gec gəldiyi üçün siz Shop Cash tələb edə bilərsiniz. Detalları görmək üçün daxil olun.",
+              "redeemed_label": "Bu sifariş gec gəldiyi üçün siz artıq Shop Cash tələb etmisiniz.",
+              "expired_label": "Bu sifariş gec çatdırılma iddiası üçün uyğun deyil, çünki 30 günlük zəmanət müddəti bitib.",
+              "no_shop_cash_label": "Bu sifariş Shop Pay ilə ödənilmədiyi üçün gec çatdırılma iddiası üçün uyğun deyil.",
+              "no_longer_guaranteed_label": "Bu əşyalar artıq çatdırılma zəmanəti ilə dəstəklənmir.",
+              "claim_shop_cash_title": "Shop Cash-də {{amount}} tələb etmək üçün skan edin",
+              "claim_shop_cash_description": "Siz Shop proqramında gələcək alışlarınız üçün Shop Cash-dən istifadə edə bilərsiniz."
+            }
+          }
+        }
+      },
+      "status_mark_as_delivered": "Çatdırılmış kimi qeyd edin",
+      "fulfillment_status_title": "İcra vəziyyəti: {{status}}",
+      "buy_again": "Yenidən al",
+      "buy_again_accessibility_label": "{{orderId}} sifarişi üçün yenidən alın",
+      "manage": "İdarə et",
+      "manage_accessiblity_label": "{{orderId}} sifarişini idarə edin"
+    },
+    "order_details": {
+      "shipment_timeline": {
+        "expand_events_label": "Detalları göstərin",
+        "expand_events_accessibility_label": "Sifariş göndərmə təfərrüatlarını göstərin",
+        "hide_events_label": "Detalları gizlədin",
+        "hide_events_accessibility_label": "Sifariş göndərmə təfərrüatlarını gizlədin"
+      },
+      "addresses_section_title": "Hesablama və göndərmə",
+      "order_details": "Sifariş təfərrüatları",
+      "order_details_skeleton_accessibility_label": "Bütün sifariş təfərrüatlarına baxmaq üçün daxil olun.",
+      "billing_address": "Faktura ünvanı",
+      "card_ending_with": "{{lastDigits}} ilə bitən",
+      "contact": "Əlaqə",
+      "contact_information": "Əlaqə məlumatı",
+      "company": "Şirkət",
+      "fully_refunded_label": "QAYTA OLUNUB",
+      "group_title_label": "Hissə: {{groupTitle}}",
+      "grouped_view_components": {
+        "expand_line_items": "{{count}} elementi göstərin",
+        "collapse_line_items": "{{count}} elementi gizlədin",
+        "line_item_summary_list_accessibility_label": "{{productTitle}} paketindəki elementlər"
+      },
+      "discount": "Endirim",
+      "hide_items": "Elementləri gizlədin",
+      "loading": "Sifariş təfərrüatları yüklənir",
+      "loading_finished_accessibility_message": "Sifariş detalları yükləndi",
+      "location": "Məkan",
+      "image_gallery": {
+        "next": "Növbəti elementləri göstərin",
+        "previous": "Əvvəlki elementləri göstərin",
+        "load_more_items": {
+          "one": "Daha {{count}} element yükləyin",
+          "other": "Daha {{count}} element yükləyin"
+        }
+      },
+      "mobile_summary_toggle_button": {
+        "open": "Sifariş xülasəsini göstərin",
+        "closed": "Sifariş xülasəsini gizlədin"
+      },
+      "no_data": "Heç biri",
+      "no_data_provided_accessibility_label": "{{fieldName}} boşdur",
+      "not_applicable": "Yoxdur",
+      "paid_amount": "Ödənişli",
+      "partially_refunded_label": "QISMEN QAYTARIB",
+      "payment": {
+        "status_in_review": "Baxışdan sonra ödəniləcək",
+        "status_unpaid": "{{date}} tarixində ödəniləcək ödəniş",
+        "title": "Ödəniş",
+        "payment_type": {
+          "gift_card": "Hədiyyə kartı",
+          "store_credit": "Mağaza krediti",
+          "money_order": "Pul Sifarişi",
+          "cash_on_delivery": "Çatdırılma zamanı nağd pul (COD)",
+          "bank_deposit": "Bank depoziti"
+        }
+      }
     }
   },
   "customer": {
