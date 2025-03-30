@@ -1,0 +1,250 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " və ",
+      "last_word_connector": ", və "
+    },
+    "checkout": {
+      "address_management": {
+        "confirm_address_deletion": "{{address}} ünvanını silmək istədiyinizə əminsiniz?"
+      },
+      "general": {
+        "page_title": "Yoxlama",
+        "error_page_title": "Xəta",
+        "skip_to_content": "Məzmuna keçin",
+        "breadcrumb": "Çörək qırıntıları",
+        "continue_button_label": "Davam et",
+        "complete_purchase_button_label": "Sifarişi tamamlayın",
+        "pay_now_button_label": "İndi ödəyin",
+        "authenticate_purchase_button_label": "Ödənişi təsdiqləyin",
+        "edit_link_label": "Redaktə et",
+        "all_rights_reserved": "Bütün hüquqlar qorunur %{shop_name}",
+        "print_policies_link_label": "Çap et",
+        "cart": "Səbət",
+        "close_modal_label": "Bağlayın",
+        "close_notice_label": "Bağlayın",
+        "expand_notice_label": "Daha çox baxın",
+        "continue_to_shipping_method": "Göndərməyə davam edin",
+        "continue_to_payment_method": "Ödəməyə davam edin",
+        "continue_to_review": "Sifarişi nəzərdən keçirin",
+        "back_to_cart": "Səbətə qayıt",
+        "back_to_contact_information": "Məlumata qayıt",
+        "back_to_shipping_method": "Göndərməyə qayıt",
+        "back_to_payment_method": "Ödənişə qayıdın",
+        "choose_shipping_method": "Göndərmə üsulunu seçin",
+        "choose_payment_method": "Ödəniş metodu seçin",
+        "choose_billing_address": "Faktura ünvanı seçin",
+        "contact_us_html": "Əlavə məlumat üçün bizimlə əlaqə saxlayın",
+        "autocomplete_title": "Təkliflər",
+        "autocomplete_single_item": "1 ədəd mövcuddur",
+        "autocomplete_multi_item": "{{number}} element mövcuddur",
+        "autocomplete_close": "Təklifləri bağlayın",
+        "forwarding_indicator": {
+          "new_window": "Yeni pəncərədə açılır.",
+          "external": "Xarici saytı açır.",
+          "external_and_new_window": "Xarici veb-saytı yeni pəncərədə açır."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} - Ödəniş"
+        },
+        "tooltip_accessibility_label": "Ətraflı məlumat",
+        "qr_code": "QR kodu",
+        "errors": {
+          "only_empty_terms_accepted": "Bu siyasət yalnız boş şərtləri qəbul edir.",
+          "session_identifier_not_unique_error": "Sifarişinizdə xəta baş verdi, lütfən, yenidən yoxlamağa cəhd edin.",
+          "line_item_limit_reached": "Sətir elementlərinin maksimum sayına çatıldı.",
+          "session_is_already_finished": "Bu yoxlama sessiyası artıq yekunlaşıb.",
+          "merchandise": {
+            "only_value_constraint": "Mal girişində yalnız dəqiq dəyərlərə icazə verilir.",
+            "merchandise_not_found": "Məhsul tapılmadı.",
+            "merchandise_variant_not_found": "Məhsul variantı tapılmadı.",
+            "merchandise_not_applicable": "Məhsul variantı alına bilməz.",
+            "mixed_currencies": "Checkout müxtəlif valyutalarla sətir elementlərini ehtiva edir.",
+            "bundle_products_not_supported_for_b2b": "Paketlənmiş əşyalar bu məkan üçün B2B sifarişlərinə əlavə edilə bilməz.",
+            "gift_card_quantity_mismatch": "Hədiyyə kartı kodlarını təyin edərkən, sətir elementinin sayı və hədiyyə kartı kodlarının sayı uyğun olmalıdır.",
+            "gift_card_not_supported": "Hədiyyə kartları bu ödənişdə dəstəklənmir.",
+            "gift_card_not_unique": "{{code}} kodu olan hədiyyə kartı bu ödənişdə bir dəfədən çox olur. Kodlar müqayisədən əvvəl formatlanır.",
+            "gift_card_used": "Hədiyyə kartı kodu {{code}} artıq hədiyyə kartına təyin edilib. Kodlar müqayisədən əvvəl formatlanır.",
+            "gift_card_invalid": "Hədiyyə kartı kodu {{code}} yanlışdır.",
+            "gift_card_code_changed": "Hədiyyə kartı kodu {{proposed_code}} formatlaşdırma qaydalarına uyğun olaraq {{formatted_code}} olaraq dəyişdirildi.",
+            "gift_card_with_attributes_not_supported": "Fərdi atributları olan hədiyyə kartları bu ödənişdə dəstəklənmir.",
+            "gift_card_with_components_not_supported": "Komponentləri olan hədiyyə kartları bu ödənişdə dəstəklənmir.",
+            "selling_plan_mismatch": "Abunəlik yeniləndi.",
+            "selling_plan_not_supported": "Abunəliklər dəstəklənmir.",
+            "selling_plan_not_supported_b2b": "Abunəliklər B2B ödənişi üçün dəstəklənmir.",
+            "price_mismatch": "Bu məhsul üçün əvvəllər təklif edilən qiymət etibarsız idi və yeniləndi.",
+            "inventory_not_found": "Bu mal üçün inventar tapılmadı.",
+            "product_not_published": "Məhsul dərc edilmir.",
+            "product_not_published_in_buyer_location": "Məhsul alıcının yerində dərc edilmir.",
+            "duplicated_stable_id": "Bu mal xətti digər xətt ilə eyni stabil ID-yə malikdir.",
+            "minimum_quantity_not_met": "Bəzi maddələrin miqdarı tələb olunan minimuma cavab vermir.",
+            "maximum_quantity_exceeded": "Bəzi maddələrin sayı icazə verilən maksimumu keçir.",
+            "quantity_increment_not_met": "Bəzi məhsulların sayı sifariş limitlərinə uyğun gəlmir.",
+            "quantity_rules_not_met": "Bəzi məhsulların sayı sifariş limitlərinə uyğun gəlmir.",
+            "bundle_requires_components": "Bu paketin heç bir komponenti yoxdur.",
+            "title_too_long": "Malın adı çox uzundur.",
+            "title_empty": "Malın adı boşdur."
+          },
+          "buyer_identity": {
+            "business_customer_does_not_match_company": "Şirkət əlaqəsinin şirkətə girişi yoxdur.",
+            "customer_account_required": "Davam etmək üçün müştəri daxil olmalıdır.",
+            "company_location_required": "Müştəri davam etmək üçün şirkət yerini seçməlidir.",
+            "company_purchase_permission_required": "Müştərinin şirkət sifarişləri vermək icazəsi yoxdur.",
+            "personal_order_not_allowed": "Bu mağaza üçün şəxsi sifarişlərə icazə verilmir.",
+            "lost_access_to_company": "Müştəri istənilən şirkətə girişi itirdi.",
+            "contact_info_does_not_match_customer_account": "Göstərilən müştəri məlumatı daxil olmuş müştəri hesabına uyğun olmalıdır.",
+            "phone_number_does_not_match_expected_pattern": "Göstərilən telefon nömrəsi gözlənilən modelə uyğun gəlmir.",
+            "email_required": "Abunəlikdən istifadə edərək mal alındıqda e-poçt tələb olunur.",
+            "email_domain_is_invalid": "Bu göstərilən domen həll edilə bilməz.",
+            "missing_contact_method": "Etibarlı əlaqə metodu çatışmır.",
+            "checkout_completion_target_is_missing": "Ödənişin tamamlanması hədəfi çatışmır.",
+            "invalid_customer_profile": "Yanlış müştəri profili təqdim edildi.",
+            "customer_profile_access_restricted": "Checkout-un müştəri profilinə daxil olmaq icazəsi yoxdur.",
+            "checkout_completion_target_is_invalid_proc": "Yanlış ödəniş tamamlama hədəfi."
+          },
+          "delivery": {
+            "only_one_delivery_line_allowed": "Səbətdə yalnız bir çatdırılma xətti olmalıdır.",
+            "wrong_number_of_delivery_lines": "Hər bir mal qrupu üçün çatdırılma xətti müəyyən edilməlidir.",
+            "external_delivery_promise_error": "Xarici çatdırılma vədi gətirmə xətası.",
+            "options_instructions_invalid": "Göstərilən təlimatlar gözlənilən nümunəyə uyğun gəlmir.",
+            "destination_address_required": "Davam etmək üçün təyinat ünvanı tələb olunur.",
+            "pickup_points_unavailable": "Qəbul məntəqələri hazırda əlçatan deyil.",
+            "local_pickup_delivery_line_detail_changed": "Davam etmək üçün cari yerli çatdırılma strategiyası dəyişdirilməlidir.",
+            "local_pickup_no_delivery_strategy_available": "Əlçatan yerli çatdırılma strategiyası tapılmadı.",
+            "origin_location_id_required": "PƏRAKƏNDƏ çatdırılma metodu tələb olunduqda mənşə yeri ID-si tələb olunur.",
+            "invalid_origin_location_id": "Mənşə məkan ID-sinə uyğun Məkan tapmaq mümkün olmadı.",
+            "origin_location_id_not_allowed": "Tələb olunan çatdırılma üsulları mənşə yeri ID-ni dəstəkləmir.",
+            "auto_fulfill_not_allowed": "Bu sessiya yerinə yetirmə davranışını ləğv etmək səlahiyyətinə malik deyil."
+          },
+          "fx_reconciliation_override": {
+            "shop_currency_mismatch": "Alınan məbləğ mağaza valyutasında olmalıdır."
+          },
+          "checkout_source": {
+            "revoked": "Bu yoxlama artıq mövcud deyil."
+          }
+        },
+        "full_price": "Tam qiymət:",
+        "title": "Checkout - {{shopName}}",
+        "full_title": "{{pageTitle}} - {{shopName}} - Checkout",
+        "loading": "Yüklənir...",
+        "loading_title": "Checkout - {{shopName}}",
+        "google_map_title": "Google Xəritə",
+        "confirm_order_button_label": "Sifarişi təsdiqləyin",
+        "submit_order_button_label": "Sifariş verin",
+        "submit_for_review_button_label": "Nəzərdən keçirilməsi üçün təqdim edin",
+        "submit_for_review_notice_label": "Sifarişinizə baxılana qədər ödəniş ödənilməyəcək",
+        "continue_to_payment_plans_button_label": "Ödəniş planlarına davam edin",
+        "back_button_label": "Qayıt",
+        "choose_delivery_strategy": "Çatdırılma üsulunu seçin",
+        "autocomplete_zero_item": "Element yoxdur",
+        "autocomplete_powered_by_google": "{{brandName}} tərəfindən dəstəklənir",
+        "submit": "Təqdim et",
+        "processing": "Emal edilir...",
+        "stepper": {
+          "increase": "{{type}} artırın",
+          "decrease": "{{type}} azaldın",
+          "minimum_reached": "Minimum {{value}} əldə edildi",
+          "maximum_reached": "{{value}} maksimuma çatdı"
+        },
+        "remove_item": "%{label} silin",
+        "remove_tag": "Etiketi çıxarın",
+        "dates": {
+          "weekdays": {
+            "monday": "bazar ertəsi",
+            "tuesday": "çərşənbə axşamı",
+            "wednesday": "çərşənbə",
+            "thursday": "cümə axşamı",
+            "friday": "cümə",
+            "saturday": "şənbə",
+            "sunday": "bazar günü"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "Biz"
+          },
+          "months": {
+            "january": "yanvar",
+            "february": "fevral",
+            "march": "mart",
+            "april": "aprel",
+            "may": "may",
+            "june": "iyun",
+            "july": "iyul",
+            "august": "avqust",
+            "september": "sentyabr",
+            "october": "oktyabr",
+            "november": "noyabr",
+            "december": "dekabr"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Əvvəlki ayı göstər, {{month}} {{year}}",
+          "show_next_month": "Gələn ay göstər, {{month}} {{year}}",
+          "range_start": "Aralığın başlanğıcı",
+          "in_range": "Menzilde",
+          "range_end": "Aralığın sonu"
+        },
+        "map": {
+          "cluster_title": {
+            "one": "{{number}} marker klasteri",
+            "other": "{{number}} markerlər klasteri"
+          }
+        },
+        "sheet": {
+          "expand": "Genişləndirin"
+        },
+        "dropzone": {
+          "add_file": "Fayl əlavə edin",
+          "invalid_file_type": "Fayl növü dəstəklənmir",
+          "dragged_over": "Yükləmək üçün faylı buraxın"
+        }
+      },
+      "contact": {
+        "title": "Məlumat",
+        "address_title": "Ünvan",
+        "shipping_used_as_billing_notice": "Bu, həmçinin bu sifariş üçün faktura ünvanınız kimi istifadə olunacaq.",
+        "delivery_option_title": "Çatdırılma üsulu",
+        "contact_method_title": "Əlaqə",
+        "email_label": "E-poçt",
+        "email_placeholder": "E-poçt",
+        "email_or_phone_label": "E-poçt və ya mobil telefon nömrəsi",
+        "email_or_phone_placeholder": "E-poçt və ya mobil telefon nömrəsi",
+        "stored_addresses_label": "Saxlanılan ünvanlar",
+        "available_addresses_label": "Mövcud ünvanlar",
+        "new_address_label": "Yeni ünvandan istifadə edin",
+        "first_name_label": "Ad",
+        "optional_first_name_label": "Ad (istəyə görə)",
+        "last_name_label": "Soyadı",
+        "company_label": "Şirkət",
+        "company_attention_label": "Şirkət/Diqqət",
+        "optional_company_attention_label": "Şirkət/Diqqət (isteğe bağlı)",
+        "optional_company_label": "Şirkət (isteğe bağlı)",
+        "address1_label": "Ünvan",
+        "address2_label": "Mənzil, suite və s.",
+        "optional_address2_label": "Mənzil, suit və s. (istəyə görə)",
+        "city_label": "Şəhər",
+        "country_label": "Ölkə/Region",
+        "country_code": "Ölkə/Region kodu",
+        "province_label": "Vilayət",
+        "province_placeholder": "Vilayət",
+        "county_label": "Rayon",
+        "county_placeholder": "Rayon",
+        "state_label": "dövlət",
+        "state_placeholder": "dövlət",
+        "region_none": "Heç biri seçilməyib",
+        "prefecture_label": "Prefektura",
+        "prefecture_placeholder": "Prefektura",
+        "governorate_label": "Qubernatorluq",
+        "governorate_placeholder": "Qubernatorluq"
+      }
+    }
+  }
+}
