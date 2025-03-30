@@ -71,9 +71,9 @@
         "heading_Yjnxba": {
           "type": "heading",
           "settings": {
-            "heading": "Rich text",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
+            "heading": "PREMIUM SPORTS NUTRITION",
+            "heading_size": "title-sm",
+            "heading_tag": "h6",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -81,7 +81,7 @@
         "text_7RJd9D": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Over 30 years ago, we developed sports nutrition for athletes with the highest demands. One of these athletes with the highest demands was Arnold Schwarzenegger. Arnold Schwarzenegger was not only an endorser but also a co-owner of ALL STARS. Our roots lie in professional bodybuilding. Today, we use this knowledge to offer everyone – whether a beginner or a professional athlete – the perfect sports nutrition to achieve every athletic goal.</p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
@@ -92,6 +92,7 @@
         },
         "button_EhW7EC": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -200,7 +201,7 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "heading": "Collections",
+        "heading": "",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
