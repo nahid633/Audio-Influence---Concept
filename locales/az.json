@@ -1754,14 +1754,156 @@
               "claim_shop_cash_description": "Siz Shop proqramında gələcək alışlarınız üçün Shop Cash-dən istifadə edə bilərsiniz."
             }
           }
-        }
+        },
+        "attempted_delivery_label": "Çatdırılma cəhdi",
+        "attempted_delivery_description": "Çatdırılma cəhdi uğursuz oldu.",
+        "attempted_to_deliver_label": "Çatdırmağa çalışdı",
+        "confirmed_description": "Sifarişinizi aldıq.",
+        "on_its_way_description": "Bu göndəriş yoldadır.",
+        "out_for_delivery_description": "Bu göndərmə çatdırılma üçün hazırdır.",
+        "preparing_for_shipping_label": "Göndərməyə hazırlaşır",
+        "preparing_for_shipping_description": "Bu əşyalar göndərilməyə hazırlanır.",
+        "ready_for_pickup_label": "Almağa hazırdır",
+        "ready_for_pickup_description": "Bu əşyalar götürülməyə hazırdır. Zəhmət olmasa, sifarişinizi götürərkən sifariş təsdiqini gətirin.",
+        "ready_for_pickup_location": "Sifarişiniz yerdən götürülməyə hazırdır",
+        "picked_up_label": "götürüldü",
+        "picked_up_description": "Bu əşyalar götürülüb.",
+        "canceled_description": "Sifarişiniz {{date}} tarixində ləğv edildi.",
+        "canceled_label": "Ləğv edildi",
+        "canceled_title": "Sifarişiniz ləğv edildi",
+        "come_back": "Göndərmə statusunuzla bağlı yeniləmələr üçün bu səhifəyə qayıdın.",
+        "company_tracking_number": "{{company}} izləmə nömrəsi:",
+        "confirmed_label": "Təsdiq edildi",
+        "confirmed_title": "Sifarişiniz təsdiqləndi",
+        "confirmed_description_pickup": "Sifarişiniz götürülməyə hazır olduqda e-məktub alacaqsınız.",
+        "confirmed_description_digital": "Sifarişiniz hazır olduqda e-poçt alacaqsınız.",
+        "confirmed_description_gift_card_text": "Sifarişiniz hazır olduqda bir mətn alacaqsınız.",
+        "delivered_description": "Bu göndərmə çatdırıldı.",
+        "complete_label": "Tamamlayın",
+        "delivered_label": "Çatdırıldı",
+        "delivered_title": "Göndərməniz çatdırıldı",
+        "delivered_description_digital": {
+          "one": "Bu maddə tamamlandı.",
+          "other": "Bu maddələr tamdır."
+        },
+        "delivered_description_gift_card": {
+          "one": "Hədiyyə kartı e-poçt vasitəsilə göndərildi.",
+          "other": "Hədiyyə kartları elektron poçtla göndərildi."
+        },
+        "delivered_description_gift_card_text": {
+          "one": "Hədiyyə kartı mətnlə göndərildi.",
+          "other": "Hədiyyə kartları mətnlə göndərildi."
+        },
+        "gift_card_label": {
+          "one": "Hədiyyə kartı",
+          "other": "Hədiyyə kartları"
+        },
+        "gift_card_resend_button": {
+          "one": "Hədiyyə kartını yenidən göndərin",
+          "other": "Hədiyyə kartlarını yenidən göndərin"
+        },
+        "gift_resend_success": {
+          "one": "Hədiyyə kartı yenidən göndərildi",
+          "other": "Hədiyyə kartları yenidən göndərilir"
+        },
+        "gift_resend_failure": {
+          "one": "Hədiyyə kartınızı yenidən göndərərkən problem baş verdi. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın.",
+          "other": "Hədiyyə kartlarınızı yenidən göndərərkən problem baş verdi. Yenidən cəhd edin və ya bizimlə əlaqə saxlayın."
+        },
+        "confirmed_gift_card_additional_description": {
+          "one": "Hədiyyə kartı ayrıca e-poçta göndəriləcək.",
+          "other": "Hər bir hədiyyə kartı ayrıca e-poçtla göndəriləcək."
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Hədiyyə kartı ayrıca mətnlə göndəriləcək.",
+          "other": "Hər bir hədiyyə kartı ayrıca mətndə göndəriləcək."
+        },
+        "status_timestamp": "Yenilənib {{date}}",
+        "estimated_delivery": "Gözlənilən {{date}}",
+        "delivered": "{{date}} çatdı",
+        "buy_with_prime_logo_accessibility_label": "Prime loqotipi ilə Amazon Buy",
+        "in_review_description": "Bizə əlavə məlumat lazım olsa və ya sifarişiniz təsdiqləndikdə sizə məlumat verəcəyik.",
+        "in_review_label": "Baxışda",
+        "in_review_title": "Sifarişiniz nəzərdən keçirilir",
+        "last_updated": "Son yenilənmə {{date}}",
+        "multiple_shipments_label": "Çoxsaylı göndərişlər",
+        "multiple_statuses_label": "Çoxlu sifariş statusları",
+        "no_tracking_number": "Bu göndəriş üçün izləmə nömrəsi yoxdur.",
+        "tracking_number": {
+          "one": "İzləmə nömrəsi",
+          "other": "İzləmə nömrələri"
+        },
+        "on_its_way_label": "Yolda",
+        "on_its_way_title": "Göndərməniz yoldadır",
+        "out_for_delivery_label": "Çatdırılma üçün çıxdı"
       },
       "status_mark_as_delivered": "Çatdırılmış kimi qeyd edin",
       "fulfillment_status_title": "İcra vəziyyəti: {{status}}",
       "buy_again": "Yenidən al",
       "buy_again_accessibility_label": "{{orderId}} sifarişi üçün yenidən alın",
       "manage": "İdarə et",
-      "manage_accessiblity_label": "{{orderId}} sifarişini idarə edin"
+      "manage_accessiblity_label": "{{orderId}} sifarişini idarə edin",
+      "order_list": {
+        "payment_status": {
+          "list_view": {
+            "due_on_fulfillment": "Ödəniş yerinə yetirildikdə ödənilir",
+            "pay_to_confirm": "Təsdiq etmək üçün ödəyin",
+            "payment_not_due": "Ödəniş hələ vaxtı deyil"
+          },
+          "table_view": {
+            "overdue": "Vaxtı keçmiş",
+            "due": "{{date}} vaxtı",
+            "due_today": "Bu günə qədər",
+            "paid": "Ödənişli",
+            "due_without_date": "Vaxtı var",
+            "due_on_fulfillment": "Yerinə yetirilməsinə görə",
+            "pay_to_confirm": "Təsdiq etmək üçün ödəyin",
+            "payment_not_due": "Hələ vaxtı deyil"
+          }
+        },
+        "sort_by": "Sırala: {{option}}",
+        "sort_hide_options_accessibility_label": "Təsdiqlənmiş sifarişlər üçün çeşidləmə seçimlərini gizlədin.",
+        "sort_show_options_accessibility_label": "Təsdiqlənmiş sifarişlər üçün çeşidləmə seçimlərini göstərin.",
+        "sort_currently_sorted_by_accessibility_label": "Hazırda sıralanıb: {{option}}",
+        "sort_title": "Sırala",
+        "sort": {
+          "date": {
+            "newest": "Ən yenidən köhnəyə",
+            "oldest": "Ən köhnədən yeniyə"
+          },
+          "location": {
+            "ascending": "Məkan (AZ)",
+            "descending": "Məkan (ZA)"
+          },
+          "order_number": {
+            "ascending": "Sifariş nömrəsi (aşağıdan yuxarıya)",
+            "descending": "Sifariş nömrəsi (yüksəkdən aşağıya)"
+          },
+          "order_total": {
+            "ascending": "Sifarişin cəmi (aşağıdan yuxarıya)",
+            "descending": "Sifarişin cəmi (yüksəkdən aşağıya)"
+          }
+        },
+        "filter_title": "Filtr",
+        "filter": {
+          "clear_section": "Bölməni təmizləyin",
+          "clear_all": "Hamısını silin",
+          "apply": "Müraciət edin",
+          "date": {
+            "start_date": "Başlama tarixi",
+            "end_date": "Bitmə tarixi",
+            "title": "Sifariş tarixi",
+            "today": "Bu gün",
+            "last_7_days": "Son 7 gün",
+            "last_30_days": "Son 30 gün",
+            "last_90_days": "Son 90 gün",
+            "last_365_days": "Son 12 ay",
+            "custom": "Xüsusi"
+          }
+        },
+        "table_view": "Cədvəl görünüşünü göstərin",
+        "show_order_actions_accessibility_label": "{{name}} sifarişi üçün sifariş əməliyyatlarını göstərin"
+      }
     },
     "order_details": {
       "shipment_timeline": {
