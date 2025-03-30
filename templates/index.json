@@ -249,11 +249,30 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "video_gtckbR": {
+      "type": "video",
+      "settings": {
+        "transparent_header": false,
+        "video": "shopify://files/videos/3497aab0334340fb87697e83897705d7.HD-720p-4.5Mbps-35973238.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "image_height": "adapt",
+        "image_height_mobile": "auto",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "divider": false,
+        "full_width": true,
+        "rounded": false
+      }
     }
   },
   "order": [
     "slideshow_RhNKgd",
     "rich_text_wg3PNV",
-    "collection_list_3RbrbU"
+    "collection_list_3RbrbU",
+    "video_gtckbR"
   ]
 }
