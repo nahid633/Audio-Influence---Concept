@@ -93,8 +93,19 @@
             "help_page": ""
           }
         },
+        "collapsible_tab_RXPycc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "heart",
+            "heading": "Short Descriptiom",
+            "content": "{{ product.metafields.custom.short_description | metafield_tag }}",
+            "page": "",
+            "liquid": ""
+          }
+        },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "text_size": "text-base"
           }
@@ -111,6 +122,7 @@
         "pickup_availability",
         "complementary",
         "share",
+        "collapsible_tab_RXPycc",
         "description"
       ],
       "settings": {
@@ -198,7 +210,7 @@
         "description_aKfrBy": {
           "type": "description",
           "settings": {
-            "heading": "Description"
+            "heading": "Details"
           }
         },
         "collapsible_tab_ky4chy": {
@@ -224,9 +236,9 @@
         "collapsible_tab_Ww3t8i"
       ],
       "settings": {
-        "open_first_row": false,
-        "specifications_heading": "Included in the Box",
-        "heading": "Product details",
+        "open_first_row": true,
+        "specifications_heading": "",
+        "heading": "",
         "heading_size": "title-md",
         "heading_alignment": "text-left md:items-end md:flex-row",
         "heading_tag": "h2",
