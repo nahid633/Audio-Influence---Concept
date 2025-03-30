@@ -183,39 +183,13 @@
             "color_overlay": "#000000",
             "overlay_opacity": 30
           }
-        },
-        "collection_yeWRVW": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection_PUHeYt": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "description": "",
-            "overlay_content": false,
-            "color_text": "#ffffff",
-            "color_overlay": "#000000",
-            "overlay_opacity": 30
-          }
         }
       },
       "block_order": [
         "collection_f7NATJ",
         "collection_zLAhyj",
         "collection_TKwarK",
-        "collection_QdcYQ9",
-        "collection_yeWRVW",
-        "collection_PUHeYt"
+        "collection_QdcYQ9"
       ],
       "settings": {
         "columns": 4,
