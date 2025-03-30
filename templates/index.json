@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/BryanEAA.jpg",
-            "heading": "Image slide",
+            "heading": "Premium Sports Nutrition",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "",
@@ -28,7 +28,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/DSC_0655-Edit-4__1.webp",
-            "heading": "Image slide",
+            "heading": "Made in Germany",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
             "button_label": "",
