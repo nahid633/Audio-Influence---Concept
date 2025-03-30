@@ -160,6 +160,7 @@
         },
         "link_list-2": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "Shop",
             "menu": "main-menu",
