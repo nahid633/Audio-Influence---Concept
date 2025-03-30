@@ -123,13 +123,132 @@
             "origin_location_id_required": "PƏRAKƏNDƏ çatdırılma metodu tələb olunduqda mənşə yeri ID-si tələb olunur.",
             "invalid_origin_location_id": "Mənşə məkan ID-sinə uyğun Məkan tapmaq mümkün olmadı.",
             "origin_location_id_not_allowed": "Tələb olunan çatdırılma üsulları mənşə yeri ID-ni dəstəkləmir.",
-            "auto_fulfill_not_allowed": "Bu sessiya yerinə yetirmə davranışını ləğv etmək səlahiyyətinə malik deyil."
+            "auto_fulfill_not_allowed": "Bu sessiya yerinə yetirmə davranışını ləğv etmək səlahiyyətinə malik deyil.",
+            "auto_fulfill_required": "PƏRAKƏNDƏ çatdırılma metodu tələb olunduqda avtomatik yerinə yetirmə tələb olunur.",
+            "prefetch_shipping_rates_used": "Əvvəlcədən təyin edilmiş göndərmə tarifləri heç vaxt tarifləri qaytarmamalıdır.",
+            "fulfillment_constraints_not_satisfied": "Bir və ya daha çox icra məhdudiyyəti təmin edilmədi.",
+            "must_fulfill_from_constraint_not_satisfied": "Tələb olunan yerlərdən maddələr yerinə yetirilə bilmədiyi üçün yerinə yetirmə məhdudiyyətləri təmin edilmir.",
+            "must_fulfill_from_same_location_constraint_not_satisfied": "Yerinə yetirmə məhdudiyyətləri təmin edilmir, çünki maddələr eyni yerdən yerinə yetirilə bilməz.",
+            "delivery_strategy_conditions_not_satisfied": "Bu yer üçün çatdırılma strategiyaları mövcuddur, lakin onların şərtləri təmin edilmir.",
+            "out_of_stock_at_origin_location": "Mənşə yerində ehtiyat yoxdur.",
+            "invalid_signature": "Etibarsız endirim imzası."
           },
           "fx_reconciliation_override": {
             "shop_currency_mismatch": "Alınan məbləğ mağaza valyutasında olmalıdır."
           },
           "checkout_source": {
             "revoked": "Bu yoxlama artıq mövcud deyil."
+          },
+          "discount": {
+            "discounts_not_allowed_for_b2b": "B2B mağazalarında endirimlərə icazə verilmir.",
+            "custom_discount_not_honoured": "Təchiz edilən xüsusi endirimə layiq görülmədi.",
+            "unsupported_expectation": "Təqdim olunan endirim xətti siyasətin şərh edə bilməyəcəyi gözləntidən ibarət idi.",
+            "additional_requested_discount_code_discarded": "Tələb olunan əlavə kod endirimi ləğv edildi.",
+            "allocations_mismatch": "Gözlənilən endirim bölgüsü faktiki endirim bölgüsünə uyğun gəlmir.",
+            "discount_title_too_long": "Endirim başlığı 255 simvoldan çox ola bilməz."
+          },
+          "tax": {
+            "new_tax_must_be_accepted": "Sifarişinizlə əlaqəli vergilər dəyişdi. Nəzərdən keçirin və yenidən cəhd edin.",
+            "unresolvable_tax_terms": "Təklif olunan şərtlər hazırkı danışıqlar kontekstini nəzərə alaraq həll edilə bilməz.",
+            "delivery_price_is_abstract": "Müvafiq çatdırılma qiyməti mücərrəddir.",
+            "tax_inclusivity_mismatch": "Konkret totalTaxAndDutyAmount və ya totalAmountIncludedInTarget dəyəri ilə yenidən danışıqlar aparın.",
+            "tax_exemption_not_supported": "Cari danışıqlar sessiyası üçün vergi güzəştləri dəstəklənmir.",
+            "delivery_tax_exemption_not_supported": "Çatdırılma xətləri üçün vergi güzəştləri hazırda dəstəklənmir.",
+            "proposed_allocations_required": "\"Təklif olunan ayırmalar\" sahəsi çatışmır.",
+            "merchandise_terms_must_be_defined": "Malların şərtləri müəyyən edilməlidir.",
+            "delivery_terms_must_be_defined": "Çatdırılma şərtləri müəyyən edilməlidir.",
+            "merchandise_discount_terms_must_be_defined": "Malların endirim şərtləri müəyyən edilməlidir.",
+            "delivery_discount_terms_must_be_defined": "Çatdırılma endirimi şərtləri müəyyən edilməlidir.",
+            "allocated_required": "\"Ayrılmış\" sahə çatışmır.",
+            "value_required": "\"Dəyər\" sahəsi çatışmır.",
+            "line_splits_not_supported": "\"mal xətləri\" sahəsi elə bölünməlidir ki, hər birinin satıcı təklifində tək sətir komponenti olsun."
+          },
+          "payment": {
+            "manual_payments_not_allowed_for_b2b": "B2B mağazalarında əl ilə ödənişlərə icazə verilmir.",
+            "positive_amount_expected": "Ödəniləcək məbləğ 0-dan çox olmalıdır.",
+            "total_amount_mismatch": "Ödəniləcək ümumi məbləğ ödəniş məbləğinin cəminə uyğun gəlmir.",
+            "subscription_terms_not_accepted": "Abunəlik şərtləri qəbul edilmir.",
+            "missing_session_id": "Kredit kartı sessiyası məlumatı çatışmır.",
+            "gateway_not_supported": "Ödəniş şlüzü ödəniş metodunun saxlanmasını dəstəkləmir.",
+            "credit_card_last_name_required": "'soyad' sıfır ola bilməz.",
+            "credit_card_update_failed": "Kredit kartını yeniləmək alınmadı.",
+            "installments_amount_invalid": "Taksitlər əməliyyatı üçün etibarsız məbləğ.",
+            "installments_test_mode_not_allowed": "Test rejiminə icazə verilmir.",
+            "installments_gift_card_not_allowed": "Taksitlə ödənişlər hədiyyə kartlarından istifadəyə icazə vermir.",
+            "installments_unsupported_currency": "Taksitlər bu valyutanı dəstəkləmir.",
+            "installments_unsupported_shipping": "Bu ünvana hissə-hissə göndərilməsini dəstəkləmir.",
+            "installments_unsupported_billing": "Taksitlər bu faktura ünvanını dəstəkləmir.",
+            "installments_unsupported_subscriptions": "Taksitlər abunəlikləri dəstəkləmir.",
+            "installments_ineligible_line_item": "Bu alışda sətir elementi üçün taksitlər deaktiv edilib.",
+            "shop_cash_not_found": "Shop Cash tapılmadı.",
+            "shop_cash_not_allowed": "Shop Pay olmadan nağd alış-verişə icazə verilmir.",
+            "shop_cash_unsupported_checkout_source": "Shop Cash bu ödənişi dəstəkləmir.",
+            "shop_cash_gift_card_not_allowed": "Shop Cash hədiyyə kartlarının alınmasına icazə vermir.",
+            "shop_cash_not_enabled": "Shop Cash bu mağaza üçün aktiv deyil.",
+            "shop_cash_not_available": "Shop Cash bu ödənişdə dəstəklənmir.",
+            "shop_cash_unsupported_subscriptions": "Shop Cash abunəlikləri dəstəkləmir.",
+            "shop_cash_unsupported_shipping": "Shop Cash, göndərmə olmadan malları dəstəkləmir.",
+            "invalid_address_type": "Təqdim olunan ünvan növü bu ödəniş üsulu üçün etibarsızdır.",
+            "missing_retail_attributions": "Əl ilə daxil edilən kredit kartı ödənişləri üçün pərakəndə satış atributları tələb olunur.",
+            "unexpected_retail_attributions": "Kredit kartı ödənişi üçün gözlənilmədən pərakəndə satış atributları təqdim edildi.",
+            "invalid_card_source": "Bu sessiyanın bu kart mənbəyindən istifadə etmək icazəsi yoxdur.",
+            "wallet_content_missing": "Pulqabı məzmunu yoxdur.",
+            "payment_instrument_not_found": "Ödəniş üsulunu tapmaq mümkün olmadı",
+            "unauthorized_capture_method": "Ödənişin tutulması metodunun konfiqurasiyasına icazə verilmir.",
+            "saved_payment_methods_not_allowed": "Yadda saxlanmış ödəniş üsullarına icazə verilmir.",
+            "saved_payment_methods_not_enabled": "Yadda saxlanmış ödəniş üsulları bu mağaza üçün aktiv deyil.",
+            "saved_payment_methods_cvv_verification_disabled": "Seçilmiş ödəniş metodu bu mağaza üçün aktivləşdirilməyən CVV doğrulamasını tələb edir. Fərqli ödəniş üsulu seçin.",
+            "store_credit_not_enabled": "Bu mağaza üçün mağaza krediti aktiv deyil.",
+            "store_credit_account_not_found": "Mağaza kredit hesabı tapılmadı.",
+            "store_credit_account_mismatch": "Mağaza kredit hesabı alıcının kimliyinə uyğun gəlmir.",
+            "store_credit_mismatched_currency": "Mağaza kredit hesabının valyutası ödəniş valyutası ilə uyğun gəlmir.",
+            "store_credit_insufficient_funds": "Mağazanın kredit hesabında kifayət qədər vəsait yoxdur.",
+            "store_credit_buying_gift_card": "Hədiyyə kartı almaq üçün mağaza kreditindən istifadə edə bilməzsiniz.",
+            "gift_cards_not_allowed_for_b2b": "B2B mağazalarında hədiyyə kartlarına icazə verilmir.",
+            "method_required": "Ödəniş metodu təklif edilməlidir.",
+            "paypal_express_address_invalid": "PayPal etibarsız ünvan qaytardı.",
+            "shop_cash_unsupported_currency": "Shop Cash bu valyutanı dəstəkləmir.",
+            "market_manager_blocks_wallet_payments": "Ödəniş metodu bazar meneceri tərəfindən dəstəklənmir."
+          },
+          "tip": {
+            "not_accepted_by_shop": "Mağaza məsləhətləri qəbul etmir.",
+            "only_one_tip_line_allowed": "Birdən çox ipucu xətti dəstəklənmir.",
+            "tips_not_allowed_for_b2b": "B2B mağazalarında məsləhətlərə icazə verilmir.",
+            "currency_change_reset": "Valyuta dəyişikliyinə görə ipucu sıfırlandı.",
+            "tips_not_allowed_for_deferred_purchase_options": "Təxirə salınmış alış seçimləri üçün məsləhətlər hələ dəstəklənmir."
+          },
+          "sale_attribution": {
+            "draft_order_not_exist": "Bu qaralama sifariş cari mağazada yoxdur.",
+            "staff_member_not_exist": "İndiki mağazada bu heyət yoxdur.",
+            "location_not_exist": "Bu yer cari mağazada mövcud deyil.",
+            "point_of_sale_device_not_exist": "Bu satış nöqtəsi cihazı indiki mağazada yoxdur.",
+            "unresolvable_target_merchandise_lines": "Hazırkı danışıqlar kontekstini nəzərə alaraq təklif olunan satış atributları həll oluna bilməz."
+          },
+          "non_negotiable": {
+            "missing_non_negotiable_terms": "Alıcınızın təklifində müzakirə olunmayan_şərtlər olmalıdır.",
+            "invalid_signature": "{{target_terms}} üçün imza etibarsızdır."
+          },
+          "inventory": {
+            "missing_quantity_value": "Alıcının inventar sətirlərində kəmiyyət sahəsi yoxdur.",
+            "changing_behavior_not_allowed": "Bu müştərinin inventar davranışını dəyişmək icazəsi yoxdur.",
+            "only_one_inventory_behavior_allowed": "Hazırda hər yoxlama üçün yalnız bir inventar davranışına icazə verilir."
+          },
+          "optional_duties": {
+            "optional_duties_not_permitted": "Bu yoxlama üçün rüsumlardan imtina etməyə icazə verilmir."
+          },
+          "attribution": {
+            "retail_attribution_not_allowed": "Bu yoxlama üçün pərakəndə satış atributuna icazə verilmir.",
+            "retail_attribution_required": "Bu yoxlama üçün pərakəndə satış atributu tələb olunur."
+          },
+          "captcha": {
+            "metadata_missing": "Bu yoxlama üçün captcha-nın doldurulması tələb olunur.",
+            "metadata_mismatch": "Təqdim olunan captcha provayderi və növü gözlənilən dəyərlərə uyğun gəlmir.",
+            "token_missing": "Bu yoxlamanı tamamlamaq üçün captcha işarəsi təqdim edilməlidir.",
+            "job_enqueue_failed": "Captcha doğrulama işi növbəyə qoyula bilmədi.",
+            "job_already_queued": "Bu captcha işarəsi üçün Captcha təsdiqi artıq növbəyə qoyulub.",
+            "token_expired": "Təqdim olunan captcha tokeninin vaxtı keçib. Yoxlamaya davam etmək üçün yeni captcha tamamlayın.",
+            "token_invalid": "Təqdim olunan captcha nişanı etibarsızdır. Yoxlamaya davam etmək üçün yeni captcha tamamlayın.",
+            "token_not_valid_for_session": "Təqdim olunan captcha bu yoxlama ilə istifadə edilə bilməz."
           }
         },
         "full_price": "Tam qiymət:",
