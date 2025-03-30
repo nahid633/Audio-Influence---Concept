@@ -139,7 +139,7 @@
         "collection_f7NATJ": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "frontpage",
             "title": "",
             "description": "",
             "overlay_content": false,
@@ -151,7 +151,7 @@
         "collection_zLAhyj": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "pre-workout",
             "title": "",
             "description": "",
             "overlay_content": false,
