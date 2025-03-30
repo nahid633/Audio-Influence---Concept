@@ -1896,7 +1896,146 @@
       "invalid_for_country": "%{country} üçün keçərli deyil",
       "invalid_for_country_and_province": "%{vilayət} və %{country} üçün keçərli deyil",
       "invalid_province_in_country": "%{country} ərazisində etibarlı əyalət deyil",
-      "invalid_state_in_country": "%{country} ərazisində etibarlı dövlət deyil"
+      "invalid_state_in_country": "%{country} ərazisində etibarlı dövlət deyil",
+      "invalid_region_in_country": "%{country} üçün etibarlı bölgə deyil",
+      "less_than_or_equal_to": "%{count}-dən az və ya bərabər olmalıdır",
+      "not_supported": "dəstəklənmir",
+      "full_name_required": "Ad və soyad daxil edin",
+      "invalid_for_card_type": "etibarlı deyil",
+      "invalid_type": "üzr istəyirik, bu tip kartları qəbul etmirik",
+      "invalid_format": "format etibarlı deyil",
+      "expired": "müddəti bitmişdir",
+      "invalid_start_date_or_issue_number_for_debit": "etibarlı başlanğıc tarixi və ya buraxılış nömrəsi tələb olunur",
+      "invalid_expiry_year": "etibarlı bitmə ili deyil",
+      "reset_password_html": "Bu e-poçt ünvanı artıq hesabla əlaqələndirilib. Bu hesab sizindirsə, <a href=\"/account/login#recover\">parolunuzu sıfırlaya</a> bilərsiniz",
+      "verify_email": "%{customer_email} ünvanına e-məktub göndərdik, e-poçt ünvanınızı doğrulamaq üçün daxil olan linkə klikləyin.",
+      "product_not_available": "məhsul bu müştəri üçün dərc edilmir.",
+      "shop_404": {
+        "title": "Elektron Ticarət Veb saytı yaradın və Onlayn Satın! Shopify tərəfindən elektron ticarət proqramı",
+        "heros": {
+          "store_unavailable": "Üzr istəyirik, bu mağaza hazırda əlçatan deyil.",
+          "store_not_exist": "Bu mağaza mövcud deyil.",
+          "no_storefront": "Bu mağazanın hələ veb-saytı yoxdur."
+        },
+        "links": {
+          "explore_other_stores": "Digər mağazaları araşdırın",
+          "start_free_trial": "Pulsuz sınağa başlayın"
+        },
+        "owner_ctas": {
+          "header": "Siz mağaza sahibisiniz?",
+          "fix_domain": "Yeni veb ünvanınızın quraşdırılmasını tamamlayın, %{domain_settings_link} ünvanına keçin. “Domeni birləşdir” üzərinə klikləyin və daxil edin: %{domain}.<br> Mağazanıza daxil olmaqda çətinlik çəkirsinizsə, %{forgot_your_store_link} səhifəsini sınayın.",
+          "fix_domain_link_text": "domen parametrləriniz",
+          "forgot_your_store_link_text": "mağazanızı unutdum",
+          "add_storefront": "%{admin_link}-də Onlayn Mağaza kanalını əlavə etməklə veb saytınızı qura bilərsiniz. Mağazanıza daxil olmaqda çətinlik çəkirsinizsə, %{forgot_your_store_link} səhifəsini sınayın."
+        },
+        "ctas": {
+          "sell_in_person": {
+            "header": "şəxsən satılır",
+            "caption": "Pərakəndə satış mağazanızı işə salmağınızdan və ya genişləndirdiyinizdən asılı olmayaraq, sizə lazım olan xüsusiyyətləri əldə edin.",
+            "link_text": "Pulsuz sınağa başlayın"
+          },
+          "open_a_store": {
+            "header": "Yeni Shopify mağazası açın",
+            "caption": "3 günlük pulsuz sınağa başlayın, sonra növbəti 3 ay ərzində ayda $1 ödəməklə davam edin.",
+            "link_text": "İndi qeydiyyatdan keçin"
+          },
+          "editions": {
+            "header": "Shopify Nəşrlərinə baxın",
+            "caption": "100+ məhsul yeniləməsi ilə siz təsəvvür etdiyinizdən daha məhsuldar və yaradıcı və ticarətdə güclü ola bilərsiniz.",
+            "link_text": "Ən son Nəşrləri araşdırın"
+          },
+          "store_owner": {
+            "header": "Siz mağaza sahibisiniz?",
+            "caption": "Mağazanıza girməkdə çətinlik çəkirsiniz? %{forgot_your_store_link} funksiyasını sınayın. Mağazanızı yenidən aktivləşdirmək istəyirsinizsə, %{shopify_support_link} ilə əlaqə saxlayın.",
+            "shopify_support_link_text": "Shopify dəstəyi"
+          }
+        }
+      }
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Parol sıfırlama xətası",
+        "subscribe_error": "Abunə xətası",
+        "unsubscribe_error": "Abunəni ləğv etmə xətası",
+        "no_account_found": "Həmin e-poçtla heç bir hesab tapılmadı.",
+        "invalid_credentials": "Yanlış e-poçt və ya parol.",
+        "denylisted_reset_password": "Cari parol təhlükəsiz olmadığı üçün hesabınıza daxil olmaq mümkün olmadı. Siz parolunuzu yeniləmək üçün e-poçt alacaqsınız.",
+        "signup_disabled": "Müştəri hesabının yaradılması deaktiv edilib."
+      },
+      "address": {
+        "updated": "Ünvan uğurla yeniləndi.",
+        "error_updating": "Ünvanı yeniləyərkən xəta baş verdi",
+        "created": "Ünvan uğurla yaradıldı",
+        "error_creating": "Ünvan yaratma xətası.",
+        "deleted": "Ünvan uğurla silindi",
+        "error_deleting": "Ünvanı silərkən xəta baş verdi."
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "%{delta} əlavə edildi",
+          "increment_item": "%{delta} əlavə edildi",
+          "decrement_item": "%{total} %{delta} silindi",
+          "decrement_fulfilled_line_item": "%{total} %{delta} qaytarıldı",
+          "decrement_return_line_item": "%{delta} qaytarılmadan silindi"
+        }
+      },
+      "order": {
+        "not_available": "Bu sifariş mövcud deyil",
+        "financial_status": {
+          "authorized": "Səlahiyyətli",
+          "pending": "Gözlənir",
+          "paid": "Ödənişli",
+          "unpaid": "Ödənilməmiş",
+          "voided": "Ləğv edilib",
+          "partially_paid": "Qismən ödənilmişdir",
+          "partially_refunded": "Qismən geri qaytarılıb",
+          "refunded": "Geri qaytarıldı",
+          "expired": "İstifadə müddəti bitdi"
+        },
+        "fulfillment_status": {
+          "fulfilled": "yerinə yetirildi",
+          "complete": "Tamamlayın",
+          "partial": "Qismən",
+          "unfulfilled": "Tamamlanmamış",
+          "restocked": "Yenidən yığılmışdır"
+        },
+        "transaction_status": {
+          "success": "Uğur",
+          "pending": "Gözlənir",
+          "failure": "Uğursuzluq",
+          "error": "Xəta"
+        },
+        "cancel_reason": {
+          "declined": "Ödəniş rədd edildi",
+          "inventory": "Elementlər əlçatan deyil",
+          "fraud": "Saxta sifariş",
+          "customer": "Müştəri sifarişi dəyişdirdi/ləğv etdi",
+          "staff": "Kadr xətası",
+          "other": "Digər"
+        },
+        "cash_on_delivery": "Çatdırılma zamanı nağd pul (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Səbətə yalnız %{count} %{name} əlavə edə bilərsiniz.",
+        "too_many_items_in_cart": "Siz səbətə daha çox %{name} əlavə edə bilməzsiniz.",
+        "only_one_added_to_cart": "Səbətə yalnız 1 məhsul əlavə edildi.",
+        "only_n_added_to_cart": "Yalnız %{quantity} element əlçatan olduğuna görə səbətinizə əlavə edildi.",
+        "maximum_available_quantity_reached": "Bu elementin maksimum miqdarı artıq səbətinizdədir.",
+        "less_than_minimum": "Bu elementdə minimum %{min} var.",
+        "more_than_maximum": "Bu elementdə maksimum %{max} var.",
+        "not_respect_step": "Siz bu elementi yalnız %{step} artımlarla əlavə edə bilərsiniz.",
+        "all_items_in_cart": "Bütün %{count} %{name} səbətinizdədir.",
+        "empty_update": "boş səbəti yeniləyə bilməz",
+        "missing_parameters": "etibarlı id və ya xətt parametri yoxdur",
+        "generic_error": "Səbət xətası",
+        "invalid_input": "%{parameter} parametri yanlışdır.",
+        "product_not_available": "Məhsul mövcud deyil",
+        "too_many_line_items_error": "Səbətinizdə %{max} elementdən çox ola bilməz.",
+        "link_expired": "Linkin vaxtı keçib",
+        "link_no_longer_exists": "Link artıq mövcud deyil.",
+        "stock_problems_html": "Bir və ya daha çox element artıq mövcud deyil. Biz <a href=\"%{link}\">yenilənmiş səbət</a> təqdim etdik.",
+        "changed": "Səbət dəyişdirildi"
+      }
     }
   },
   "customer_accounts": {
