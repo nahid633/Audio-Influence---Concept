@@ -622,7 +622,142 @@
             "other": "%{count} element üçün çatdırılma yoxdur"
           }
         }
+      },
+      "wallets": {
+        "errors": {
+          "invalid": {
+            "shipping_option": "Etibarlı göndərmə seçimini seçin",
+            "email": "Etibarlı e-poçt ünvanını daxil edin",
+            "zone": "Etibarlı əyalət/vilayət daxil edin",
+            "billing_zone": "Etibarlı faktura ünvanı əyalət/vilayət daxil edin",
+            "emirate": "Etibarlı əmirlik daxil edin",
+            "postal_code": "Etibarlı poçt / poçt kodu daxil edin",
+            "phone": "Etibarlı telefon nömrəsi daxil edin",
+            "billing_phone": "Etibarlı faktura ünvanı telefon nömrəsini daxil edin",
+            "reduction_code": "Etibarlı endirim kodu və ya hədiyyə kartı daxil edin",
+            "billing_must_match_shipping": "Göndərmə ünvanı uyğun olmalıdır",
+            "billing_zip": "Etibarlı faktura ünvanı ZIP / poçt kodu daxil edin"
+          },
+          "missing": {
+            "first_name": "Ad daxil edin",
+            "billing_first_name": "Faktura ünvanı adını daxil edin",
+            "last_name": "Soyad daxil edin",
+            "address1": "Ünvan daxil edin",
+            "billing_address1": "Faktura ünvanını daxil edin",
+            "address2": "Mənzilə, suite və s. daxil olun.",
+            "billing_address2": "Billing ünvanını daxil edin mənzil, suit və s.",
+            "city": "Bir şəhər daxil edin",
+            "billing_city": "Faktura ünvanı şəhərini daxil edin",
+            "province": "Bir əyalət/vilayət seçin",
+            "billing_province": "Fatura ünvanı əyalət/vilayət seçin",
+            "country": "Ölkə/region seçin",
+            "zip": "Poçt / poçt kodu daxil edin",
+            "billing_zip": "Billinq ünvanı ZIP / poçt kodu daxil edin",
+            "phone": "Telefon nömrəsi daxil edin"
+          },
+          "formatting": {
+            "name_contains_emojis": "Emojiləri adınızdan silin",
+            "postal_code_contains_emoji": "Emojiləri poçt kodunuzdan silin",
+            "first_name_too_long": "Adda çoxlu hərf var",
+            "last_name_too_long": "Soyadda çoxlu hərf var"
+          },
+          "select_different_shipping_address_to_resolve_errors": "Göndərmə ünvanınız yanlışdır. Fərqli ünvan seçin və ya yenisini istifadə edin."
+        },
+        "scrim": {
+          "continue_purchase_in_window": "{{walletName}} pəncərəsində alışınıza davam edin",
+          "and_return_to_checkout": "və Checkout-a qayıdın",
+          "cancel": "Ləğv et"
+        }
+      },
+      "note": {
+        "length_exceeds_maximum": "Qeydin ölçüsünü 5000 və ya daha az simvola qədər azaldın."
+      },
+      "one": {
+        "errors": {
+          "merchandise": {
+            "gift_card_price_must_be_greater_than_zero": "Hədiyyə kartının qiyməti 0-dan böyük olmalıdır.",
+            "gift_card_price_must_not_exceed_limit": "Hədiyyə kartının qiyməti %{gift_card_limit}-dən çox olmamalıdır.",
+            "subtotal_limit_reached": "Sətir elementlərinin maksimum dəyərinə çatıldı."
+          }
+        }
       }
+    },
+    "pagination": {
+      "previous": "Əvvəlki",
+      "next": "Sonrakı"
+    },
+    "links": {
+      "powered_by_shopify": "Shopify tərəfindən dəstəklənir",
+      "learn_more": "Ətraflı məlumat əldə edin"
+    },
+    "feed": {
+      "more": "Daha çox"
+    },
+    "attributes": {
+      "email": "e-poçt",
+      "password": "parol",
+      "password_confirmation": "Parolun təsdiqi",
+      "first_name": "ad",
+      "last_name": "soyadı",
+      "body": "bədən",
+      "signature": "Ünvan"
+    },
+    "addresses": {
+      "zip_code": "poçt kodu",
+      "postal_code": "Poçt kodu",
+      "postcode": "Poçt indeksi",
+      "pincode": "Pin kodu",
+      "prefecture": "Prefektura",
+      "province": "Vilayət",
+      "state": "dövlət",
+      "state_and_territory": "Dövlət/ərazi",
+      "county": "Rayon",
+      "emirate": "Əmirlik",
+      "governorate": "Qubernatorluq",
+      "confirm": "Bu ünvanı silmək istədiyinizə əminsiniz?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Seçilmiş",
+        "best_selling": "Ən yaxşı satış",
+        "az": "Əlifba sırası ilə AZ",
+        "za": "Əlifba sırası ilə ZA",
+        "price_ascending": "Qiymət, aşağıdan yuxarıya",
+        "price_descending": "Qiymət, yüksəkdən aşağıya",
+        "date_ascending": "Tarix, köhnədən yeniyə",
+        "date_descending": "Tarix, köhnədən yeni"
+      }
+    },
+    "errors": {
+      "blank": "boş qala bilməz",
+      "blocked_address": "Bu məkan dəstəklənmir",
+      "credit_card_session_expired": "Kredit kartının icazə müddəti bitdi, ödəniş məlumatlarınızı yenidən daxil edin. Kartınızdan pul tutulmayıb.",
+      "empty": "boş ola bilməz",
+      "invalid_email": "etibarlı e-poçt ünvanı olmalıdır",
+      "discount_disabled": "Bu endirim deaktiv edilib",
+      "discount_expired": "Bu endirim artıq keçərli deyil",
+      "discount_limit_reached": "Bu endirim istifadə limitinə çatıb",
+      "discount_not_found": "Daxil edilmiş koda uyğun etibarlı endirim tapmaq mümkün olmadı",
+      "customer_already_used_once_per_customer_discount_notice": "Bu endirim istifadə limitinə çatıb",
+      "gift_card_already_applied": "Kod artıq ödənişinizə tətbiq edilib",
+      "gift_card_code_invalid": "Kod etibarsızdır",
+      "gift_card_currency_mismatch": "Hədiyyə kartınız %{gift_card_currency} ilədir. Onun %{checkout_currency} ilə yenidən buraxılması üçün bizimlə əlaqə saxlayın.",
+      "gift_card_depleted": "Bu hədiyyə kartında pul qalmayıb",
+      "gift_card_disabled": "Hədiyyə kartı deaktivdir",
+      "gift_card_expired": "Hədiyyə kartının müddəti bitib",
+      "invalid": "etibarsızdır",
+      "bad_domain": "etibarsız domen adı ehtiva edir",
+      "taken": "artıq alınıb",
+      "contains_html_tags": "HTML teqləri ehtiva edə bilməz",
+      "too_short": "çox qısadır (minimum %{count} simvoldur)",
+      "too_long": "çox uzundur (maksimum %{count} simvoldur)",
+      "password_mismatch": "verilən parola uyğun olmalıdır",
+      "contains_spaces": "boşluqlarla başlayır və ya bitir.",
+      "email_domain_invalid": "provayder dəstəklənmir",
+      "invalid_for_country": "%{country} üçün keçərli deyil",
+      "invalid_for_country_and_province": "%{vilayət} və %{country} üçün keçərli deyil",
+      "invalid_province_in_country": "%{country} ərazisində etibarlı əyalət deyil",
+      "invalid_state_in_country": "%{country} ərazisində etibarlı dövlət deyil"
     }
   },
   "customer_accounts": {
