@@ -2010,7 +2010,12 @@
       },
       "save_new_address_accessibility_label": "Ünvanı yadda saxla",
       "title": "Ünvanlar",
-      "billing_address_dropdown_placeholder": "Faktura ünvanı"
+      "billing_address_dropdown_placeholder": "Faktura ünvanı",
+      "add_button": "Ünvan əlavə edin",
+      "add_button_text": "əlavə et",
+      "add_button_accessibility_label": "Ünvan əlavə edin",
+      "back_button": "Geri",
+      "back_button_accessibility_label": "{{address}} redaktə ünvanına qayıdın"
     },
     "address_form": {
       "attention": "Diqqət",
@@ -2451,8 +2456,131 @@
           "money_order": "Pul Sifarişi",
           "cash_on_delivery": "Çatdırılma zamanı nağd pul (COD)",
           "bank_deposit": "Bank depoziti"
+        },
+        "card_payment_details": "{{lastDigits}} ilə bitən - {{formattedTransactionAmount}}",
+        "gift_card_payment_details": "{{lastDigits}} ilə bitən - {{formattedTransactionAmount}}",
+        "store_credit_payment_details": "Mağaza krediti - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Shop Pay hissələrlə ödənilir",
+          "view_schedule": "Təqvimə baxın"
+        },
+        "manual_payment_methods": {
+          "money_order": "Pul Sifarişi - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Çatdırılma zamanı nağd pul (COD) - {{formattedTransactionAmount}}",
+          "bank_deposit": "Bank depoziti - {{formattedTransactionAmount}}",
+          "manual": "Manual - {{formattedTransactionAmount}}"
+        },
+        "transactions": {
+          "show_all": "Hamısını göstər",
+          "show_less": "Daha az göstər",
+          "details": "Təfərrüatlar",
+          "payment_details": "Ödəniş təfərrüatları"
+        },
+        "emv_details": {
+          "aid": "YARDIM:",
+          "source": "MƏNBƏ:"
         }
-      }
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Mağazada hissə-hissə ödənilir",
+        "description": "Shop proqramında xatırlatmalarla ödəniş cədvəlinizdən xəbərdar olun.",
+        "payment_reminders_button": "Ödəniş xatırlatmaları alın",
+        "desktop_qr_code_content": {
+          "title": "Xatırlatmalar üçün skan edin",
+          "description": "Shop ilə ödənişlər haqqında xatırlatmalar əldə edin."
+        }
+      },
+      "refunded_amount": "Geri qaytarıldı",
+      "request_return_failed": "Sorğunuzu emal edərkən problem baş verdi. Yenidən cəhd edin.",
+      "remaining_amount": "Qalan",
+      "marketing_section_title": "Xəbərlər və təkliflər",
+      "marketing_description": "Marketinq e-poçtları alacaqsınız. İstənilən vaxt abunəlikdən çıxa bilərsiniz.",
+      "marketing_checkbox_label": "Xəbərlər və təkliflər ilə mənə e-poçt göndərin",
+      "marketing_checkmark_label": "Siz e-poçt xəbərləri və təkliflər almaq üçün abunə olmusunuz",
+      "returns": {
+        "expand_events_label": "Detalları göstərin",
+        "hide_events_label": "Detalları gizlədin",
+        "ineligible_return_message": "Bu sifarişdəki heç bir əşya geri qaytarılmır.",
+        "ineligible_return_message_when_returned": "Bu sifarişdəki heç bir əlavə əşya geri qaytarılmır.",
+        "print_shipping_label": "Göndərmə etiketini çap edin",
+        "return_and_refund_modal_header": "Geri qaytarma siyasəti",
+        "tracking_number": "İzləmə nömrəsi:"
+      },
+      "shipping": {
+        "address": "Çatdırılma ünvanı",
+        "address_map_marker": "Çatdırılma ünvanı",
+        "method": "Göndərmə üsulu",
+        "summary": "Çatdırılma",
+        "free": "Pulsuz",
+        "free_shipping_discount": "Pulsuz Çatdırılma",
+        "one_time": "Birdəfəlik çatdırılma",
+        "subscription": "Abunə çatdırılması"
+      },
+      "pickup": {
+        "pickup": "Götürmə",
+        "pickup_location": "Götürmə yeri",
+        "pickup_point": "Qəbul nöqtəsi"
+      },
+      "show_items": "Elementləri göstərin",
+      "show_order_summary": "Sifariş xülasəsini göstərin",
+      "hide_order_summary": "Sifariş xülasəsini gizlədin",
+      "subtitle": "Təsdiqləndi {{date}}",
+      "subtotal": "Ara cəmi",
+      "summary_list_title_accessibility_label": "Əşyaları sifariş edin",
+      "summary_title": "Sifariş xülasəsi",
+      "summary_totals_title_accessibility_label": "Sifarişlərin cəmi",
+      "shop_order_tracking": {
+        "download_shop_to_track": "Paketi izləmək üçün Shop-u endirin",
+        "track_order_with_shop": "Mağaza ilə sifarişi izləyin",
+        "title_header": "Telefonunuzla skan edin",
+        "real_time_delivery_updates": "Sifarişiniz göndərildikdən sonra mağaza sizə real vaxtda çatdırılma yeniləmələri göndərəcək."
+      },
+      "edit_summary": {
+        "added": "Əlavə edilib",
+        "added_with_quantity": "{{quantity}} əlavə edildi",
+        "removed": "Silindi",
+        "removed_with_quantity": "{{quantity}} silindi",
+        "updated_at": "Sifarişiniz {{date}} tarixində yeniləndi",
+        "returned": "Qayıtdı",
+        "returned_with_quantities": "{ {{total}} ədəddən {{delta}} qaytarıldı",
+        "removed_with_quantities": "{ {{total}} {{delta}} silindi",
+        "return_line_item_removed": "Qayıdışdan silindi",
+        "return_line_item_removed_with_quantities": "Qayıdışdan {{delta}} silindi"
+      },
+      "shop_pay": {
+        "order_completed_with": "Sifariş ilə tamamlandı",
+        "learn_more": "Ətraflı məlumat əldə edin"
+      },
+      "taxes": "Vergilər",
+      "taxes_included": "Vergilərə {{amount}} daxil olmaqla",
+      "duties_and_taxes_included": "Cəmi rüsumlar və vergilər daxildir. Çatdırılma zamanı əlavə ödəniş yoxdur.",
+      "duties": "Vəzifələr",
+      "ok_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir, ona görə də sifarişinizin cəminə rüsumlar əlavə edilib.",
+      "error_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir, ona görə də çatdırılma zamanı rüsumlar və vergilər tutula bilər.",
+      "zero_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir. Bu dəyərdə olan sifarişlərdə rüsum tutulmur.",
+      "tip": "İpucu",
+      "title": "{{name}} sifariş edin",
+      "total": "Cəmi",
+      "unit_price": "{{price}} /ad",
+      "pagination": {
+        "load_more": "Daha çox yükləyin",
+        "load_more_accessibility_label": "Daha çox element yükləyin",
+        "loading_accessibility_label": "Elementlər yüklənir"
+      },
+      "login_to_view_all_order_details": "Bütün sifariş təfərrüatlarına baxmaq üçün daxil olun.",
+      "log_in": "Daxil ol",
+      "logged_in_account_no_permission_to_order": "Siz {{email}} kimi daxil olmusunuz. Bu hesabın bu sifarişi idarə etmək icazəsi yoxdur.",
+      "log_in_to_a_different_account": "Fərqli hesaba daxil olun",
+      "fees": {
+        "restocking_fee": "Yenidən yığılma haqqı",
+        "return_shipping_fee": "Geri göndərmə"
+      },
+      "vat_invoices": {
+        "title": "ƏDV hesab-fakturaları"
+      },
+      "cash_rounding": "Nağd pulun yuvarlaqlaşdırılması",
+      "adjusted_payment": "Düzəliş edilmiş ödəniş",
+      "adjusted_total": "Düzəliş edilmiş cəmi"
     },
     "ui_components": {
       "november": "noyabr",
