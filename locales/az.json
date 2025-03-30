@@ -1433,6 +1433,127 @@
         "payment_above_threshold": "Ödəniş məbləği bu region üçün pul limitindən çoxdur. Cəmi azaldın və yenidən cəhd edin",
         "risky": "Ödənişinizi emal edərkən problem baş verdi. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin.",
         "expired_buyer_action": "Ödəniş metodunun vaxtı bitdi. Yenidən cəhd edin."
+      },
+      "order_summary": {
+        "taxes_label": "Vergilər",
+        "estimated_taxes_label": "Təxmini vergilər",
+        "information_estimated_taxes_label": "Vergilər (təxmin edilən)",
+        "estimated_taxes_finalization_tooltip_content": "Son vergi və cəmi siz sifarişinizi verdikdən sonra e-poçt və ya mətn vasitəsilə təsdiqlənəcək.",
+        "order_total_label": "Sifariş Cəmi",
+        "price_before_discount_aria_text": "Orijinal qiymət",
+        "price_after_discount_aria_text": "Endirimli qiymət",
+        "discount_code_aria_text": "Endirim kodu",
+        "total_savings": "Ümumi qənaət",
+        "total_label": "Cəmi",
+        "total_outstanding_label": "Ödəniləcək məbləğ",
+        "deposit_label": "Depozit",
+        "total_due_today_label": "Bu gün ödəniləcək cəmi",
+        "total_due_later_label": "Cəmi sonra ödəniləcək",
+        "partial_total_label": "Cəmi",
+        "free_total_label": "Pulsuz",
+        "free_shipping_total_label": "Pulsuz",
+        "paid_label": "Ödənişli",
+        "payment_due_label": "Ödəniş vaxtıdır",
+        "vat_label_html": "Vergilərə %{amount} daxil olmaqla",
+        "duties_included_label": "Cəmi vergilər və rüsumlar daxildir. Çatdırılma zamanı əlavə ödəniş yoxdur.",
+        "discount_and_gift_card_savings_notice": "Endirimlərdə %{discount_amount} və hədiyyə kartlarında %{gift_card_amount} sonra",
+        "discount_savings_notice": "Endirimlərdə %{discount_amount} sonra",
+        "gift_card_savings_notice": "Hədiyyə kartlarında %{gift_card_amount} sonra",
+        "cost_table_title": "Xərclərin xülasəsi",
+        "cost_table_item_column_header": "Maddə",
+        "cost_table_value_column_header": "Dəyər",
+        "description_label": "Təsvir",
+        "price_label": "Qiymət",
+        "price_per_item": {
+          "accessibility_label": "Hər bir element üçün %{price}"
+        },
+        "quantity_label": "Kəmiyyət",
+        "product_change_label": "Dəyişmək",
+        "product_image_label": "Məhsul şəkli",
+        "product_image_quantity_label": "Kəmiyyət",
+        "scroll_order_summary": "Daha çox element üçün sürüşdürün",
+        "expand_order_summary_short": "Göstər",
+        "collapse_order_summary_short": "Gizlət",
+        "expand_order_summary": "Sifariş xülasəsini göstərin",
+        "collapse_order_summary": "Sifariş xülasəsini gizlədin",
+        "original_price": "Orijinal qiymət",
+        "sale_price": "Satış qiyməti",
+        "total_updated_label": "Yenilənmiş ümumi qiymət:",
+        "order_total_updated_label": "Cəmi yeniləndi",
+        "total_already_paid_label": "Ödənişli",
+        "unit_price": {
+          "accessible_separator": "başına"
+        },
+        "gift_card_ending": "%{last_characters} ilə bitən hədiyyə kartı",
+        "estimated_tax_label": "Təxmini vergi",
+        "multiple_shipping_lines_label": "Cəmi çatdırılma",
+        "recurring_subtotal_label": "Təkrarlanan ara cəmi",
+        "recurring_total_label": "Təkrarlanan cəmi",
+        "recurring_total_tooltip": "Göndərmə, vergi, rüsumlar və ya hər hansı müvafiq endirimlər daxil deyil.",
+        "confirmation_number_label": "Təsdiq #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}</strong> mövcud endirimlərinizlə istifadə edilə bilmədi.",
+        "percent_off_shipping": "%{percent}% endirim",
+        "amount_off_shipping": "%{amount} endirim",
+        "deferred_payment_info": {
+          "title": "%{amount_due} ödənişi %{due_at} tarixində ödənilməlidir",
+          "description_html": "Sifarişinizlə bağlı suallarınız üçün %{contact_us}.",
+          "paid_today": "Bu gün ödənilən cəmi",
+          "due_on_fulfillment_title": "%{amount_due} məbləğində ödəniş yerinə yetirildikdən sonra ödənilməlidir",
+          "due_on_receipt_title": "%{amount_due} məbləği qəbz zamanı ödənilməlidir"
+        },
+        "deferred_balance_info": {
+          "title": "{{amount_due}} məbləği {{due_at}} tarixində ödənilməlidir",
+          "due_on_fulfillment_title": "{{amount_due}} məbləğində qalıq yerinə yetirilməlidir"
+        },
+        "payment_terms_totals": {
+          "due_today": "Bu gün ödəniləcək cəmi",
+          "due_later": "Ümumi ödəmə müddəti %{du_at}",
+          "due_on_fulfillment": "İcra edilməli olan cəmi",
+          "due_on_receipt": "Qəbz üzrə ödəniləcək cəmi",
+          "due_later_checkout_to_draft": "Cəmi sonra ödəniləcək",
+          "total_paid": "Ümumi ödəniş"
+        },
+        "maximum_discount_code_limit_reached": "Endirim kodlarının maksimum sayına çatdınız. <strong style=\"text-transform:uppercase\">%{code}</strong> istifadə etmək üçün mövcud kodu silin.",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}</strong> hazırda işləmir. Yardım üçün bizimlə əlaqə saxlayın.",
+        "due_on_fulfillment": "Yerinə yetirilməsinə görə",
+        "gift_card_masked": "•••• %{son_simvol}",
+        "subscriptions": "Abunəliklər",
+        "duties_label": "Vəzifələr",
+        "duties_and_taxes_label": "Rüsumlar və vergilər",
+        "error_duties_tooltip": "Bu sifariş başqa ölkədən göndərilir, ona görə də çatdırılma zamanı rüsumlar və vergilər tutula bilər.",
+        "may_be_charged_on_delivery": "Çatdırılma zamanı ödənilə bilər",
+        "total_updated_label_with_price": "Yenilənmiş ümumi qiymət: %{totalPrice}",
+        "updated_shipping_method": "Yenilənmiş göndərmə üsulu: %{shipping_method}",
+        "recurring_payments": "Təkrarlanan ödənişlər",
+        "recurring_total_multiple_label": "Bu sifarişin birdən çox element üçün təkrar ödənişi var.",
+        "deferred_total_due_date_label": "Ümumi ödəmə müddəti {{date}}",
+        "full_price": "Tam qiymət: %{price}",
+        "custom_discount": "Xüsusi endirim",
+        "expand_component_information": {
+          "one": "%{count} elementi göstərin",
+          "other": "%{count} elementi göstərin"
+        },
+        "collapse_component_information": {
+          "one": "%{count} elementi gizlədin",
+          "other": "%{count} elementi gizlədin"
+        },
+        "discount_discovery": {
+          "add_code": "Endirim əlavə edin",
+          "merchandise_quantity_label": {
+            "one": "%{count} element",
+            "other": "%{count} element"
+          }
+        },
+        "alternative_payment_currency_total": "%{amount_due} kimi ödəniş edilib"
+      },
+      "shipping": {
+        "title": "Çatdırılma",
+        "delivery_title": "Çatdırılma",
+        "shipping_method_title": "Göndərmə üsulu",
+        "shipping_method_one_time_purchase_group_title": "Birdəfəlik alış",
+        "shipping_method_first_shipment_group_title": {
+          "one": "İlk göndəriş"
+        }
       }
     },
     "pagination": {
