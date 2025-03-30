@@ -18,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "icon": "truck",
-            "text": "Free shipping on orders over $150",
+            "text": "Free shipping on orders over 150AZN",
             "link": "shopify://pages/shipping-returns",
             "hide_icon_mobile": true,
             "text_mobile": "",
