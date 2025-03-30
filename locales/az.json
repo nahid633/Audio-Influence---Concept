@@ -243,7 +243,34 @@
         "prefecture_label": "Prefektura",
         "prefecture_placeholder": "Prefektura",
         "governorate_label": "Qubernatorluq",
-        "governorate_placeholder": "Qubernatorluq"
+        "governorate_placeholder": "Qubernatorluq",
+        "emirate_label": "Əmirlik",
+        "emirate_placeholder": "Əmirlik",
+        "state_and_territory_label": "Dövlət/ərazi",
+        "state_and_territory_placeholder": "Dövlət/ərazi",
+        "phone_label": "Telefon",
+        "optional_phone_label": "Telefon (isteğe bağlı)",
+        "phone_placeholder": "Telefon",
+        "phone_tooltip": "Sifarişinizlə bağlı sizinlə əlaqə saxlamamız lazım olarsa",
+        "zip_code_label": "poçt kodu",
+        "optional_zip_code_label": "Poçt kodu (istəyə görə)",
+        "zip_code_placeholder": "poçt kodu",
+        "postal_code_label": "Poçt kodu",
+        "optional_postal_code_label": "Poçt kodu (istəyə görə)",
+        "postal_code_placeholder": "Poçt kodu",
+        "postcode_label": "Poçt indeksi",
+        "optional_postcode_label": "Poçt indeksi (isteğe bağlı)",
+        "postcode_placeholder": "Poçt indeksi",
+        "pincode_label": "PIN kodu",
+        "optional_pincode_label": "PIN kodu (isteğe bağlı)",
+        "pincode_placeholder": "PIN kodu",
+        "civic_number_warning": "Əgər varsa ev nömrəsini əlavə edin",
+        "optional_last_name_label": "Soyadı (istəyə görə)",
+        "different_shipping_address_label": "Fərqli ünvana göndərin",
+        "different_shipping_address_text": "Bu sifariş üçün birdəfəlik ünvandan istifadə edin",
+        "change_company_location_link_label": "Şirkətin yerini dəyişdirin",
+        "change_location_link_label": "Məkanı dəyişdirin",
+        "ship_to_company": "{{companyName}} ünvanına göndərin"
       },
       "shipping_errors": {
         "shipping_method_not_available": "Səbətiniz yeniləndi və əlavə etdiyiniz əşyalar ünvanınıza göndərilə bilməz. Sifarişinizi tamamlamaq üçün əşyaları çıxarın.",
@@ -496,6 +523,259 @@
         "missing_shipping_address_banner": {
           "title": "Sifarişin çatdırılma ünvanı yoxdur"
         }
+      },
+      "delivery_options": {
+        "free_total_label": "Pulsuz",
+        "ship": "gəmi",
+        "ship_to_address": "Ünvana göndərin",
+        "shipping_address": "Çatdırılma ünvanı",
+        "pick_up": "götür",
+        "pick_up_from_store": "Mağazadan götürmə",
+        "pick_up_locations": "Mağaza yerləri",
+        "pick_up_in_one_hour": "Adətən 1 saata hazır olur",
+        "pick_up_in_two_hours": "Adətən 2 saata hazır olur",
+        "pick_up_in_four_hours": "Adətən 4 saata hazır olur",
+        "pick_up_in_twenty_four_hours": "Adətən 24 saat ərzində hazır olur",
+        "pick_up_in_two_to_four_days": "Adətən 2-4 günə hazır olur",
+        "pick_up_in_five_or_more_days": "Adətən 5+ gün ərzində hazır olur",
+        "pick_up_in_zero_to_two_hours": "2 saatdan sonra götürməyə hazırdır",
+        "pick_up_in_two_to_four_hours": "4 saatdan sonra götürməyə hazırdır",
+        "pick_up_immediately": "İndi götürməyə hazırdır",
+        "pick_up_next_day": "Növbəti gün götürməyə hazırdır",
+        "pickup_point_method_definition": "Qəbul məntəqəsinə göndərin",
+        "retail_method_definition": "Pərakəndə çatdırılma",
+        "none_method_definition": "Çatdırılma yoxdur",
+        "subscription_pickup_information": "Bu çatdırılma üsulu bu sifarişdəki bütün maddələrə və bu abunə üçün gələcək bütün sifarişlərə şamil olunacaq."
+      },
+      "customer_account": {
+        "not_user_label": "%{first_name} deyil?",
+        "have_an_account_label": "Hesabınız var?",
+        "sign_in_link_label": "Daxil ol",
+        "sign_out_link_label": "Çıxın",
+        "save_my_information_label": "Bu məlumatı növbəti dəfə saxlamaq üçün saxlayın",
+        "invalid_address": "Seçilmiş ünvan yanlışdır. %{update_address_link} və ya başqa ünvan seçin.",
+        "incomplete_address": "Seçilmiş ünvan natamamdır. %{update_address_link} və ya başqa ünvan seçin.",
+        "rollup_label": "Hesab",
+        "invalid_shipping_method_summary": "Mövcud göndərmə üsullarına baxmaq üçün etibarlı göndərmə ünvanı seçin",
+        "saved_address_option_description": {
+          "one": "{{count}} yadda saxladığınız ünvanınız var.",
+          "other": "{{count}} yadda saxladığınız ünvanınız var."
+        },
+        "saved_address_option_link": "Saxlanmış ünvandan istifadə edin",
+        "saved_address_modal_title": "Saxlanmış ünvanımdan istifadə edin"
+      },
+      "stock": {
+        "page_title": "İnventar məsələləri",
+        "title": "Stokda bitdi",
+        "items_unavailable_notice": "Bəzi elementlər artıq mövcud deyil.",
+        "product_column_header": "Məhsullar",
+        "quantity_column_header": "Kəmiyyət",
+        "price_column_header": "Qiymət",
+        "status_column_header": "Vəziyyət",
+        "removed_from_cart_notice": "Səbətdən çıxarılıb",
+        "sold_out_label": "Satıldı",
+        "reduced_label": "Azaldılmış",
+        "reduced_with_quantity_label": "Yalnız %{quantity_available} qalıb",
+        "remove_from_cart_button_label": "Səbətdən çıxarın",
+        "continue_shopping_button_label": "Davam et",
+        "go_back_to_cart_button_label": "Səbətimə qayıt",
+        "remove": "Sil",
+        "return_to_store_label": "Mağazaya qayıdın",
+        "continue_cta_label": "Yoxlamaya davam edin",
+        "item_label": {
+          "one": "{{count}} element",
+          "other": "{{count}} element"
+        },
+        "empty_cart_label": "Səbətiniz boşdur",
+        "quantity_update": {
+          "page_title": "Kəmiyyət yeniləməsi",
+          "title": "Kəmiyyət yeniləməsi",
+          "description": "Bu maddələr üçün mövcud miqdarlar dəyişib və səbətinizdə yenilənib."
+        },
+        "unpurchasable_product": {
+          "title": "Alınmaz məhsul",
+          "header": "Bəzi elementlər səbətinizdən silindi",
+          "message": "Bu elementlər B2B sifarişləri üçün mövcud deyil.",
+          "status_column_header": "Əlçatan deyil"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Alınmaz məhsul",
+          "header": "Bəzi elementlər səbətinizdən silindi",
+          "message": "Bu elementlər mövcud deyil.",
+          "status_column_header": "Əlçatan deyil"
+        },
+        "unfulfillable_product": {
+          "title": "Çatdırılma mövcud deyil",
+          "message": {
+            "one": "%{delivery_method} artıq bu element üçün əlçatan deyil.",
+            "other": "%{delivery_method} artıq bu elementlər üçün əlçatan deyil."
+          },
+          "default_message": {
+            "one": "Seçilmiş çatdırılma üsulu artıq bu element üçün əlçatan deyil.",
+            "other": "Seçilmiş çatdırılma üsulu artıq bu əşyalar üçün mövcud deyil."
+          }
+        },
+        "unshippable_product": {
+          "title": "Çatdırılma yoxdur",
+          "header": {
+            "one": "%{count} element üçün çatdırılma yoxdur",
+            "other": "%{count} element üçün çatdırılma yoxdur"
+          }
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "errors": {
+      "banner_title": {
+        "other": "{{count}} xəta var"
+      },
+      "failed_address_creation": {
+        "description": "Ünvanınızı yaratarkən problem baş verdi. Bu səhifəni yeniləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
+      },
+      "failed_address_update": {
+        "description": "Ünvanınızı yeniləyərkən problem baş verdi. Bu səhifəni yeniləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
+      },
+      "load_orders_error": {
+        "title": "Sifarişləri yükləmək mümkün deyil",
+        "description": "Yenidən cəhd edin və ya sonra qayıdın.",
+        "retry_button": "Yenidən cəhd edin"
+      },
+      "load_paypal_error": {
+        "description": "PayPal-ı yükləməkdə problem var. Yenidən cəhd edin."
+      },
+      "logout_everywhere": {
+        "description": "Çıxış zamanı xəta baş verdi. Yenidən cəhd edin."
+      },
+      "no_access_to_locations": {
+        "description": "Sizin heç bir yerə girişiniz yoxdur"
+      },
+      "not_found": {
+        "description": "URL-i yoxlayın və ya bir neçə dəqiqədən sonra yenidən cəhd edin.",
+        "title": "Bu səhifəni yükləməkdə problem var"
+      },
+      "order_not_found": {
+        "description": "Bu sifariş mövcud deyil və ya ona baxmaq icazəniz yoxdur.",
+        "title": "Sifariş tapılmadı"
+      },
+      "profile_update_error": {
+        "description": "Profilinizi yeniləyərkən problem baş verdi. Bu səhifəni yeniləməyə cəhd edin və ya internet bağlantınızı yoxlayın."
+      },
+      "retry_action_label": "Yenidən cəhd edin",
+      "load_extension_error": {
+        "title": "Xəta",
+        "description": "Bu səhifəni yeniləyin və ya bir neçə dəqiqədən sonra yenidən cəhd edin.",
+        "refresh_button": "Səhifəni yeniləyin"
+      }
+    },
+    "throttle": {
+      "too_many_attempts": {
+        "message": "Həddindən artıq cəhd",
+        "description": "Bir neçə dəqiqədən sonra yenidən cəhd edin"
+      }
+    },
+    "payment_methods": {
+      "title": "Ödəniş üsulları",
+      "add_payment_method_button": "Ödəniş metodu əlavə edin",
+      "add_payment_method_banner": "Daha sürətli ödəmə və ya əvvəlcədən icazə verilən xidmətlər üçün ödəniş metodu əlavə edin",
+      "no_payment_methods_banner": "Heç bir ödəniş metodu əlavə edilməyib",
+      "edit_payment_method_button_accessibility_label": "{{lastDigits}} ilə bitən {{paymentMethodName}} ni redaktə edin",
+      "edit_payment_method_brand_button_accessibility_label": "{{paymentMethodName}} redaktə edin",
+      "delete_payment_method_button": "Sil",
+      "delete_payment_method_button_accessibility_label": "{{paymentMethodName}} silin",
+      "back_button": "Geri",
+      "back_button_accessibility_label": "{{paymentMethodStepTitle}} səhifəsinə qayıdın",
+      "default": "Defolt",
+      "generic_card": "Kart",
+      "expiration_warning_button_accessibility_label": "{{lastDigits}} ilə bitən {{paymentMethodName}} üçün bitmə xəbərdarlığını göstərin",
+      "expires_soon": "Bu kartın müddəti tezliklə bitir",
+      "expired": "Bu kartın müddəti bitib",
+      "card_update_consent": "Bu ödəniş üsulu gələcək alışlar üçün yadda saxlanılacaq.",
+      "digital_wallet_title": "Rəqəmsal pul kisəsi",
+      "credit_or_debit_card_title": "Kredit və ya debet kartı",
+      "google_pay": {
+        "iframe_title_accessibility_label": "Google Pay ödəniş metodunu əlavə edin",
+        "loading_accessibility_message": "Google Pay yüklənir",
+        "loading": "Google Pay yüklənir",
+        "errors": {
+          "generic": "Google Pay ilə problem yarandı. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin.",
+          "missing_billing_address": "Google Pay faktura ünvanı tələb edir. Zəhmət olmasa hesabınıza birini əlavə edin."
+        }
+      },
+      "pay_pal": {
+        "iframe_title_accessibility_label": "PayPal ödəniş metodunu əlavə edin",
+        "loading_accessibility_message": "PayPal yüklənir"
+      },
+      "apple_pay": {
+        "loading": "Apple Pay yüklənir",
+        "errors": {
+          "generic": "Apple Pay ilə bağlı problem var idi. Yenidən cəhd edin və ya fərqli ödəniş metodundan istifadə edin.",
+          "not_available": "Apple Pay bu cihazda mövcud deyil.",
+          "missing_billing_address": "Apple Pay faktura ünvanı tələb edir. Zəhmət olmasa birini hesabınıza əlavə edin."
+        }
+      },
+      "store_credit": {
+        "label": "Mağaza krediti",
+        "accesibility_label": "Mağaza krediti - {{formattedBalance}}",
+        "expirable_amounts_button": "İstifadə müddəti bitən məbləğlərə baxın",
+        "expirable_amounts_label": "İstifadə müddəti bitən məbləğlər",
+        "details_modal": {
+          "title": "Müddəti bitən mağaza krediti",
+          "balance_label": "Balans",
+          "expiration_date_label": "İstifadə müddəti",
+          "amount_label": "Məbləğ",
+          "date_label": "Tarix",
+          "event_label": "Hadisə",
+          "events": {
+            "adjustment": "Tənzimləmə",
+            "order_payment": "Sifariş ödənişi",
+            "order_refund": "Sifarişin geri qaytarılması",
+            "payment_failure": "Ödəniş uğursuzluğu",
+            "payment_returned": "Ödəniş qaytarıldı",
+            "order_cancellation": "Sifarişin ləğvi",
+            "tax_finalization": "Vergilərin yekunlaşdırılması"
+          },
+          "expirable_balance_info": "Balansınızın bəzilərinin vaxtı gələcək tarixdə bitəcək",
+          "expirable_amount_label": "Ümumi istifadə müddəti bitən məbləğ",
+          "expirable_amounts_info": "Vaxtı daha tez başa çatan məbləğlər ilk olaraq ödəniş zamanı tətbiq edilir",
+          "expirable_amounts_button": "Baxın",
+          "expired_amounts_button": "Vaxtı keçmiş məbləğlərə baxın",
+          "pagination": {
+            "load_more_label": "Daha çox yükləyin",
+            "load_more_accessibility_label": "Daha müddəti bitən məbləğləri yükləyin"
+          }
+        }
+      },
+      "payment_details": {
+        "title": "Ödəniş metodu təfərrüatları",
+        "credit_card_details_accessibility_label": "{{lastDigits}} ilə bitən",
+        "billing_title": "Faktura ünvanı",
+        "card_info_title": "Kart məlumatı",
+        "payment_method_expiring_on": "{{expiryDate}} tarixində bitir",
+        "payment_method_expired_on": "{{expiryDate}} tarixində bitdi",
+        "preauthorized_payments": "Əvvəlcədən icazə verilən ödənişlər",
+        "close_payment_modal": "Bağlayın",
+        "close_payment_modal_accessibility_label": "Ödəniş metodu təfərrüatlarını bağlayın",
+        "payment_method_not_found_error": "Ödəniş üsulunu tapmaq mümkün deyil",
+        "payment_details_loading": "Ödəniş metodu təfərrüatları yüklənir",
+        "pre_authorized_payments": "Əvvəlcədən icazəli ödənişlər",
+        "total_amount_of_subscription_line_items_left": "və daha {{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "Cəmi {{totalItems}} element, {{totalItemsToDisplay}} element göstərilir.",
+        "next_payment_due": "Növbəti ödənişin vaxtı {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "Redaktə et",
+        "edit_payment_method_button_accessibility_label": "{{lastDigits}} ilə bitən ödəniş metodunu redaktə edin",
+        "loading_shop_pay": "Shop Pay yüklənir",
+        "invalid_payment_method": "Yanlış ödəniş üsulu",
+        "invalid_payment_method_message": "Qarşıdan gələn sifarişləri almağa davam etmək üçün yeni kredit kartından istifadə edin.",
+        "replace_payment_method": "Ödəniş üsulunu dəyişdirin",
+        "checkout_card_banner": "Bu ödəniş üsulu yalnız əvvəlcədən icazəli ödənişlər üçün istifadə edilə bilər. Bu mağazaya daxil olmusunuzsa, o, ödəniş zamanı görünməyəcək.",
+        "default_checkbox": "Defolt olaraq təyin edin",
+        "default_checkbox_accessibility_label": "Bu ödəniş üsulunu defolt olaraq təyin edin"
+      },
+      "edit_payment_method": {
+        "title": "Ödəniş üsulunu redaktə edin",
+        "save_payment_method_button": "Saxla",
+        "cancel_edit_payment_method_button": "Ləğv et"
       }
     }
   }
