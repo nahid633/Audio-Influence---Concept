@@ -891,7 +891,12 @@
           "status_column_header": "Çatdırılma yoxdur"
         },
         "price_update": {
-          "title": "Qiymət yeniləməsi"
+          "title": "Qiymət yeniləməsi",
+          "description": "Bu əşyaların qiymətləri dəyişib və səbətinizdə yenilənib."
+        },
+        "out_of_stock": {
+          "description": "Bu elementlər artıq mövcud deyil və səbətinizdən silinib.",
+          "items_unavailable": "Bəzi elementlər artıq mövcud deyil və səbətinizdən silinib."
         }
       },
       "wallets": {
@@ -1424,20 +1429,24 @@
         "card_verification_value_placeholder": "Təhlükəsizlik kodu",
         "card_issue_number_label": "Buraxılış nömrəsi",
         "store_credit": {
-          "label": "Mağaza krediti"
+          "label": "Mağaza krediti",
+          "buying_gift_card": "Hədiyyə kartı almaq üçün mağaza kreditindən istifadə edə bilməzsiniz",
+          "no_fixed_selling_plans": "Siz təxirə salınmış alış seçimləri ilə mağaza kreditindən istifadə edə bilməzsiniz"
         },
         "add_credit_card_modal": {
           "title": "Kart əlavə edin"
         },
         "delete_credit_card_modal": {
-          "title": "Kartı silin"
+          "title": "Kartı silin",
+          "confirmation": "Siz {{lastDigits}} ilə bitən {{brandName}} nömrəsini silmək istədiyinizə əminsiniz?"
         },
         "edit_credit_card_modal": {
           "title": "Kartı redaktə edin",
           "fields": {
             "card_number": "Kart nömrəsi",
             "name": "Kartda ad"
-          }
+          },
+          "description": "Siz yalnız kartınızın faktura ünvanını dəyişə bilərsiniz."
         },
         "order_edit_banner_single_item_returned": "Qayıtdı",
         "gift_card_wrapper": {
@@ -1446,7 +1455,23 @@
         },
         "purchase_order_number": {
           "title": "PO nömrəsi"
-        }
+        },
+        "credit_card_vaulting_sign_in_banner_info": "Gələcək alışlar üçün kredit kartınızı saxlamaq üçün daxil olun və ya hesab yaradın.",
+        "ftd_vault_credit_card_label": "Daha sürətli ödəniş üçün bu kredit kartını hesabımda saxlayın",
+        "card_security_notice": "Bütün əməliyyatlar təhlükəsiz və şifrələnmişdir.",
+        "card_verification_confirm": "Doğrulama məqsədləri üçün kartınızın təhlükəsizlik kodunu daxil edin.",
+        "card_expiry_date_explanation": "Kartın istifadə müddəti formatda: ay, ay, il, il",
+        "card_verification_value_explanation_amex": "Kartınızın qarşısında 4 rəqəmli təhlükəsizlik kodu",
+        "card_verification_value_explanation_other": "Kartınızın arxasındakı 3 rəqəmli təhlükəsizlik kodu",
+        "billing_must_match_shipping_notice": "Ödəniş metodunuzun faktura ünvanı çatdırılma ünvanına uyğun olmalıdır.",
+        "brand_not_available": "Bu mağaza {{brand}} qəbul etmir. Ödəniş üçün başqa kartdan istifadə edin.",
+        "billing_address_invalid_phone_no_card": "Davam etmək üçün faktura ünvanınızdakı telefon nömrəsini yeniləyin.",
+        "preview_not_available": {
+          "content": "Narahat olmayın, bu ekspress ödəniş müştəriləriniz üçün işləyir."
+        },
+        "simulated_express_checkout": "Pul kisələri regionunuza və ya brauzerinizə görə redaktorun önizləməsində əlçatan deyil",
+        "vaulting_agreement_label": "Daha sürətli ödəniş üçün ödəniş məlumatımı %{company} ilə yadda saxlayın.",
+        "saved_credit_card_cvv_verification": "Doğrulama məqsədləri üçün kartınızın təhlükəsizlik kodunu daxil edin."
       },
       "billing": {
         "same_as_shipping": "Göndərmə ünvanı ilə eynidir",
@@ -1785,7 +1810,14 @@
         "gift_card_placeholder": "Hədiyyə kartı",
         "free_shipping_discount_label": "Pulsuz çatdırılma",
         "calculating_shipping": "Hesablanır...",
-        "calculating": "Hesablanır..."
+        "calculating": "Hesablanır...",
+        "discount_not_found": "Daxil edilmiş koda uyğun etibarlı endirim tapmaq mümkün olmadı",
+        "gift_card_subscriptions_notice": "Hədiyyə kartları yalnız ilk ödənişinizə şamil olunacaq",
+        "discount_already_applied": "Bu sifarişə endirim tətbiq olunub. Başqa endirim əlavə edə bilməzsiniz.",
+        "pickup_unavailable_banner_title": {
+          "one": "Elementiniz mağazadan götürülmək üçün əlçatan deyil",
+          "other": "Elementləriniz mağazadan götürülmək üçün əlçatan deyil"
+        }
       },
       "shipping": {
         "title": "Çatdırılma",
@@ -1812,18 +1844,63 @@
               "one": "hər il"
             }
           },
-          "shipping_price_included": "Daxildir"
+          "shipping_price_included": "Daxildir",
+          "free_shipping_cycles": {
+            "other": "%{count} daha çox çatdırılma üçün pulsuz çatdırılma"
+          },
+          "first_n_order_free_with_cycle_delivery_not_included": {
+            "one": "%{count} çatdırılma üçün pulsuz çatdırılma, sonra %{recurring_order_shipping_price}"
+          },
+          "max_cycles_base_shipping": {
+            "one": "%{shipping_price} üçün daha %{count} çatdırılma",
+            "other": "Hər biri %{shipping_price} qiymətinə daha %{count} çatdırılma"
+          },
+          "max_cycles_base_shipping_delivery_not_included": {
+            "other": "Hər biri %{shipping_price} qiymətinə daha %{count} çatdırılma"
+          },
+          "prepaid_order_one_cycle": {
+            "one": "Daha %{count} çatdırılma üçün %{shipping_price}",
+            "other": "%{count} daha çox çatdırılma üçün %{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_order_one_cycle_delivery_not_included": {
+            "other": "%{count} çatdırılma üçün %{shipping_price} (%{per_delivery_cost})"
+          },
+          "prepaid_shipping_price_label": "Çatdırılma üçün %{shipping_price} x %{delivery_interval_count}",
+          "recurring_order_shipping_price": "ardınca %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "İlk sifariş daxildir, ardınca %{recurring_order_shipping_price}"
         },
         "address_edit": "Ünvanı redaktə edin",
         "address_form": {
-          "add_address": "Ünvan əlavə edin"
+          "add_address": "Ünvan əlavə edin",
+          "generic_error": "Ünvanınızı yadda saxlayarkən problem baş verdi. Yenidən cəhd edin."
         },
         "pre_order_ships_now": "İndi göndərilir",
         "pre_order_ships_later": "Daha sonra göndərilir",
         "pre_order_ships_date": "Göndərmə %{date}",
         "split_shipping_option_free": "Pulsuz çatdırılma",
         "split_shipping_option_lowest_price": "Ən aşağı qiymət",
-        "split_shipping_option_recommended": "Tövsiyə olunur"
+        "split_shipping_option_recommended": "Tövsiyə olunur",
+        "no_rates_for_cart_or_destination_notice": "Səbətiniz və ya ünvanınız üçün heç bir göndərmə metodu mövcud deyil",
+        "no_pickup_location_notice": "Məhsullarınızdan ən azı biri götürmək üçün əlçatan deyil",
+        "estimated_delivery_time_range": "Təxmini çatdırılma %{min_time}–%{max_time}",
+        "shipping_line_phone": "Kuryeriniz sizinlə əlaqə saxlamaq üçün bu nömrədən istifadə edə bilər.",
+        "shipping_line_delivery_phone": "Çatdırılma ilə bağlı yeniliklərlə bağlı sizinlə əlaqə saxlanıla bilər.",
+        "shipping_line_delivery_instructions": "Qapı kodları və ya eniş təlimatları kimi zəruri məlumatları daxil edin.",
+        "other_method": {
+          "other": "%{count} digər üsullardan başlayaraq mövcuddur"
+        },
+        "shipping_information_required_notice": "Göndərmə məlumatı tələb olunur. {{link}} .",
+        "shipping_used_as_billing_notice": "Bu, həmçinin bu sifariş üçün faktura ünvanınız kimi istifadə olunacaq.",
+        "address_confirm": "Bu ünvanı hesabınızdan silmək istədiyinizə əminsiniz?",
+        "different_shipping_method_summary": "Mövcud göndərmə üsullarına baxmaq üçün fərqli göndərmə ünvanı daxil edin",
+        "invalid_shipping_method_summary": "Mövcud göndərmə üsullarına baxmaq üçün etibarlı göndərmə ünvanı daxil edin",
+        "method_summary": {
+          "incomplete_address_entered": "Mövcud göndərmə üsullarına baxmaq üçün tam göndərmə ünvanını daxil edin",
+          "incomplete_address_selected": "Mövcud göndərmə üsullarına baxmaq üçün tam göndərmə ünvanı seçin"
+        },
+        "split_shipping_shipment_notice": "Sifarişiniz %{quantity_shipments} ərzində çatacaq",
+        "split_shipping_multiple_shipment_notice": "Sifarişiniz bir neçə göndərişlə gələcək",
+        "split_shipping_multiple_shipment_notice_one_time_purchase": "Sifarişiniz %{quantity} göndərişlə gələcək"
       },
       "vaulted": {
         "change_button": "Dəyişmək"
@@ -1912,11 +1989,21 @@
         "title": "Bildirişlər"
       },
       "contextual_availability": {
-        "unavailable_label": "Əlçatan deyil"
+        "unavailable_label": "Əlçatan deyil",
+        "all_products_in_cart_unavailable": {
+          "one": "Bu məhsul ölkənizdə/regionunuzda mövcud deyil.",
+          "other": "Bu məhsullar ölkənizdə/regionunuzda mövcud deyil."
+        }
       },
       "merchandise_unavailable_in_buyer_location": {
         "missing_country_fallback": "sənin ölkən",
-        "indeterminate_location_fallback": "yeriniz"
+        "indeterminate_location_fallback": "yeriniz",
+        "banner_title": {
+          "some_products_one": "Bu məhsul %{location_name} ünvanına çatdırılma üçün əlçatan deyil.",
+          "some_products_other": "Bu məhsullar %{location_name} ünvanına çatdırılma üçün əlçatan deyil.",
+          "all_products_one": "Səbətinizdəki məhsul %{location_name} ünvanına çatdırılma üçün əlçatan deyil."
+        },
+        "change_address_or_remove": "Çatdırılma ünvanını və ya %{remove_action} dəyişdirin."
       },
       "deliverability": {
         "not_deliverable": {
@@ -2137,12 +2224,41 @@
         "link_expired": "Linkin vaxtı keçib",
         "link_no_longer_exists": "Link artıq mövcud deyil.",
         "stock_problems_html": "Bir və ya daha çox element artıq mövcud deyil. Biz <a href=\"%{link}\">yenilənmiş səbət</a> təqdim etdik.",
-        "changed": "Səbət dəyişdirildi"
+        "changed": "Səbət dəyişdirildi",
+        "product_sold_out": "'%{name}' məhsulu artıq satılıb.",
+        "variant_requires_selling_plan": "Variant yalnız satış planı ilə alına bilər.",
+        "selling_plan_not_available_for_company_locations": "B2B sifarişləri üçün yalnız birdəfəlik alış mümkündür",
+        "bundle_requires_components": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_with_components_not_supported": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_price_must_be_greater_than_zero": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
+        "gift_card_recipient_validation_error": "Göstərilən hədiyyə kartı alıcısı etibarsızdır"
+      },
+      "tags": {
+        "add_articles": "%{tag} teqi olan məqalələr üçün axtarışı daraltın",
+        "add_products": "Seçimi %{tag} etiketinə uyğun məhsullar üçün daraltın",
+        "remove_articles": "%{tag} etiketlənməmiş məqalələr üçün axtarışı genişləndirin"
       }
     },
     "email_marketing": {
       "subscribed": {
-        "unsubscribe": "Abunəni ləğv edin"
+        "unsubscribe": "Abunəni ləğv edin",
+        "confirmation": "E-poçt siyahımıza abunə olduğunuz üçün təşəkkür edirik."
+      },
+      "unsubscribed": {
+        "confirmation": "Siz bizim poçt siyahımıza abunəlikdən çıxmısınız.",
+        "preview": "Müştərilərin abunəlikdən çıxdıqları zaman görəcəklərini önizləyirsiniz."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Siz e-poçtun açıq izlənməsinə qoşulmusunuz.</b>"
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Siz e-poçtun açıq izlənməsindən imtina etmisiniz.</b>",
+          "visibility": "E-poçtlarımızı açmağınızı görməyəcəyik."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Artıq heç bir e-poçtun açılmasını izləmirik.</b>"
+        }
       }
     },
     "filters": {
@@ -2163,7 +2279,15 @@
       "addresses": "Ünvanlar",
       "collections": "Kolleksiyalar",
       "challenge": "Çağırış",
-      "checkpoint": "Yoxlama məntəqəsi"
+      "checkpoint": "Yoxlama məntəqəsi",
+      "search_results": {
+        "one": "Axtarış: \"%{terms}\" üçün %{count} nəticə tapıldı",
+        "other": "Axtarış: \"%{terms}\" üçün %{count} nəticə tapıldı"
+      }
+    },
+    "challenge": {
+      "message": "Davam etmək üçün robot olmadığınızı bizə bildirin.",
+      "error": "Cavabınız düzgün deyildi, yenidən cəhd edin."
     }
   },
   "customer_accounts": {
@@ -2207,6 +2331,12 @@
         "title": "Xəta",
         "description": "Bu səhifəni yeniləyin və ya bir neçə dəqiqədən sonra yenidən cəhd edin.",
         "refresh_button": "Səhifəni yeniləyin"
+      },
+      "address_deletion_error": {
+        "description": "Bu ünvanı silərkən problem yarandı. Yenidən cəhd edin və ya səhifəni yeniləyin."
+      },
+      "addresses_loading_issue": {
+        "description": "Bağlantı xətası. İnternet bağlantınızı yoxlayın və yenidən cəhd edin."
       }
     },
     "throttle": {
@@ -2516,27 +2646,52 @@
         "draft_order_list": {
           "hide_all": "Hamısını gizlət",
           "show_all": "Hamısını göstər",
-          "pending_orders_count_more_than_pagination_length": "{{count}} +"
+          "pending_orders_count_more_than_pagination_length": "{{count}} +",
+          "pending_tab_accessibility_label": {
+            "more_than_pagination_length": "Gözləyən {{count}} sifarişdən çoxunuz var"
+          }
         },
         "order_list_column_headers_location": "Məkan"
       },
       "draft_order_details": {
         "payment_status": {
           "pending": {
-            "title": "Ödəniş vaxtıdır"
+            "title": "Ödəniş vaxtıdır",
+            "description_partially_paid": "Bu sifariş qismən ödənilib. Qalan balansınız var.",
+            "description_authorized": "Ödəniş metodunuzdan ödəniş son tarixdə tutulacaq və ya indi ödəyə bilərsiniz.",
+            "description_due_on_receipt": "Ödəniş vaxtı çatanda siz faktura alacaqsınız.",
+            "description_due_on_fulfillment": "Bu sifarişdəki bütün maddələr yerinə yetirildikdən sonra ödəniş edilməlidir."
           },
           "refund": {
-            "title": "Geri qaytarıldı"
+            "title": "Geri qaytarıldı",
+            "description_full_refund": "Bu sifariş üçün tam geri qaytarılmısınız.",
+            "description_single_refund": "Bu sifariş üçün qismən geri qaytarılmısınız.",
+            "description_multiple_refunds": "Bu sifariş üçün qismən geri ödəniş aldınız."
+          },
+          "draft": {
+            "description": "Ödəniş təfərrüatları sifariş təsdiq edildikdən sonra müəyyən edilir.",
+            "in_review": {
+              "description": "Ödəniş təfərrüatları sifariş təsdiq edildikdən sonra müəyyən edilir."
+            },
+            "submitted": {
+              "deposit": {
+                "due_later": "Balans {{translatedName}} şərtlərinə uyğundur və {{dueDate}} tarixində ödənilməlidir.",
+                "due_on_fulfillment": "Balans bu sifarişdəki bütün maddələr yerinə yetirildikdən sonra ödənilir.",
+                "due_on_receipt": "Qalan balans üçün faktura alacaqsınız."
+              }
+            }
           }
         },
         "order_timeline": {
           "expand_events_label": "Detalları göstərin",
           "hide_events_label": "Detalları gizlədin"
-        }
+        },
+        "draft_order_subtitle": "{{draftOrderName}} sifarişindən {{date}} təsdiqləndi"
       },
       "purchase_order_number": {
         "empty_state": "PO nömrəsi yoxdur",
-        "modal_po_number_input_label": "PO nömrəsi"
+        "modal_po_number_input_label": "PO nömrəsi",
+        "modal_po_number_input_max_length_error": "PO nömrələrində maksimum {{maxLength}} simvol var."
       }
     },
     "orders": {
