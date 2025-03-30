@@ -12,6 +12,30 @@
     "slideshow_RhNKgd": {
       "type": "slideshow",
       "blocks": {
+        "image_JXAUEw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/full_width_teaser_Seil_DT_1920x1080px.webp",
+            "heading": "<strong>BOOST YOUR ENDURANCE</strong>",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "",
+            "button_link": "",
+            "button_secondary_style": false
+          }
+        },
+        "image_mCGGJz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/full_width_teaser_sled_DT_1920x1080px.webp",
+            "heading": "THE PERFORMANCE",
+            "heading_size": "title-lg tracking-heading",
+            "heading_tag": "h2",
+            "button_label": "",
+            "button_link": "",
+            "button_secondary_style": false
+          }
+        },
         "image_dPDGzJ": {
           "type": "image",
           "settings": {
@@ -38,6 +62,8 @@
         }
       },
       "block_order": [
+        "image_JXAUEw",
+        "image_mCGGJz",
         "image_dPDGzJ",
         "image_ELfafy"
       ],
