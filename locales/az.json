@@ -1431,7 +1431,10 @@
         "store_credit": {
           "label": "Mağaza krediti",
           "buying_gift_card": "Hədiyyə kartı almaq üçün mağaza kreditindən istifadə edə bilməzsiniz",
-          "no_fixed_selling_plans": "Siz təxirə salınmış alış seçimləri ilə mağaza kreditindən istifadə edə bilməzsiniz"
+          "no_fixed_selling_plans": "Siz təxirə salınmış alış seçimləri ilə mağaza kreditindən istifadə edə bilməzsiniz",
+          "apply_label": "Mağaza krediti tətbiq edin",
+          "add_label": "Mağaza krediti əlavə edin",
+          "manage_label": "Mağaza kreditini idarə edin"
         },
         "add_credit_card_modal": {
           "title": "Kart əlavə edin",
@@ -1448,7 +1451,10 @@
           "title": "Kartı redaktə edin",
           "fields": {
             "card_number": "Kart nömrəsi",
-            "name": "Kartda ad"
+            "name": "Kartda ad",
+            "default": "Defolt olaraq təyin edin",
+            "expiry": "İstifadə müddəti",
+            "security_code": "Təhlükəsizlik kodu"
           },
           "description": "Siz yalnız kartınızın faktura ünvanını dəyişə bilərsiniz.",
           "done": "Bitdi",
@@ -1457,7 +1463,10 @@
         "order_edit_banner_single_item_returned": "Qayıtdı",
         "gift_card_wrapper": {
           "heading": "Hədiyyə kartı",
-          "payment_tag": "Hədiyyə kartı"
+          "payment_tag": "Hədiyyə kartı",
+          "apply_gift_card_label": "Hədiyyə kartı tətbiq edin",
+          "add_label": "Hədiyyə kartı əlavə edin",
+          "manage_label": "Hədiyyə kartlarını idarə edin"
         },
         "purchase_order_number": {
           "title": "PO nömrəsi"
@@ -1494,13 +1503,31 @@
           "cancel": "Ləğv et"
         },
         "order_edit_banner_items_added": {
-          "one": "Əlavə edilib"
+          "one": "Əlavə edilib",
+          "other": "%{count} əlavə edildi"
         },
         "order_edit_banner_items_removed": {
           "in_full": "Silindi"
         },
         "order_edit_banner_single_item_added": "Əlavə edilib",
-        "order_edit_banner_single_item_removed": "Silindi"
+        "order_edit_banner_single_item_removed": "Silindi",
+        "discount_button_action_label": "Endirim Kodunu tətbiq edin",
+        "gift_card_code_label": "Hədiyyə kartı kodu",
+        "card_nickname_label": "Ləqəb (isteğe bağlı)",
+        "card_expiration_month_label": "İstifadə müddəti",
+        "card_expiration_year_label": "İstifadə müddəti",
+        "fact_billing_address_label": "Faktura ünvanı",
+        "simulated_checkout": "Önizləmə tezliklə gələcək",
+        "purchase_options_cancellation_policy_label": "ləğvetmə siyasəti",
+        "saved_credit_card_info": "Son dörd rəqəm",
+        "order_edit_banner_items_return_line_item_removed": {
+          "in_full": "Qayıdışdan silindi"
+        },
+        "order_edit_banner_multiple_items_added": "{{amount}} əlavə edildi",
+        "order_edit_banner_multiple_items_removed": "{{amount}} silindi",
+        "order_edit_banner_updated_order_label": "Yenilənmiş sifariş",
+        "gift_card_checkbox_label": "Hədiyyə kartını tətbiq edin",
+        "markets_pro_disclaimer_privacy_policy": "Məxfilik Siyasəti"
       },
       "billing": {
         "same_as_shipping": "Göndərmə ünvanı ilə eynidir",
@@ -1822,7 +1849,8 @@
         "alternative_payment_currency_total": "%{amount_due} kimi ödəniş edilib",
         "title": "Sifariş xülasəsi",
         "number_items": {
-          "one": "%{count} element"
+          "one": "%{count} element",
+          "other": "%{count} element"
         },
         "more_items_modal": {
           "clear_search": "Axtarışı təmizləyin",
@@ -1854,7 +1882,27 @@
         "apply_discount_button_label": "Müraciət edin",
         "subtotal_label": "Ara cəmi",
         "shipping_label": "Çatdırılma",
-        "tip_label": "İpucu"
+        "tip_label": "İpucu",
+        "view_all_items": {
+          "one": "%{count} elementə baxın"
+        },
+        "discount_order_stacking": {
+          "one": "Sifariş endirimi",
+          "other": "Endirimlər sifariş edin"
+        },
+        "gift_card_applied": "Hədiyyə kartı tətbiq edildi",
+        "remove_gift_card_label": "Hədiyyə kartını təmizləyin",
+        "remove_discount_label": "Endirimi silin",
+        "return_restocking_fee_label": "Yenidən yığılma haqqı",
+        "return_shipping_fee_label": "Geri göndərmə",
+        "pickup_label": "Mağazadan götürmə",
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "Ünvana göndərin",
+          "ship_to_address_instead_html": "əvəzinə %{link}"
+        },
+        "shipping_discount_title": "Çatdırılma Endirimi",
+        "shipping_pending_message": "Hələ mövcud deyil",
+        "shipping_policy_link": "Göndərmə xərcləri"
       },
       "shipping": {
         "title": "Çatdırılma",
@@ -1862,14 +1910,16 @@
         "shipping_method_title": "Göndərmə üsulu",
         "shipping_method_one_time_purchase_group_title": "Birdəfəlik alış",
         "shipping_method_first_shipment_group_title": {
-          "one": "İlk göndəriş"
+          "one": "İlk göndəriş",
+          "other": "İlk göndərişlər"
         },
         "shipping_method_subscription_group_title": "Abunəlik",
         "cheapest_rate_label": "Ən ucuz",
         "subscription_delivery_description": {
           "subscription_delivery_frequency": {
             "day": {
-              "one": "hər gün"
+              "one": "hər gün",
+              "other": "hər %{count} gündən bir"
             },
             "week": {
               "one": "hər həftə"
@@ -1904,7 +1954,13 @@
           },
           "prepaid_shipping_price_label": "Çatdırılma üçün %{shipping_price} x %{delivery_interval_count}",
           "recurring_order_shipping_price": "ardınca %{recurring_order_shipping_price}",
-          "first_order_shipping_price_included": "İlk sifariş daxildir, ardınca %{recurring_order_shipping_price}"
+          "first_order_shipping_price_included": "İlk sifariş daxildir, ardınca %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "İlk sifariş pulsuz"
+          },
+          "free_for_first_n_order": {
+            "one": "İlk sifariş üçün"
+          }
         },
         "address_edit": "Ünvanı redaktə edin",
         "address_form": {
@@ -1942,14 +1998,38 @@
         "split_shipping_multiple_shipment_notice_one_time_purchase": "Sifarişiniz %{quantity} göndərişlə gələcək",
         "free_rate_label": "Pulsuz",
         "duties_and_taxes_options": {
-          "ddp_title": "İndi ödəyin"
+          "ddp_title": "İndi ödəyin",
+          "ddu_title": "Çatdırılma zamanı ödəyin"
         },
         "shipping_address_title": "ünvanına göndərin",
         "edit": "Redaktə et",
         "delete": "Sil",
         "split_shipping_shipping_label": "Metod",
         "split_shipping_option_fastest": "Ən sürətli",
-        "split_shipping_option_custom": "Xüsusi"
+        "split_shipping_option_custom": "Xüsusi",
+        "shipping_method_recurring_shipments_group_title": {
+          "one": "Təkrarlanan göndərmə",
+          "other": "Təkrarlanan göndərişlər"
+        },
+        "subscription_pickup": "Abunə götürmə",
+        "delivery": "Çatdırılma %{time}",
+        "arrives_time": "Gəlir %{time}",
+        "estimated_time": "Təxmini %{time}",
+        "shipping_line_delivery_phone_label": "Mobil telefon nömrəsi",
+        "local_delivery": "Yerli çatdırılma",
+        "one_time_purchase_shipping": "Birdəfəlik çatdırılma",
+        "duties_and_taxes_title": "Rüsumlar və vergilər",
+        "address_update": "Ünvanı yeniləyin",
+        "address_delete": "Ünvanı silin",
+        "address_default": "Defolt olaraq təyin edin",
+        "local_pickup": {
+          "search_address": "Ünvan axtarın",
+          "rollup_title": "Mağaza yeri"
+        },
+        "split_shipping_merchandise_quantity_label_standard": "%{quantity} element",
+        "split_shipping_merchandise_quantity_label_additional": "+%{quantity} daha çox",
+        "split_shipping_multiple_shipment_label": "Çoxsaylı göndərişlər",
+        "split_shipping_shipment_number": "Göndərmə %{number}"
       },
       "vaulted": {
         "change_button": "Dəyişmək"
@@ -2042,6 +2122,9 @@
         "all_products_in_cart_unavailable": {
           "one": "Bu məhsul ölkənizdə/regionunuzda mövcud deyil.",
           "other": "Bu məhsullar ölkənizdə/regionunuzda mövcud deyil."
+        },
+        "title": {
+          "one": "Əlçatmaz məhsul"
         }
       },
       "merchandise_unavailable_in_buyer_location": {
@@ -2280,12 +2363,14 @@
         "bundle_requires_components": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
         "gift_card_with_components_not_supported": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
         "gift_card_price_must_be_greater_than_zero": "'%{name}' paket məhsulu səbətə əlavə edilə bilməz.",
-        "gift_card_recipient_validation_error": "Göstərilən hədiyyə kartı alıcısı etibarsızdır"
+        "gift_card_recipient_validation_error": "Göstərilən hədiyyə kartı alıcısı etibarsızdır",
+        "cart_too_large": "Səbət çox böyükdür."
       },
       "tags": {
         "add_articles": "%{tag} teqi olan məqalələr üçün axtarışı daraltın",
         "add_products": "Seçimi %{tag} etiketinə uyğun məhsullar üçün daraltın",
-        "remove_articles": "%{tag} etiketlənməmiş məqalələr üçün axtarışı genişləndirin"
+        "remove_articles": "%{tag} etiketlənməmiş məqalələr üçün axtarışı genişləndirin",
+        "remove_products": "%{tag} teqini silin"
       }
     },
     "email_marketing": {
@@ -2324,7 +2409,9 @@
     },
     "search": {
       "sorting": {
-        "relevance": "Uyğunluq"
+        "relevance": "Uyğunluq",
+        "price_ascending": "Qiymət, aşağıdan yuxarıya",
+        "price_descending": "Qiymət, yüksəkdən aşağıya"
       }
     },
     "page_titles": {
@@ -2338,7 +2425,13 @@
         "other": "Axtarış: \"%{terms}\" üçün %{count} nəticə tapıldı"
       },
       "account": "Hesab",
-      "search": "Axtar"
+      "search": "Axtar",
+      "blog_or_article_with_error": "Xəta - %{title}",
+      "shopping_cart": "Alış-veriş Səbətiniz",
+      "create_account": "Hesab yaradın",
+      "reset_account": "Hesabı sıfırlayın",
+      "order": "%{name} sifariş edin",
+      "not_found": "404 Tapılmadı"
     },
     "challenge": {
       "message": "Davam etmək üçün robot olmadığınızı bizə bildirin.",
@@ -2699,7 +2792,9 @@
         "try_new_search": "Yeni axtarışa cəhd edin"
       },
       "addresses": {
-        "add_billing_address_button": "Faktura ünvanı əlavə edin"
+        "add_billing_address_button": "Faktura ünvanı əlavə edin",
+        "billing_address_card_title": "Faktura ünvanı",
+        "shipping_address_card_title": "Çatdırılma ünvanı"
       },
       "orders": {
         "draft_order_list": {
@@ -2728,7 +2823,8 @@
             "title": "Geri qaytarıldı",
             "description_full_refund": "Bu sifariş üçün tam geri qaytarılmısınız.",
             "description_single_refund": "Bu sifariş üçün qismən geri qaytarılmısınız.",
-            "description_multiple_refunds": "Bu sifariş üçün qismən geri ödəniş aldınız."
+            "description_multiple_refunds": "Bu sifariş üçün qismən geri ödəniş aldınız.",
+            "title_with_date": "{{date}} geri qaytarıldı"
           },
           "draft": {
             "description": "Ödəniş təfərrüatları sifariş təsdiq edildikdən sonra müəyyən edilir.",
@@ -2739,20 +2835,29 @@
               "deposit": {
                 "due_later": "Balans {{translatedName}} şərtlərinə uyğundur və {{dueDate}} tarixində ödənilməlidir.",
                 "due_on_fulfillment": "Balans bu sifarişdəki bütün maddələr yerinə yetirildikdən sonra ödənilir.",
-                "due_on_receipt": "Qalan balans üçün faktura alacaqsınız."
-              }
+                "due_on_receipt": "Qalan balans üçün faktura alacaqsınız.",
+                "title": "Ödəniş vaxtıdır"
+              },
+              "title": "Təsdiq etmək üçün ödəyin"
             }
           },
           "paid": {
-            "title": "Ödənişli"
+            "title": "Ödənişli",
+            "title_with_date": "Ödənişli {{date}}"
           },
-          "pay_now": "İndi ödəyin"
+          "pay_now": "İndi ödəyin",
+          "canceled": {
+            "title": "Ödəniş ləğv edildi"
+          },
+          "title": "Ödəniş statusu"
         },
         "order_timeline": {
           "expand_events_label": "Detalları göstərin",
           "hide_events_label": "Detalları gizlədin"
         },
-        "draft_order_subtitle": "{{draftOrderName}} sifarişindən {{date}} təsdiqləndi"
+        "draft_order_subtitle": "{{draftOrderName}} sifarişindən {{date}} təsdiqləndi",
+        "subtitle": "Göndərilən {{date}}",
+        "title": "{{name}} sifariş edin"
       },
       "purchase_order_number": {
         "empty_state": "PO nömrəsi yoxdur",
@@ -2760,7 +2865,18 @@
         "modal_po_number_input_max_length_error": "PO nömrələrində maksimum {{maxLength}} simvol var.",
         "cancel": "Ləğv et",
         "discard": "Atın",
-        "save": "Saxla"
+        "save": "Saxla",
+        "add_accessibility_label": "PO nömrəsi əlavə edin",
+        "add_modal_title": "PO nömrəsi əlavə edin",
+        "discard_changes_modal_title": "Dəyişikliklər ləğv edilsin?",
+        "edit_accessibility_label": "PO nömrəsini redaktə edin",
+        "edit_modal_title": "PO nömrəsini redaktə edin",
+        "title": "PO # {{poNumber}}"
+      },
+      "payment_methods": {
+        "payment_details": {
+          "order_label": "{{name}} sifariş edin"
+        }
       }
     },
     "orders": {
@@ -3368,7 +3484,10 @@
       "subscriptions_link_label": "Abunəliklər",
       "settings_link": "Parametrlər",
       "account_menu": {
-        "label": "Hesab"
+        "label": "Hesab",
+        "hide_accessibility_label": "Hesab menyusunu gizlədin",
+        "show_accessibility_label": "Hesab menyusunu göstərin",
+        "nav_accessibility_label": "Hesab naviqasiyası"
       }
     },
     "account_information": {
@@ -3420,7 +3539,8 @@
     },
     "date": {
       "humanize": {
-        "lessThanOneMinuteAgo": "Sadəcə indi"
+        "lessThanOneMinuteAgo": "Sadəcə indi",
+        "today": "Bu gün {{time}}"
       }
     }
   },
