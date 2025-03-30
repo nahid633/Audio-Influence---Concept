@@ -31,7 +31,7 @@
     }
   {% endif -%}
 </style>
-
+{%- if section.settings.image != blank -%}
 <div class="section section--padding{% if section.settings.divider %} section--divider{% endif %}{% if section.settings.rounded %} section--rounded relative{% endif %}" data-section-id="{{ section.id }}">
   <div class="{% unless section.settings.full_width %}page-width {% endunless %}relative">
     {%- render 'section-heading', section: section -%}
@@ -165,7 +165,7 @@
     </lookbook-element>
   </div>
 </div>
-
+ {%- endif -%}
 {% schema %}
 {
   "name": "t:sections.lookbook.name",
