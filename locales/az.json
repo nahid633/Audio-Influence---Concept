@@ -2914,7 +2914,16 @@
       "tracking_company": "Daşıyıcı",
       "tracking_number": "İzləmə nömrəsi",
       "subtotal": "Ara cəmi",
-      "total_duties": "Vəzifələr"
+      "total_duties": "Vəzifələr",
+      "title": "Sifariş {{ name }}",
+      "date_html": "{{ date }} tarixində yerləşdirilib",
+      "cancelled_html": "Sifariş {{ date }} tarixində ləğv edildi",
+      "cancelled_reason": "Səbəb: {{ reason }}",
+      "billing_address": "Fatura Ünvanı",
+      "payment_status": "Ödəniş Status",
+      "shipping_address": "Çatdırılma Ünvanı",
+      "fulfillment_status": "İcra Status",
+      "discount": "Endirim"
     },
     "recover_password": {
       "title": "Parolu sıfırlayın",
@@ -2941,6 +2950,65 @@
       "submit": "Yaradın",
       "sign_in": "Daxil olun",
       "return": "Mağazaya qayıt"
+    },
+    "account": {
+      "title": "Mənim hesabım",
+      "log_out": "Çıxın",
+      "details": "Hesab təfərrüatları",
+      "view_addresses": "Ünvanlara baxın",
+      "return": "Hesaba qayıt"
+    },
+    "activate_account": {
+      "title": "Hesabı aktivləşdirin",
+      "subtext": "Hesabınızı aktivləşdirmək üçün parol yaradın.",
+      "password": "parol",
+      "password_confirm": "Şifrəni təsdiqləyin",
+      "submit": "Hesabı aktivləşdirin",
+      "cancel": "Dəvətdən imtina edin"
+    },
+    "addresses": {
+      "title": "Ünvanlar",
+      "default": "Defolt",
+      "add_new": "Yeni ünvan əlavə edin",
+      "edit_address": "Ünvanı redaktə edin",
+      "first_name": "Ad",
+      "last_name": "Soyadı",
+      "company": "Şirkət",
+      "address1": "Ünvan 1",
+      "address2": "Ünvan 2",
+      "city": "Şəhər",
+      "country": "Ölkə/region",
+      "province": "Vilayət",
+      "zip": "Poçt/poçt kodu",
+      "phone": "Telefon",
+      "set_default": "Defolt ünvan kimi təyin edin",
+      "add": "Ünvan əlavə edin",
+      "update": "Ünvanı yeniləyin",
+      "cancel": "Ləğv et",
+      "edit": "Redaktə et",
+      "delete": "Sil",
+      "delete_confirm": "Bu ünvanı silmək istədiyinizə əminsiniz?"
+    },
+    "login": {
+      "title": "Daxil ol",
+      "email": "E-poçt",
+      "password": "parol",
+      "forgot_password": "Şifrəni unutmusunuz?",
+      "submit": "Daxil olun",
+      "create_account": "Hesab yaradın",
+      "return": "Mağazaya qayıt",
+      "guest_title": "Qonaq olaraq davam edin",
+      "guest_continue": "Davam et"
+    },
+    "orders": {
+      "title": "Sifariş tarixçəsi",
+      "order_number": "Sifariş verin",
+      "order_number_link": "Sifariş nömrəsi {{ number }}",
+      "date": "Tarix",
+      "payment_status": "Ödəniş statusu",
+      "fulfillment_status": "İcra vəziyyəti",
+      "total": "Cəmi",
+      "none": "Siz hələ heç bir sifariş verməmisiniz."
     }
   },
   "onboarding": {
@@ -3219,7 +3287,19 @@
       "taxes_included_and_shipping_policy_html": "Vergi daxildir. <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">Çatdırılma</a> kassada hesablanır.",
       "taxes_and_shipping_at_checkout": "Vergilər daxildir və çatdırılma kassada hesablanır.",
       "update": "Səbəti yeniləyin",
-      "checkout": "Yoxlayın"
+      "checkout": "Yoxlayın",
+      "we_accept": "Qəbul edirik",
+      "empty": "Səbətiniz hazırda boşdur.",
+      "continue_shopping": "Alış-verişə davam edin"
+    },
+    "headings": {
+      "product": "Məhsul",
+      "total": "Cəmi",
+      "quantity": "Kəmiyyət"
+    },
+    "gift_wrapping": {
+      "message_html": "{{ price }} üçün, lütfən, məhsulları bu sıra ilə sarın.",
+      "note_placeholder": "Hədiyyə mesajı (pulsuz və isteğe bağlı)"
     }
   },
   "sections": {
@@ -3242,6 +3322,59 @@
     "slideshow": {
       "play_slideshow": "Slayd şousunu oynayın",
       "pause_slideshow": "Slayd şousunu dayandırın"
+    }
+  },
+  "collections": {
+    "general": {
+      "empty": "Üzr istəyirik, bu kolleksiyada məhsul yoxdur.",
+      "continue_shopping": "Alış-verişə davam edin",
+      "no_results": "Bu filtrlərə uyğun məhsul yoxdur.",
+      "use_fewer_filters": "Daha az filtrdən istifadə edin və ya",
+      "product_count": {
+        "one": "{{ product_count }} məhsuldan {{ count }}",
+        "other": "{{ product_count }} məhsuldan {{ count }}"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} məhsul",
+        "other": "{{ count }} məhsul"
+      }
+    },
+    "sorting": {
+      "sort_button": "Sırala",
+      "sort_by_label": "Sırala:"
+    },
+    "filtering": {
+      "filter_and_operator_subtitle": "Hamısını uyğunlaşdırın",
+      "filter_show_button": "Filtrləri göstərin",
+      "filter_hide_button": "Filtrləri gizlədin",
+      "filter_by_label": "Filtrlər",
+      "filter_and_sort": "Filtrləyin və çeşidləyin",
+      "to": "üçün",
+      "from_price": "Qiymətdən",
+      "to_price": "Qiymətə",
+      "in_stock_only": "Yalnız stokda var",
+      "clear": "\" {{ name }} \" filtrini silin",
+      "clear_all": "Hamısını silin",
+      "apply": "Müraciət edin"
+    },
+    "subcollections": {
+      "all_products": "Bütün {{ collection }}"
+    }
+  },
+  "localization": {
+    "country_label": "Ölkə/region",
+    "language_label": "Dil",
+    "update_language": "Dili yeniləyin",
+    "update_country": "Ölkəni/regionu yeniləyin"
+  },
+  "contact": {
+    "form": {
+      "name": "ad",
+      "email": "E-poçt",
+      "phone": "Telefon nömrəsi",
+      "message": "Mesaj",
+      "send": "Mesaj göndər",
+      "post_success": "Bizimlə əlaqə saxladığınız üçün təşəkkür edirik. Ən qısa zamanda sizinlə əlaqə saxlayacağıq."
     }
   }
 }
