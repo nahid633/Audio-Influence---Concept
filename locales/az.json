@@ -1330,7 +1330,29 @@
       "active": "{{ expiry }} tarixində bitir",
       "redeem": "Hədiyyə kartınızı ödəmək üçün ödəniş zamanı bu kodu istifadə edin.",
       "shop_link": "Onlayn mağazaya baş çəkin",
-      "copy_code_success": "Kod uğurla kopyalandı"
+      "copy_code_success": "Kod uğurla kopyalandı",
+      "copy": "Kopyalayın",
+      "print": "Çap et",
+      "scan": "və ya bu QR kodunu skan edin",
+      "add_to_apple_wallet": "Apple Wallet-ə əlavə edin",
+      "qr_image_alt": "QR kodu — hədiyyə kartını almaq üçün skan edin"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Bunu hədiyyə olaraq göndərmək istəyirəm",
+      "expanded": "Hədiyyə kartı alıcı forması genişləndirildi",
+      "collapsed": "Hədiyyə kartı alıcı forması çökdü",
+      "email_label": "Alıcı e-poçtu",
+      "email_label_optional_for_no_js_behavior": "Alıcı e-poçtu (istəyə görə)",
+      "email": "E-poçt",
+      "name_label": "Alıcı adı (istəyə görə)",
+      "name": "ad",
+      "message_label": "Mesaj (istəyə görə)",
+      "message": "Mesaj",
+      "max_characters": "{{ max_chars }} simvol maksimum",
+      "send_on": "YYYY-AA-GG",
+      "send_on_label": "Göndər (istəyə görə)"
     }
   }
 }
