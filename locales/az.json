@@ -244,6 +244,258 @@
         "prefecture_placeholder": "Prefektura",
         "governorate_label": "Qubernatorluq",
         "governorate_placeholder": "Qubernatorluq"
+      },
+      "shipping_errors": {
+        "shipping_method_not_available": "Səbətiniz yeniləndi və əlavə etdiyiniz əşyalar ünvanınıza göndərilə bilməz. Sifarişinizi tamamlamaq üçün əşyaları çıxarın.",
+        "shipping_method_not_available_generic": {
+          "one": "Sifarişiniz seçilmiş ünvana göndərilə bilməz. Düzgün olduğundan əmin olmaq üçün ünvanınızı nəzərdən keçirin və yenidən cəhd edin və ya başqa ünvan seçin.",
+          "other": "Səbətinizdəki bəzi əşyalar daxil etdiyiniz ünvana göndərilə bilməz. Düzgün olduğundan əmin olmaq üçün ünvanınızı nəzərdən keçirin və yenidən cəhd edin və ya başqa ünvan seçin."
+        },
+        "shipping_method_not_available_due_to_unsatisfied_conditions": "Səbətdəki əşyalar göndərmə üçün uyğun qiymət və ya çəki tələblərinə cavab vermir. Səbətinizi yeniləyin və yenidən cəhd edin.",
+        "shipping_method_not_available_updated": {
+          "one": "Əlavə etdiyiniz element məkanınıza göndərilmir. Yoxlamaq üçün onu çıxarın və ya mağaza ilə əlaqə saxlayın.",
+          "other": "Əlavə etdiyiniz bir və ya bir neçə element məkanınıza göndərilmir. Yoxlamaq üçün onları çıxarın və ya mağaza ilə əlaqə saxlayın."
+        },
+        "payment_method_not_supported": "%{country} üçün bu ödəniş metodundan istifadə edə bilməzsiniz. Bu ölkəyə göndərmək üçün başqa ödəniş metodundan istifadə edin.",
+        "empty_state": "Mövcud göndərmə üsullarına baxmaq üçün göndərmə ünvanınızı daxil edin.",
+        "title": "Çatdırılma mövcud deyil",
+        "invalid_selected_address": "Seçilmiş göndərmə ünvanı etibarlı deyil",
+        "invalid_selected_address_with_update_link": "Seçilmiş göndərmə ünvanı etibarlı deyil. %{update_address_link} və ya başqa ünvan seçin",
+        "unavailable_selected_address": "Seçilmiş ünvan üçün çatdırılma mümkün deyil",
+        "unavailable_selected_address_for_region": "{{region}} üçün çatdırılma mövcud deyil. Davam etmək üçün başqa ünvan seçin"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Ekspress ödəniş",
+        "or": "YA",
+        "or_pay_another_way": "Və ya başqa yolla ödəyin",
+        "or_check_out_another_way": "Və ya başqa bir şəkildə yoxlayın",
+        "or_pay_with_credit_card": "Və ya kredit kartı ilə ödəyin",
+        "show_more_options": "Daha çox seçim göstərin",
+        "hide_more_options": "Daha çox variantları gizlədin"
+      },
+      "post_purchase": {
+        "page_title": "Satınalma sonrası",
+        "title": "Satınalma sonrası",
+        "escape_confirmation": "Sifarişiniz üçün ödəniş etdiniz.",
+        "escape_action": "Sifariş təsdiqinə baxın ›",
+        "components": {
+          "close": "Bağlayın",
+          "expand": "Daha çox baxın",
+          "processing": "Emal edilir...",
+          "submit": "Təqdim et"
+        }
+      },
+      "processing": {
+        "redirecting_page_title": "Yönləndirilir...",
+        "redirecting_title": "Yönləndirilir...",
+        "redirecting_notice": "Biz sizi yönləndirənədək gözləyin.",
+        "redirecting_to_bank": "{{bank}} hesabına yönləndirilir",
+        "complete_your_purchase_title": "Alış-verişinizi tamamlayın",
+        "continue_to_payment_gateway_notice": "Ödəniş məlumatınızı əlavə etmək üçün ödənişə davam edin.",
+        "continue_to_payment_gateway_button_label": "Ödəməyə davam edin",
+        "complete_your_purchase_title_error": "Ödəniş məlumatlarınızı düzəldin",
+        "continue_to_payment_gateway_notice_error": "Ödəniş məlumatınızı doğrulamaq mümkün olmadı.",
+        "continue_to_payment_gateway_button_label_error": "Ödəniş məlumatını yeniləyin",
+        "page_title": "Sifariş emal olunur",
+        "title": "Sifariş emal olunur",
+        "your_order_has_been_received_title": "Sifarişiniz üçün təşəkkür edirik",
+        "you_will_receive_confirmation": "Hal-hazırda çoxlu sifarişlər alırıq. Tezliklə e-poçt və ya mətn ilə təsdiq almalısınız. Növbəti saat ərzində onu almasanız, bizə bildirin.",
+        "you_will_not_be_charged": "Sizdən hələ ödəniş tutulmayacaq",
+        "wait": {
+          "short": "Sifarişiniz emal olunur.",
+          "medium": {
+            "one": "Sifarişiniz emal olunur. Təxmini gözləmə müddəti %{count} dəqiqədir.",
+            "other": "Sifarişiniz emal olunur. Təxmini gözləmə müddəti %{count} dəqiqədir."
+          },
+          "long": "Sifarişiniz işlənən kimi e-poçt alacaqsınız. Hazırda çoxlu sifarişlər var.",
+          "no_auto_refresh_html": "Əgər avtomatik yönləndirilməmisinizsə, %{link}.",
+          "refresh_this_page": "bu səhifəni yeniləyin"
+        },
+        "action_required": "Fəaliyyət tələb olunur",
+        "modal_notice": "{{paymentMethod}} ilə əlaqə saxlayırıq"
+      },
+      "payment_challenge_modal": {
+        "instructions": "{{paymentMethod}} kodundan istifadə edərək alışınızı tamamlayın",
+        "timer_message": "Ödəmək üçün {{timeLeft}} vaxtınız var",
+        "copy_text": "{{paymentMethod}} kodunu kopyalayın",
+        "header": "{{paymentMethod}} ilə ödəyin",
+        "qr_code": {
+          "instructions": "{{paymentMethod}} kodundan istifadə edərək alışınızı tamamlayın"
+        },
+        "external": {
+          "instructions": "Bu alışı tamamlamaq üçün tətbiqinizdə ödənişi təsdiqləyin"
+        },
+        "close": "Problemi bağlayın"
+      },
+      "failed_payment": {
+        "page_title": "Ödənişi emal etmək mümkün olmadı",
+        "title": "Ödənişi emal etmək mümkün olmadı",
+        "payment_not_processed_title": "Ödənişinizi emal etmək mümkün olmadı",
+        "payment_not_processed_text": "Sizdən ödəniş tutulmayıb. Alışınızı tamamlamaq üçün səbətinizə qayıdın.",
+        "return_to_cart_button_label": "Səbətə qayıt"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kredit kartı",
+        "bank_deposit_label": "Bank depoziti",
+        "cash_on_delivery_label": "Çatdırılma zamanı nağd pul (COD)",
+        "money_order_label": "Pul Sifarişi",
+        "debit_card_label": "Debet kartı",
+        "deferred_payment_label": "Ödəniş üsulunu daha sonra seçin",
+        "fixed_payment_label": "Ödənişiniz {{dueDate}} tarixində ödəniləcək.",
+        "generic_payment_terms": "Siz {{translatedName}} şərtlərindəsiniz. Ödənişiniz {{dueDate}} tarixində ödəniləcək.",
+        "login_prompt": {
+          "no_access": {
+            "message": "Yadda saxlanmış ödəniş üsullarını əlavə etmək və ya istifadə etmək üçün bu məkana girişi olan hesaba {{logIn}} daxil olun.",
+            "link": "Daxil ol"
+          }
+        },
+        "direct_payment_terms": "Siz {{translatedName}} şərtlərindəsiniz. Kartınızdan {{dueDate}} tarixində ödəniş tutulacaq.",
+        "fixed_direct_payment_terms": "Kartınızdan {{dueDate}} tarixində ödəniş tutulacaq.",
+        "order_due_on_fulfillment_choose_later": "Sifarişiniz yerinə yetirildikdən sonra ödənişiniz ödəniləcək.",
+        "order_due_on_fulfillment_payment": "Sifarişiniz yerinə yetirildikdən sonra kartınızdan ödəniş tutulacaq.",
+        "order_due_on_receipt_choose_later": "Ödənişiniz qəbz zamanı ödəniləcək.",
+        "order_deposit_due_now": "{{depositAmount}} məbləği bu gün ödənilməlidir. Balans {{translatedName}} şərtlərinə uyğundur və {{dueDate}} tarixində ödənilməlidir.",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} məbləği bu gün ödənilməlidir. Sifarişiniz yerinə yetirildikdən sonra balans ödəniləcək.",
+        "order_deposit_due_on_receipt": "{{depositAmount}} məbləği bu gün ödənilməlidir. Balans daha sonra ödəniləcək.",
+        "order_deposit_due_on_fixed_date": "{{depositAmount}} məbləği bu gün ödənilməlidir. Balans {{dueDate}} tarixində ödəniləcək.",
+        "draft_order_payment_due_later_no_terms": "Sifarişiniz təsdiqləndikdən sonra ödənişiniz ödəniləcək.",
+        "draft_order_payment_due_later_no_terms_payment_selected": "Sifarişiniz təsdiqləndikdən sonra kartınızdan ödəniş tutulacaq.",
+        "draft_order_payment_due_later_terms": "Sifarişiniz təsdiqləndikdən sonra {{translatedName}} şərtlərinə əməl edəcəksiniz.",
+        "draft_order_payment_due_on_fulfillment": "Ödənişiniz sifarişiniz təsdiqləndikdən və yerinə yetirildikdən sonra ödəniləcək.",
+        "draft_order_deposit_due_later": "Sifarişiniz təsdiqləndikdə {{depositAmount}} ödəniləcək. Balans {{translatedName}} şərtlərinə uyğun olacaq.",
+        "draft_order_deposit_due_on_fulfillment": "Sifarişiniz təsdiqləndikdə {{depositAmount}} ödəniləcək. Sifarişiniz yerinə yetirildikdən sonra balans olacaq."
+      },
+      "thank_you": {
+        "title": "Satın aldığınız üçün təşəkkür edirik!",
+        "confirmation_email_sent_text": "Təsdiq e-məktubu %{email} ünvanına göndərildi",
+        "return_to_store_link_label": "Alış-verişə davam edin",
+        "print_link_label": "Qəbz çap edin",
+        "payment_information_title": "Ödəniş məlumatı",
+        "shipping_information_title": "Göndərmə məlumatı",
+        "page_title": "Təşəkkür edirəm, %{display_name}!",
+        "page_title_no_name": "Təşəkkür edirəm!",
+        "purchase_order_number_title": "PO nömrəsi #%{satınalma_sifarişi_nömrəsi}",
+        "cancelled_page_title": "Sifariş ləğv edildi",
+        "failed_pending_payment_page_title": "Ödənişinizdə problem var",
+        "customer_information_title": "Sifariş təfərrüatları",
+        "order_status_payments_app_failed_pending_payment_payment": "Sifarişiniz üçün sizdən ödəniş tutulmayıb. Sifarişinizi nəzərdən keçirmək və yenidən ödəmək üçün səbətinizə qayıdın.",
+        "order_status_payments_app_failed_pending_payment_pick_up": "Sifarişiniz üçün sizdən ödəniş tutulmayıb. Sifarişinizi nəzərdən keçirmək və yenidən ödəmək üçün səbətinizə qayıdın.",
+        "order_status_confirmed_order_local": "Sifarişinizi çatdırılma üçün hazırlayırıq.",
+        "order_status_confirmed_order_local_pick_up": "Sifarişinizi hazırlayırıq.",
+        "order_status_confirmed_order_local_payment": "Sifarişinizi hazırlayırıq.",
+        "order_status_updates_with_email": "Siz e-poçt vasitəsilə göndərmə və çatdırılma yenilikləri alacaqsınız.",
+        "order_status_updates_with_phone": "Göndərmə və çatdırılma yeniləmələrini mətn vasitəsilə əldə edə bilərsiniz.",
+        "order_status_updates_with_email_and_phone": "Siz e-poçt vasitəsilə göndərmə və çatdırılma yenilikləri alacaqsınız.",
+        "order_status_updates_with_missing": "Göndərmə yeniləmələrini necə əldə etmək istədiyinizi seçin.",
+        "order_status_confirmed_with_installments_payment_return": "Zəhmət olmasa diqqətinizi satış əməkdaşına qaytarın.",
+        "order_status_confirmed_with_installments_payment_confirm": "Tezliklə sifariş nömrəniz və taksit cədvəlinizin təfərrüatları ilə təsdiq e-poçtu alacaqsınız.",
+        "confirmed_title": "Sifarişiniz təsdiqləndi",
+        "confirmed_description": "Sifarişinizi qəbul etdik və onu hazırlayırıq. Göndərmə statusunuzla bağlı yeniləmələr üçün bu səhifəyə qayıdın.",
+        "ready_for_pickup_title": "Sifarişiniz götürülməyə hazırdır",
+        "ready_for_pickup_description": "Sifarişiniz götürülməyə hazırdır. Zəhmət olmasa, sifarişinizi götürərkən sifariş təsdiqini gətirin.",
+        "ready_for_delivery_title": "Sifarişiniz çatdırılmağa hazırdır",
+        "ready_for_delivery_description": "Sifarişinizi hazırlamışıq.",
+        "order_updates_title": "Yeniləmələri sifariş edin",
+        "shop_phone_description": "Sifarişinizi izləməyə kömək etmək üçün Shop tətbiqinə keçidi olan mətn alacaqsınız.",
+        "order_updates_description_html": "Yeniləmələr %{customer_contact} ünvanına göndəriləcək",
+        "order_updates_current_step_prefix": "Cari addım: ",
+        "order_updates_past_step_prefix": "Keçmiş addım: ",
+        "order_updates_upcoming_step_prefix": "Qarşıdakı addım: ",
+        "in_transit": "Yolda",
+        "in_transit_title": "Sifarişiniz yoldadır",
+        "in_transit_description": "Siz onun tərəqqisi haqqında yeniliklər alacaqsınız.",
+        "in_transit_description_days": "Sifarişinizi növbəti %{number} gün ərzində almalısınız.",
+        "in_transit_description_today": "Sifarişinizi bu gün almalısınız.",
+        "in_transit_description_tomorrow": "Sifarişinizi növbəti gün almalısınız.",
+        "no_tracking_number": "Bu sifariş üçün izləmə nömrəsi yoxdur.",
+        "out_for_delivery": "Çatdırılma üçün çıxdı",
+        "out_for_delivery_title": "Sifarişiniz çatdırılmağa hazırdır",
+        "out_for_delivery_description_html": "Sifarişiniz yoldadır və bu gün gəlməlidir. Növbəti 2 gündə çatdırılmazsa, %{contact_us}.",
+        "out_for_delivery_local_title": "Sifarişiniz çatdırılmağa hazırdır",
+        "out_for_delivery_local_description_html": "Sifarişiniz tezliklə gələcək.",
+        "attempted_delivery": "Çatdırılma cəhdi",
+        "attempted_delivery_title": "Sifarişinizi çatdırmağa cəhd edildi",
+        "attempted_delivery_description_html": "Sifarişinizi çatdırmağa cəhd edildi, lakin uğursuz oldu. %{contact_us} başqa bir çatdırılma cəhdi təşkil etmək üçün.",
+        "attempted_delivery_local_title": "Çatdırılma buraxıldı",
+        "attempted_delivery_local_description_html": "Sifarişinizi çatdıra bilmədik. Başqa bir çatdırılma planlaşdırmaq üçün %{contact_us}.",
+        "delivered": "Çatdırıldı",
+        "delivered_title": "Sifarişiniz çatdırıldı",
+        "delivered_description_html": "Sifarişiniz qeyd etdiyiniz ünvana çatdırıldı. Əgər onu almamısınızsa və ya başqa probleminiz varsa, %{contact_us}.",
+        "delivered_local_title": "Sifarişiniz çatdırıldı",
+        "delivered_local_description_html": "Sifarişinizi almamısınız? %{let_us_know}.",
+        "choose_payment_method_later": "Ödəniş üsulunu daha sonra seçin",
+        "picked_up_title": "Sifarişiniz götürüldü",
+        "picked_up_description_html": "Sifarişiniz %{date} tarixində %{location_name} ünvanından götürülüb.",
+        "contact_us": "Bizimlə əlaqə saxlayın",
+        "contact_us_lowercase": "bizimlə əlaqə saxlayın",
+        "contact_us_html": "Kömək lazımdır? %{contact_us}",
+        "updated_time": "%{time_ago} əvvəl yenilənib",
+        "failure": "Çatdırılmadı",
+        "failed_title": "Sifarişiniz çatdırıla bilmədi",
+        "failed_contact_merchant": "Çatdırılmanı təşkil etmək üçün %{company} ilə əlaqə saxlayın.",
+        "failed_contact_merchant_no_company": "Çatdırılmanı təşkil etmək üçün bizimlə əlaqə saxlayın.",
+        "non_shippable_title": "Sifarişiniz tamamlandı",
+        "let_us_know": "Bizə bildirin",
+        "login_title": "Bütün sifariş təfərrüatlarına baxmaq üçün daxil olun",
+        "login_description": "Sifariş nömrənizi e-poçt vasitəsilə aldığınız qəbzdə tapa bilərsiniz.",
+        "login_description_phone": "Sifariş nömrənizi mətn mesajı ilə aldığınız qəbzdə tapa bilərsiniz.",
+        "login_not_customer_html": "%{name} deyil? %{link} edə bilərsiniz",
+        "login_reorder_link_text": {
+          "one": "bu məhsulu da al",
+          "other": "bu məhsulları da alın"
+        },
+        "customer_information_hidden_fields_message": "Bütün müştəri məlumatlarına baxmaq üçün daxil olun.",
+        "cancelled_title": "Sifarişiniz ləğv edildi",
+        "cancelled_description": "Sifarişiniz %{date} tarixində ləğv edildi. Hər hansı bir sualınız olarsa, bizimlə əlaqə saxlayın.",
+        "order_number_label": "Sifariş nömrəsi",
+        "customer_validation_error": "Etibarlı e-poçt və ya sifariş nömrəsi daxil edin.",
+        "customer_validation_error_phone": "Etibarlı telefon və ya sifariş nömrəsi daxil edin.",
+        "login": "Daxil ol",
+        "unfulfilled_items_title": "Göndərməyə hazırlaşır",
+        "unfulfilled_items_description": "Hazırda bu əşyaları göndərilməyə hazırlayırıq.",
+        "marker": {
+          "current": "Cari göndərmə yeri",
+          "shipping": "Çatdırılma ünvanı"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Cari göndərmə yeri",
+          "shipping": "Götürmə yeri"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Bu göndərişdəki əşyalar",
+          "unfulfilled_table_title": "Göndərməyə hazırlaşan əşyalar",
+          "product_image_label": "Məhsul şəkli",
+          "description_label": "Təsvir",
+          "quantity_label": "Kəmiyyət"
+        },
+        "order_updates_description_missing": "Göndərmə yeniləmələrini almırsınız.",
+        "order_updates_subscribe_to_email_notifications": "E-poçt vasitəsilə göndərmə yeniləmələri alın",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Göndərmə yeniləmələrini e-poçt və ya mətn vasitəsilə əldə edin",
+        "order_updates_subscribe_to_phone_notifications": "Mətn vasitəsilə göndərmə yeniləmələri alın",
+        "order_updates_submit_subscription": "Təqdim et",
+        "track_shipment": "Göndərməni izləyin",
+        "other_options": "Digər seçimlər",
+        "delivery_information_label": "Çatdırılma məlumatı:",
+        "gift_card_sent_confirmation": "Hədiyyə kartları göndərildi",
+        "qr_code": {
+          "send_link_to_phone": "Və ya telefonunuza bir keçid göndərin",
+          "title": "Telefonunuzda izləyin"
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Telefonunuzla skan edin"
+          },
+          "sms": {
+            "title": "Və ya telefonunuza bir keçid göndərin"
+          }
+        },
+        "view_business_customer_account": "Hesaba baxın",
+        "breadcrumbs_submitted": "Təqdim edildi",
+        "breadcrumbs_in_review": "Baxışda",
+        "breadcrumbs_confirmed": "Təsdiq edildi",
+        "missing_shipping_address_banner": {
+          "title": "Sifarişin çatdırılma ünvanı yoxdur"
+        }
       }
     }
   }
